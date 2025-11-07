@@ -10,7 +10,7 @@ function runBuild(callback) {
     console.log('🔨 Running build script...');
     const startTime = Date.now();
     exec('npm run build', (error, stdout, stderr) => {
-        const duration = Date.Now() - startTime;
+        const duration = Date.now() - startTime;
         if (error) {
             console.error(`❌ BUILD FAILED (${duration}ms):`);
             console.error(stderr); // Show stderr on build error
