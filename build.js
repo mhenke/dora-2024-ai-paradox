@@ -75,6 +75,8 @@ const filesToConvert = generateFilesList();
 
 function convertMarkdownToHtml() {
     console.log('Converting Markdown to HTML...');
+    // Ensure the docs directory exists
+    fs.mkdirSync('./docs', { recursive: true }); 
     for (const file of filesToConvert) {
         try {
             if (!fs.existsSync(file.mdFile)) {
