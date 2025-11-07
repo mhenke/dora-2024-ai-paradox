@@ -2,18 +2,29 @@ import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import path from 'path';
 
+// Define the base URL for GitHub Pages deployment
+const BASE_URL = '/dora-2024-ai-paradox/'; // Replace with your repository name if different
+
 // Configure markdown-it to use custom renderers for tables
 const md = new MarkdownIt();
 
 // Override table rendering to use CSS classes instead of inline styles
-md.renderer.rules.table_open = () => '<table class="table">\n';
-md.renderer.rules.table_close = () => '</table>\n';
-md.renderer.rules.thead_open = () => '<thead class="table__head">\n';
-md.renderer.rules.thead_close = () => '</thead>\n';
-md.renderer.rules.tbody_open = () => '<tbody class="table__body">\n';
-md.renderer.rules.tbody_close = () => '</tbody>\n';
-md.renderer.rules.tr_open = () => '<tr class="table__row">\n';
-md.renderer.rules.tr_close = () => '</tr>\n';
+md.renderer.rules.table_open = () => '<table class="table">
+';
+md.renderer.rules.table_close = () => '</table>
+';
+md.renderer.rules.thead_open = () => '<thead class="table__head">
+';
+md.renderer.rules.thead_close = () => '</thead>
+';
+md.renderer.rules.tbody_open = () => '<tbody class="table__body">
+';
+md.renderer.rules.tbody_close = () => '</tbody>
+';
+md.renderer.rules.tr_open = () => '<tr class="table__row">
+';
+md.renderer.rules.tr_close = () => '</tr>
+';
 
 // Render th without inline style, add class
 md.renderer.rules.th_open = (tokens, idx) => {
@@ -23,7 +34,8 @@ md.renderer.rules.th_open = (tokens, idx) => {
     token.attrs = token.attrs.filter(attr => attr[0] !== 'style');
     return '<th' + md.renderer.renderAttrs(token) + '>';
 };
-md.renderer.rules.th_close = () => '</th>\n';
+md.renderer.rules.th_close = () => '</th>
+';
 
 // Render td without inline style, add class
 md.renderer.rules.td_open = (tokens, idx) => {
@@ -32,7 +44,8 @@ md.renderer.rules.td_open = (tokens, idx) => {
     token.attrs = token.attrs.filter(attr => attr[0] !== 'style');
     return '<td' + md.renderer.renderAttrs(token) + '>';
 };
-md.renderer.rules.td_close = () => '</td>\n';
+md.renderer.rules.td_close = () => '</td>
+';
 
 // Auto-discover meetings and generate the list of files to convert
 function generateFilesList() {
@@ -103,7 +116,7 @@ function generateIndexHtml() {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DORA AI Paradox Book Club</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="${BASE_URL}style.css">
     </head>
     <body>
         <div class="container">
@@ -115,7 +128,8 @@ function generateIndexHtml() {
     for (const file of filesToConvert) {
         indexHtmlTemplate += `                <button class="tab__button" type="button" data-tab="${file.tabId}">
                     ${file.tabId.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-                </button>\n`;
+                </button>
+`;
     }
     indexHtmlTemplate += `            </div>
 `;
@@ -139,7 +153,7 @@ function generateIndexHtml() {
     }
 
     indexHtmlTemplate += `
-            <script src="main.js"></script>
+            <script src="${BASE_URL}main.js"></script>
         </div>
     </body>
 </html>`;
