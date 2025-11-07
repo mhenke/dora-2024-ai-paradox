@@ -38,31 +38,31 @@ md.renderer.rules.td_close = () => '</td>\n';
 function generateFilesList() {
     const files = [
         {
-            mdFile: 'DORA_AI_Paradox.md',
+            mdFile: 'content/DORA_AI_Paradox.md',
             htmlFile: 'docs/DORA_AI_Paradox.html',
             tabId: 'overview'
         },
         {
-            mdFile: 'DORA_AI_Paradox_Facilitator_Guide.md',
+            mdFile: 'content/DORA_AI_Paradox_Facilitator_Guide.md',
             htmlFile: 'docs/DORA_AI_Paradox_Facilitator_Guide.html',
             tabId: 'facilitator-guide'
         },
         {
-            mdFile: 'The_AI_Paradox_Visual_Summary.md',
+            mdFile: 'content/The_AI_Paradox_Visual_Summary.md',
             htmlFile: 'docs/The_AI_Paradox_Visual_Summary.html',
             tabId: 'visual-summary'
         }
     ];
 
     // Auto-discover meetings
-    const meetings = fs.readdirSync('.')
+    const meetings = fs.readdirSync('meetings')
         .filter(f => f.match(/^meeting\d+\.md$/))
         .sort(); // Sort to ensure consistent order (meeting0, meeting1, etc.)
 
     for (const meetingFile of meetings) {
         const meetingNum = meetingFile.match(/\d+/)[0];
         files.push({
-            mdFile: meetingFile,
+            mdFile: `meetings/${meetingFile}`,
             htmlFile: `docs/${meetingFile.replace('.md', '.html')}`,
             tabId: `meeting-${meetingNum}`
         });
@@ -95,13 +95,13 @@ function convertMarkdownToHtml() {
 
 function generateIndexHtml() {
     console.log('Generating index.html...');
-    let indexHtmlTemplate = `<!doctype html>
+    let indexHtmlTemplate = `<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DORA AI Paradox Book Club</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
