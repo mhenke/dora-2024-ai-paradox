@@ -30,6 +30,15 @@
 | Week 5-9 | Team experiments in action                | Ongoing        |
 | Week 9  | Meeting 3: Lessons from Experiments (Optional) | 30 min         |
 
+## General Meeting Structure
+
+Most meetings will follow a similar flow to ensure consistency and productive discussion:
+
+1.  **Welcome & Check-in (5-10 min)**: Briefly review the previous meeting's outcomes or pre-work.
+2.  **Core Discussion (30-40 min)**: Dive into the main topics, guided by key questions and relevant DORA report sections. Facilitate open discussion and critical analysis.
+3.  **Key Takeaways & Decisions (5-10 min)**: Summarize main insights, identify actionable items, and assign owners.
+4.  **Next Steps & Pre-work (5 min)**: Outline reading assignments or tasks for the next meeting.
+
 ## Meeting Details
 
 For detailed discussion flows, key questions, and facilitator preparation for each meeting, please refer to the individual meeting pages:
