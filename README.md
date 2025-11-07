@@ -6,25 +6,30 @@ Understanding the tension between individual AI productivity gains and organizat
 
 ```bash
 npm install
-npm run build    # Generate static site
-npm run dev      # Start dev server with live reload (http://localhost:3000)
-npm run lint     # Validate HTML, CSS, JavaScript
-npm run format   # Auto-format code
+npm run build      # Generate static site
+npm run dev        # Start dev server with live reload (http://localhost:3000)
+npm run validate   # Run build + lint (same as CI pipeline)
+npm run lint       # Validate HTML, CSS, JavaScript
+npm run format     # Auto-format code
 ```
 
 ## Project Structure
 
-- **`content/`** - Core reading materials
+- **`content/`** - Core reading materials (Markdown source)
   - `DORA_AI_Paradox.md` - Main book club document and schedule
   - `DORA_AI_Paradox_Facilitator_Guide.md` - Discussion guide for facilitators
   - `The_AI_Paradox_Visual_Summary.md` - Key findings and diagrams
 
-- **`meetings/`** - Per-meeting materials
+- **`meetings/`** - Per-meeting materials (Markdown source)
   - `meeting0.md` through `meeting3.md` - Discussion content and prep for each session
 
-- **`docs/`** - Generated static site (built from markdown)
-  - `index.html` - Tabbed interface for browsing all content
-  - `style.css`, `main.js` - Frontend functionality
+- **`static/`** - Static assets (CSS, JavaScript)
+  - `style.css` - Site styling (BEM methodology)
+  - `main.js` - Tab navigation functionality
+
+- **`docs/`** - Generated static site (do not edit directly)
+  - Built by `npm run build` from content, meetings, and static assets
+  - Served by GitHub Pages
 
 - **`resources/`** - Reference materials
   - `extractions/` - Text excerpts from the DORA 2024 Accelerate Report
@@ -46,10 +51,10 @@ The site presents content in a tabbed interface, organized by meeting sessions a
 
 ### Development Workflow
 
-1. Edit markdown files in `content/` or `meetings/`
+1. Edit markdown files in `content/` or `meetings/`, or CSS/JS in `static/`
 2. Run `npm run dev` to start the dev server
 3. Site rebuilds automatically on file changes
-4. Browser reloads automatically
+4. Before pushing, run `npm run validate` to ensure build and linting pass
 
 ### Quality Standards
 

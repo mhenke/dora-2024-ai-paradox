@@ -158,5 +158,22 @@ function generateIndexHtml() {
     }
 }
 
+function copyStaticAssets() {
+    console.log('Copying static assets...');
+    const assets = ['style.css', 'main.js'];
+    
+    for (const asset of assets) {
+        try {
+            fs.copyFileSync(`static/${asset}`, `docs/${asset}`);
+            console.log(`✓ Copied static/${asset} to docs/${asset}`);
+        } catch (error) {
+            console.error(`✗ ERROR: Failed to copy ${asset}`);
+            console.error(`  Reason: ${error.message}`);
+            process.exit(1);
+        }
+    }
+}
+
 convertMarkdownToHtml();
 generateIndexHtml();
+copyStaticAssets();

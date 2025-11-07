@@ -9,10 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:html": "html-validate \"docs/**/*.html\"",
-    "lint:css": "stylelint \"docs/**/*.css\"",
-    "lint:js": "eslint \"docs/**/*.js\"",
+    "lint:css": "stylelint \"static/**/*.css\"",
+    "lint:js": "eslint \"static/**/*.js\"",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
-    "format": "prettier --write \"docs/**/*.{html,css,js}\"",
+    "format": "prettier --write \"static/**/*.{css,js}\" \"docs/**/*.html\"",
     "build": "node build.js",
     "dev": "node dev.js",
     "validate": "npm run build && npm run lint"

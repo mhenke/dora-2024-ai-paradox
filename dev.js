@@ -43,19 +43,21 @@ bs.init({
         bs.reload(); // Reload browser after initial build
     });
 
-    // Watch for changes in source files (Markdown and build.js)
+    // Watch for changes in source files (Markdown, static assets, and build.js)
     nodemon({
         watch: [
-            '*.md', // Watch root Markdown files
-            'build.js' // Watch the build script itself
+            'content/**/*.md',
+            'meetings/**/*.md',
+            'static/**/*',
+            'build.js'
         ],
         ignore: [
-            'docs/' // Ignore the entire docs directory from nodemon's watch
+            'docs/'
         ],
-        ext: 'md,js', // Only watch md and js files as source
-        exec: 'npm run build', // Execute build script on changes
-        stdout: false, // Don't show nodemon's stdout (handled by runBuild)
-        stderr: true // Show nodemon's stderr (for nodemon's own errors)
+        ext: 'md,js,css',
+        exec: 'npm run build',
+        stdout: false,
+        stderr: true
     })
     .on('start', () => console.log('Nodemon started watching source files.'))
     .on('restart', (files) => {
