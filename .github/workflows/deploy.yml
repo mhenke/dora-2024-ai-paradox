@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write permissions to the GITHUB_TOKEN
 
     steps:
       - name: Checkout 
@@ -31,4 +33,4 @@ jobs:
           publish_dir: ./docs
           # This is important: we don't want Jekyll to process our already-built HTML
           # The .nojekyll file tells GitHub Pages to serve the site as-is.
-          enable_jekyll: false 
+          enable_jekyll: false
