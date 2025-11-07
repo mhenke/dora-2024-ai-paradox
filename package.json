@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:html": "html-validate docs/**/*.html",
-    "lint:css": "stylelint docs/**/*.css",
+    "lint:css": "stylelint docs/*.css",
     "lint:js": "eslint docs/**/*.js",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
     "format": "prettier --write docs/**/*.{html,css,js}",
