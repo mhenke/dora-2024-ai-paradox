@@ -42,5 +42,3 @@ Define Core Metric for Tracking AI Impact (10 min)
 *   [ ] Send out meeting summary and agreed-upon core metric.
 *   [ ] Distribute reading materials for Meeting 1 (Pages 17-38 of the DORA report).
 *   [ ] Schedule Meeting 1.
-
-<- ❌ Need hard reboot to TEST CHANGE 1762546889 -->
