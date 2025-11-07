@@ -7,16 +7,20 @@ const bs = browserSync.create();
 
 // Function to run the build script
 function runBuild(callback) {
-    console.log('Running build script...');
+    console.log('🔨 Running build script...');
+    const startTime = Date.now();
     exec('npm run build', (error, stdout, stderr) => {
+        const duration = Date.Now() - startTime;
         if (error) {
-            console.error(`Build error: ${error}`);
-            return;
+            console.error(`❌ BUILD FAILED (${duration}ms):`);
+            console.error(stderr); // Show stderr on build error
+            return; // Do not call callback, do not reload browser
         }
         if (stderr) {
-            console.error(`Build stderr: ${stderr}`);
+            console.warn(`⚠️ Build warnings (${duration}ms):\n${stderr}`);
         }
-        console.log(`Build stdout: ${stdout}`);
+        console.log(`✅ Build succeeded (${duration}ms)`);
+        console.log(stdout); // Show stdout from build script
         if (callback) callback();
     });
 }
@@ -24,7 +28,7 @@ function runBuild(callback) {
 // Initialize BrowserSync
 bs.init({
     server: 'docs',
-    files: 'docs/**/*.html', // Watch generated HTML files for changes to trigger browser reload
+    files: 'docs/**/*.{html,css,js}', // Watch generated HTML, CSS, and JS files for changes to trigger browser reload
     port: 3000, // Or any other port you prefer
     open: false // Don't automatically open a new browser window
 }, (err, bsInstance) => {
@@ -32,7 +36,7 @@ bs.init({
         console.error('BrowserSync init error:', err);
         return;
     }
-    console.log('BrowserSync initialized. Watching docs/**/*.html for changes.');
+    console.log('BrowserSync initialized. Watching docs/**/*.{html,css,js} for changes.');
 
     // Initial build
     runBuild(() => {
@@ -50,18 +54,27 @@ bs.init({
         ],
         ext: 'md,js', // Only watch md and js files as source
         exec: 'npm run build', // Execute build script on changes
-        stdout: false, // Don't show nodemon's stdout
-        stderr: false // Don't show nodemon's stderr
+        stdout: false, // Don't show nodemon's stdout (handled by runBuild)
+        stderr: true // Show nodemon's stderr (for nodemon's own errors)
     })
     .on('start', () => console.log('Nodemon started watching source files.'))
     .on('restart', (files) => {
-        console.log('Nodemon detected changes, rebuilding...');
-        // BrowserSync's 'files' watch on 'docs/**/*.html' will handle the reload
+        console.log('🔄 Nodemon detected changes, rebuilding...');
+        // The 'exec' command above already runs 'npm run build'
+        // BrowserSync's 'files' watch on 'docs/**/*.{html,css,js}' will handle the reload
         // after 'npm run build' updates the HTML files.
     })
     .on('quit', () => {
         console.log('Nodemon quit.');
         process.exit();
     })
-    .on('crash', () => console.error('Nodemon crashed!'));
+    .on('crash', () => {
+        console.error('');
+        console.error('❌ Nodemon crashed! Check build.js for errors.');
+        console.error('   Try:');
+        console.error('   1. Run: npm run build   (for full output)');
+        console.error('   2. Fix the error and save');
+        console.error('   3. Nodemon will automatically restart');
+        console.error('');
+    });
 });
