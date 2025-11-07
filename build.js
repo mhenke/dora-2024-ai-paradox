@@ -9,22 +9,14 @@ const BASE_URL = '/dora-2024-ai-paradox/'; // Replace with your repository name 
 const md = new MarkdownIt();
 
 // Override table rendering to use CSS classes instead of inline styles
-md.renderer.rules.table_open = () => '<table class="table">
-';
-md.renderer.rules.table_close = () => '</table>
-';
-md.renderer.rules.thead_open = () => '<thead class="table__head">
-';
-md.renderer.rules.thead_close = () => '</thead>
-';
-md.renderer.rules.tbody_open = () => '<tbody class="table__body">
-';
-md.renderer.rules.tbody_close = () => '</tbody>
-';
-md.renderer.rules.tr_open = () => '<tr class="table__row">
-';
-md.renderer.rules.tr_close = () => '</tr>
-';
+md.renderer.rules.table_open = () => '<table class="table">\n';
+md.renderer.rules.table_close = () => '</table>\n';
+md.renderer.rules.thead_open = () => '<thead class="table__head">\n';
+md.renderer.rules.thead_close = () => '</thead>\n';
+md.renderer.rules.tbody_open = () => '<tbody class="table__body">\n';
+md.renderer.rules.tbody_close = () => '</tbody>\n';
+md.renderer.rules.tr_open = () => '<tr class="table__row">\n';
+md.renderer.rules.tr_close = () => '</tr>\n';
 
 // Render th without inline style, add class
 md.renderer.rules.th_open = (tokens, idx) => {
@@ -34,8 +26,7 @@ md.renderer.rules.th_open = (tokens, idx) => {
     token.attrs = token.attrs.filter(attr => attr[0] !== 'style');
     return '<th' + md.renderer.renderAttrs(token) + '>';
 };
-md.renderer.rules.th_close = () => '</th>
-';
+md.renderer.rules.th_close = () => '</th>\n';
 
 // Render td without inline style, add class
 md.renderer.rules.td_open = (tokens, idx) => {
@@ -44,8 +35,7 @@ md.renderer.rules.td_open = (tokens, idx) => {
     token.attrs = token.attrs.filter(attr => attr[0] !== 'style');
     return '<td' + md.renderer.renderAttrs(token) + '>';
 };
-md.renderer.rules.td_close = () => '</td>
-';
+md.renderer.rules.td_close = () => '</td>\n';
 
 // Auto-discover meetings and generate the list of files to convert
 function generateFilesList() {
