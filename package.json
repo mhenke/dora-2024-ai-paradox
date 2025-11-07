@@ -1,0 +1,41 @@
+{
+  "name": "dora-2024-ai-paradox",
+  "version": "1.0.0",
+  "description": "How to reconcile the great individual gains with the major stability costs.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:html": "html-validate docs/**/*.html",
+    "lint:css": "stylelint docs/**/*.css",
+    "lint:js": "eslint docs/**/*.js",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "format": "prettier --write docs/**/*.{html,css,js}",
+    "build": "node build.js",
+    "dev": "node dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhenke/dora-2024-ai-paradox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mhenke/dora-2024-ai-paradox/issues"
+  },
+  "homepage": "https://github.com/mhenke/dora-2024-ai-paradox#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "eslint": "^9.39.1",
+    "html-validate": "^10.3.0",
+    "markdown-it": "^14.1.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1"
+  }
+}

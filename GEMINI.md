@@ -1,0 +1,115 @@
+# GEMINI.md
+
+## Directory Overview
+
+This directory contains the materials for a book club focused on the "DORA AI Paradox," as discussed in the 2024 DORA Accelerate State of DevOps Report. The central theme is understanding and reconciling the productivity gains from AI with the observed decrease in software delivery stability.
+
+The directory is structured to provide reading materials, facilitator guides, and a summary of key concepts. It also includes a simple GitHub Pages website to present this information in an accessible format.
+
+## Key Files
+
+*   `README.md`: A brief introduction to the project.
+*   `DORA_AI_Paradox.md`: The main document for the book club, including the schedule, reading materials, and key concepts.
+*   `DORA_AI_Paradox_Facilitator_Guide.md`: A guide for the book club facilitator, with a timeline, discussion points, and preparation notes.
+*   `The_AI_Paradox_Visual_Summary.md`: A visual summary of the key findings from the DORA report, including diagrams and key statistics.
+*   `docs/`: This directory contains the source for the GitHub Pages website.
+    *   `index.html`: The main page of the website, which includes a tabbed interface to navigate the different sections.
+    *   `style.css`: The stylesheet for the website.
+    *   `main.js`: The JavaScript for handling tab functionality.
+    *   `DORA_AI_Paradox.html`, `DORA_AI_Paradox_Facilitator_Guide.html`, `The_AI_Paradox_Visual_Summary.html`: HTML versions of the original markdown files.
+    *   `meeting0.html`, `meeting1.html`, `meeting2.html`, `meeting3.html`: Dedicated HTML pages for each book club meeting, containing combined content from the main documents.
+*   `resources/extractions/`: This directory contains text extractions from the DORA report PDF, used for populating meeting content.
+    *   `dora_report_pages_17_38.txt`: Extracted text from pages 17-38 of the DORA report.
+    *   `dora_report_pages_57_76.txt`: Extracted text from pages 57-76 of the DORA report.
+
+## Usage
+
+The materials in this directory are intended to be used for a book club or study group. The markdown files can be read directly, or the GitHub Pages website can be used for a more user-friendly experience. The website now features dedicated tabs for each meeting, providing a structured overview of the discussion points and preparation materials.
+
+### Adding Meeting Resources
+
+For each meeting, it is recommended to include links to deep dive podcasts, PDF slides, and videos directly within that meeting's dedicated page (e.g., `meeting0.html`, `meeting1.html`). This keeps all relevant information for a specific meeting in one place, improving user experience and reducing navigation complexity. If there are many resources, consider creating a "Resources" sub-section within the meeting page.
+
+### Running Locally
+
+To view the website locally, you can start a simple web server by running:
+
+```bash
+npm run serve
+```
+
+Then, open your web browser and navigate to `http://localhost:8000` (or the port indicated by the server).
+
+### AWS S3 Bucket for Media Resources
+
+To store media resources (podcasts, slides, videos) for the book club, an AWS S3 bucket is used. This provides a scalable and reliable storage solution.
+
+**The S3 Bucket:**
+
+The bucket `dora-ai-paradox-bookclub-2024` has been created in the `us-east-1` region.
+
+**Local Media Folder:**
+
+A local `media/` folder is used as a staging area for media before uploading to S3. This folder is excluded from version control via `.gitignore`.
+
+**Uploading Files:**
+
+To upload files to the S3 bucket from the local media folder, use the AWS CLI:
+
+```bash
+aws s3 cp media/your-file s3://dora-ai-paradox-bookclub-2024/path/in/bucket/your-file
+```
+
+Once uploaded, the files will be accessible via a URL like `https://dora-ai-paradox-bookclub-2024.s3.us-east-1.amazonaws.com/path/in/bucket/your-file`.
+
+**Configuring for Public Access and CORS:**
+
+To serve assets directly from the S3 bucket to your GitHub Pages site, you'll need to configure it for public read access and Cross-Origin Resource Sharing (CORS). You can find detailed instructions on the AWS S3 documentation for "Hosting a static website" or "Configuring a bucket for static website hosting."
+
+
+
+## Development
+
+This project uses [npm](https://www.npmjs.com/) to manage development dependencies and scripts.
+
+### Setup
+
+To set up the development environment, run:
+
+```bash
+npm install
+```
+
+### Linting and Formatting
+
+This project uses the following tools to enforce coding standards:
+
+*   **HTML:** [html-validate](https://html-validate.org/)
+*   **CSS:** [Stylelint](https://stylelint.io/) with [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+*   **JavaScript:** [ESLint](https://eslint.org/) with [eslint:recommended](https://eslint.org/docs/latest/rules/)
+*   **Formatter:** [Prettier](https://prettier.io/)
+
+To check for linting errors, run:
+
+```bash
+npm run lint
+```
+
+To automatically format the code, run:
+
+```bash
+npm run format
+```
+
+## Code and Content Quality (AI-Generated GitHub Pages Site)
+
+Maintaining high standards for code and content is crucial for a professional and effective website.
+
+*   **CSS Architecture (BEM):** The CSS in this project follows the [BEM (Block, Element, Modifier)](https://getbem.com/) methodology. This approach promotes modularity and reusability, making the CSS easier to understand, maintain, and scale, especially when working with AI-generated code. Key principles:
+    *   **Block:** Standalone entity that is meaningful on its own (e.g., `.tab`, `.container`).
+    *   **Element:** A part of a block that has no standalone meaning (e.g., `.tab__button`).
+    *   **Modifier:** A flag on a block or element to change its appearance or behavior (e.g., `.tab__button--active`, `.tabcontent--active`).
+*   **Establish Coding Standards:** A clear set of coding standards has been established and is enforced using automated tools. This project uses [html-validate](https://html-validate.org/) for HTML, [Stylelint](https://stylelint.io/) for CSS, and [ESLint](https://eslint.org/) for JavaScript to catch errors and enforce stylistic conventions. [Prettier](https://prettier.io/) is used to automatically format the code, ensuring consistency across the project.
+*   **Prioritize Accessibility:** Ensure the generated site is accessible to everyone. Use tools to check for accessibility issues and make sure the AI is generating semantic HTML.
+*   **Fact-Check Content:** AI models can "hallucinate" and generate incorrect or misleading information. Always fact-check any content that is intended to be factual.
+*   **Check for Plagiarism:** AI models can sometimes generate content that is very similar to existing content. Use plagiarism checkers to ensure the content is original.
