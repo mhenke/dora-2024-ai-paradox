@@ -8,13 +8,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:html": "html-validate docs/**/*.html",
-    "lint:css": "stylelint docs/*.css",
-    "lint:js": "eslint docs/**/*.js",
+    "lint:html": "html-validate \"docs/**/*.html\"",
+    "lint:css": "stylelint \"docs/**/*.css\"",
+    "lint:js": "eslint \"docs/**/*.js\"",
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
-    "format": "prettier --write docs/**/*.{html,css,js}",
+    "format": "prettier --write \"docs/**/*.{html,css,js}\"",
     "build": "node build.js",
-    "dev": "node dev.js"
+    "dev": "node dev.js",
+    "validate": "npm run build && npm run lint"
   },
   "repository": {
     "type": "git",
