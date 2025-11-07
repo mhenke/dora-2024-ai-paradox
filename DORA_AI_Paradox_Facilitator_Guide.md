@@ -46,11 +46,3 @@ For detailed discussion flows, key questions, and facilitator preparation for ea
 *   [Meeting 1: AI's Benefits & the Individual Paradox](meeting1.md)
 *   [Meeting 2: Downstream Detriments & Strategy](meeting2.md)
 *   [Meeting 3: Lessons from Experiments](meeting3.md)
-
-## Recommended Follow-Up Actions
-
-**After Meeting 2:**
-
-*   **MANDATORY**: Document the experiment commitment clearly, including the specific DORA metric being tracked.
-*   Set calendar reminder for check-in/Meeting 3.
-*   Begin tracking agreed-upon metrics (e.g., average PR size, change failure rate).
