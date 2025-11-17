@@ -4,113 +4,254 @@ From the 2024 DORA Accelerate State of DevOps Report
 
 ## The Central Tension
 
-AI ADOPTION CREATES TWO OPPOSING FORCES:
-
-✓ CLEAR BENEFITS              vs.        ⚠ UNEXPECTED CONSEQUENCES
-  (Individual & Process Level)              (Delivery & Stability Level: ↓ 7.2%)
+<div class="comparison">
+  <div class="comparison__side">
+    <div class="comparison__title">✓ Clear Benefits</div>
+    <div class="comparison__content">Individual & Process Level improvements across the board</div>
+  </div>
+  <div class="comparison__divider">vs.</div>
+  <div class="comparison__side">
+    <div class="comparison__title">⚠ Unexpected Consequences</div>
+    <div class="comparison__content">Delivery & Stability Level: <strong style="color: #c45d4f;">↓ 7.2%</strong></div>
+  </div>
+</div>
 
 
 ## What's Working: The Benefits
 
 ### Individual Level (per 25% increase in AI adoption)
 
-Productivity        ↑ +2.1%
-Flow state          ↑ +2.6%
-Job satisfaction    ↑ +2.2%
-
-BUT: Time on valuable work ↓ −2.6%  ⚠
-
+<div class="stat-block">
+  <div class="stat-block__header">Individual Developer Impact</div>
+  <div class="stat-row">
+    <span class="stat-row__label">Productivity</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +2.1%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Flow state</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +2.6%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Job satisfaction</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +2.2%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Time on valuable work</span>
+    <span class="stat-row__value stat-row__value--warning">
+      <span class="metric-arrow metric-arrow--down">↓</span> −2.6% ⚠
+    </span>
+  </div>
+</div>
 
 ### Process Level
 
-Code quality           ↑ +3.4%
-Documentation quality  ↑ +7.5%
-Code review speed      ↑ +3.1%
-Approval speed         ↑ +1.3%
-Code complexity        ↓ −1.8%
-
+<div class="stat-block">
+  <div class="stat-block__header">Code & Process Quality</div>
+  <div class="stat-row">
+    <span class="stat-row__label">Code quality</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +3.4%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Documentation quality</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +7.5%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Code review speed</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +3.1%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Approval speed</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +1.3%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Code complexity</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--down">↓</span> −1.8%
+    </span>
+  </div>
+</div>
 
 ### Team & Organization Level
 
-Team performance           ↑ +1.4%
-Organizational performance ↑ +2.3%
-Product performance        → +0.2% (minimal change)
+<div class="stat-block">
+  <div class="stat-block__header">Organizational Impact</div>
+  <div class="stat-row">
+    <span class="stat-row__label">Team performance</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +1.4%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Organizational performance</span>
+    <span class="stat-row__value stat-row__value--positive">
+      <span class="metric-arrow metric-arrow--up">↑</span> +2.3%
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Product performance</span>
+    <span class="stat-row__value stat-row__value--neutral">
+      → +0.2% (minimal change)
+    </span>
+  </div>
+</div>
 
 
 ## What's Broken: The Contradiction
 
 ### Delivery Performance (per 25% increase in AI adoption)
 
-⚠ Software delivery stability  ↓ −7.2%  (MAJOR DECLINE)
-⚠ Software delivery throughput ↓ −1.5%  (minor decline)
+<div class="callout callout--danger">
+  <div class="callout__title">⚠ Critical Delivery Decline</div>
+  <div class="stat-row">
+    <span class="stat-row__label">Software delivery stability</span>
+    <span class="stat-row__value stat-row__value--negative">
+      <span class="metric-arrow metric-arrow--down">↓</span> −7.2% <strong>(MAJOR DECLINE)</strong>
+    </span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">Software delivery throughput</span>
+    <span class="stat-row__value stat-row__value--negative">
+      <span class="metric-arrow metric-arrow--down">↓</span> −1.5% (minor decline)
+    </span>
+  </div>
+</div>
 
+### The Paradox
 
-### The Paradox:
-Historically, better code quality + faster reviews = better delivery performance
-
-With AI: Better processes → WORSE delivery stability
-
-This shouldn't happen!
+<div class="callout callout--warning">
+  <div class="callout__title">This Shouldn't Happen!</div>
+  <p><strong>Historically:</strong> Better code quality + Faster reviews = Better delivery performance</p>
+  <p><strong>With AI:</strong> Better processes → WORSE delivery stability</p>
+</div>
 
 ### The Leading Hypothesis
 
-AI → Faster code writing → Larger changelists → Lower stability
+<div class="flow-diagram">
+  <div class="flow-step">AI Tools Available</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">Faster Code Writing</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">Larger Changelists</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">Lower Stability</div>
+</div>
 
-DORA's Basic Principle: Small batch sizes = Fast + Stable
-AI may be causing us to forget this principle
-
+<div class="callout callout--info">
+  <div class="callout__title">DORA's Basic Principle</div>
+  <p><strong>Small batch sizes = Fast + Stable</strong></p>
+  <p>AI may be causing us to forget this core principle.</p>
+</div>
 
 ### The Vacuum Hypothesis
 
-Why does AI increase productivity but DECREASE time on valuable work?
+<div class="callout callout--info">
+  <div class="callout__title">Why does AI increase productivity but DECREASE time on valuable work?</div>
+</div>
 
-BEFORE AI:
-[████████ Valuable Work: 60%] [█████ Toil: 40%]
+<div class="visual-bar">
+  <div class="visual-bar__label">BEFORE AI:</div>
+  <div class="visual-bar__container">
+    <div class="visual-bar__segment visual-bar__segment--valuable" style="width: 60%;">
+      Valuable Work: 60%
+    </div>
+    <div class="visual-bar__segment visual-bar__segment--toil" style="width: 40%;">
+      Toil: 40%
+    </div>
+  </div>
+</div>
 
-AFTER AI:
-[███████ Valuable Work: 57%] [█████ Toil: 40%] [? Mystery: 3%]
+<div class="visual-bar">
+  <div class="visual-bar__label">AFTER AI:</div>
+  <div class="visual-bar__container">
+    <div class="visual-bar__segment visual-bar__segment--valuable" style="width: 57%;">
+      Valuable Work: 57%
+    </div>
+    <div class="visual-bar__segment visual-bar__segment--toil" style="width: 40%;">
+      Toil: 40%
+    </div>
+    <div class="visual-bar__segment visual-bar__segment--mystery" style="width: 3%;">
+      ?: 3%
+    </div>
+  </div>
+</div>
 
-Theory: AI helps us finish valuable work FASTER, creating a time vacuum.
-That vacuum gets filled with... meetings, interruptions, context switching.
-AI doesn't reduce TOIL (meetings, bureaucracy) - it just speeds up the good stuff.
+<div class="callout callout--warning">
+  <p><strong>Theory:</strong> AI helps us finish valuable work FASTER, creating a time vacuum.</p>
+  <p>That vacuum gets filled with meetings, interruptions, and context switching.</p>
+  <p><strong>AI doesn't reduce TOIL</strong> (meetings, bureaucracy) - it just speeds up the good stuff.</p>
+</div>
 
 
 ### The Trust Paradox
 
-39.2% of developers report little or no trust in AI-generated code
+<div class="comparison">
+  <div class="comparison__side">
+    <div class="comparison__title">Low Trust</div>
+    <div class="comparison__content"><strong>39.2%</strong> report little or no trust in AI-generated code</div>
+  </div>
+  <div class="comparison__divider">YET</div>
+  <div class="comparison__side">
+    <div class="comparison__title">High Usage</div>
+    <div class="comparison__content"><strong>75.9%</strong> rely on AI for at least one task</div>
+  </div>
+</div>
 
-YET
-
-75.9% rely on AI for at least one task
-
-Why? Low trust doesn't stop usage - people just verify and modify the output.
-"Mostly correct" code that needs tweaking is valuable enough to use.
+<div class="callout callout--info">
+  <p><strong>Why?</strong> Low trust doesn't stop usage - people just verify and modify the output.</p>
+  <p>"Mostly correct" code that needs tweaking is valuable enough to use.</p>
+</div>
 
 
 ### The Alternative Path: User-Centricity
 
-DORA's Surprising Finding:
+<div class="callout callout--success">
+  <div class="callout__title">DORA's Surprising Finding</div>
+  <blockquote>"When organizations focus on the user, stability and throughput of software delivery are not a requirement for product quality." <em>(p. 59)</em></blockquote>
+</div>
 
-"When organizations focus on the user, stability and throughput of software
-delivery are not a requirement for product quality." (p. 59)
+<div class="comparison">
+  <div class="comparison__side">
+    <div class="comparison__title">Traditional Path</div>
+    <div class="comparison__content">Fast delivery + Stable delivery = High-performing product</div>
+  </div>
+  <div class="comparison__divider">vs.</div>
+  <div class="comparison__side">
+    <div class="comparison__title">Alternative Path</div>
+    <div class="comparison__content">Deep user understanding = High-performing product <em>(even with imperfect delivery metrics)</em></div>
+  </div>
+</div>
 
-Traditional Path to Success:
-  Fast delivery + Stable delivery = High-performing product
+### Four behaviors of user-centric teams
 
-Alternative Path to Success:
-  Deep user understanding = High-performing product
-  (even with imperfect delivery metrics)
-
-
-### Four behaviors of user-centric teams:
-
-✓ Incorporate user feedback to reprioritize features
-
-✓ Know what users want to accomplish
-
-✓ Believe user experience is key to business success
-
-✓ Treat user experience as top priority
+<div class="stat-block">
+  <div class="stat-block__header">User-Centricity Behaviors</div>
+  <div class="stat-row">
+    <span class="stat-row__label">✓ Incorporate user feedback to reprioritize features</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">✓ Know what users want to accomplish</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">✓ Believe user experience is key to business success</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">✓ Treat user experience as top priority</span>
+  </div>
+</div>
 
 ### The Priority Stability Problem
 
@@ -158,23 +299,26 @@ The Disconnect: Short-term experience is positive, but long-term expectations ar
 
 ## The DORA Continuous Improvement Cycle
 
-1. Identify area to improve
-         ↓
-2. Measure baseline
-         ↓
-3. Develop hypotheses
-         ↓
-4. Commit to a plan  ← OUR BOOK CLUB ENDS HERE
-         ↓
-5. Do the work
-         ↓
-6. Measure progress
-         ↓
-7. REPEAT ↻
+<div class="flow-diagram">
+  <div class="flow-step">1. Identify area to improve</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">2. Measure baseline</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">3. Develop hypotheses</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step" style="border-color: var(--gold-antique); background: linear-gradient(90deg, rgb(212 175 55 / 15%), var(--parchment-light));">4. Commit to a plan ← <strong>OUR BOOK CLUB ENDS HERE</strong></div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">5. Do the work</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">6. Measure progress</div>
+  <div class="flow-arrow">↓</div>
+  <div class="flow-step">7. REPEAT ↻</div>
+</div>
 
-
-Key Insight: "The best teams are those that achieve elite improvement,
-not necessarily elite performance."
+<div class="callout callout--success">
+  <div class="callout__title">Key Insight</div>
+  <p>"The best teams are those that achieve <strong>elite improvement</strong>, not necessarily elite performance."</p>
+</div>
 
 ## Key Questions for Discussion
 
@@ -200,20 +344,37 @@ What experiment will we commit to?
 
 ## The Bottom Line
 
-AI IS TRANSFORMATIVE, BUT COMPLEX:
+<div class="callout callout--info">
+  <div class="callout__title">AI IS TRANSFORMATIVE, BUT COMPLEX</div>
 
-✓ Individuals feel more productive, satisfied, and in flow
-✓ Code quality, documentation, and reviews improve
-⚠ But delivery stability takes a significant hit
-⚠ And valuable work time mysteriously decreases
+  <div class="stat-block" style="margin-top: 15px;">
+    <div class="stat-row">
+      <span class="stat-row__label">✓ Individuals feel more productive, satisfied, and in flow</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-row__label">✓ Code quality, documentation, and reviews improve</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-row__label">⚠ But delivery stability takes a significant hit</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-row__label">⚠ And valuable work time mysteriously decreases</span>
+    </div>
+  </div>
+</div>
 
-THE CHALLENGE:
-Maximize benefits while managing trade-offs through:
-  • Small batch sizes (DORA's core principle)
-  • User-centricity (alternative path to quality)
-  • Stable priorities (foundation for well-being)
-  • Continuous improvement (the only path forward)
+<div class="callout callout--success">
+  <div class="callout__title">THE CHALLENGE</div>
+  <p><strong>Maximize benefits while managing trade-offs through:</strong></p>
+  <ul>
+    <li><strong>Small batch sizes</strong> (DORA's core principle)</li>
+    <li><strong>User-centricity</strong> (alternative path to quality)</li>
+    <li><strong>Stable priorities</strong> (foundation for well-being)</li>
+    <li><strong>Continuous improvement</strong> (the only path forward)</li>
+  </ul>
+</div>
 
+---
 
-Source: 2024 DORA Accelerate State of DevOps Report
-Available at: https://dora.dev/research/2024/dora-report/
+**Source:** 2024 DORA Accelerate State of DevOps Report
+**Available at:** https://dora.dev/research/2024/dora-report/
