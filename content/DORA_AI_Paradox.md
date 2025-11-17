@@ -4,7 +4,7 @@
 
 **Core Question**: How can we maximize AI's benefits while actively reducing its negative impact on software delivery stability ($\downarrow -7.2\%$), by returning to core DORA principles (small batch sizes, user-centricity, stable priorities)?
 
-**Duration**: 5 weeks | **Format**: 1 pre-meeting + 2 meetings | **Meeting Frequency**: Every 2 weeks
+**Duration**: 3-5 weeks | **Format**: 2 meetings (+ optional kickoff) | **Meeting Frequency**: Every 2 weeks
 
 ## Learning Objectives
 
@@ -17,21 +17,20 @@
 
 | Week    | Activity                                  | Duration       |
 | :------ | :---------------------------------------- | :------------- |
-| Week 0  | Kickoff invite + Pre-meeting reflection   | 5 min homework |
-| Week 1  | Meeting 0: Baseline Assessment            | 30 min         |
-| Week 2-3 | Reading for Meeting 1                     | Self-paced     |
-| Week 3  | Meeting 1: AI's Benefits & the Individual Paradox | 60 min         |
-| Week 4-5 | Reading for Meeting 2                     | Self-paced     |
-| Week 5  | Meeting 2: Downstream Detriments & Strategy | 60 min         |
-| Week 5+ | Team experiments in action                | Ongoing        |
+| Optional | Meeting 0: Kickoff (Baseline Assessment)  | 30 min         |
+| Week 1  | Reading for Meeting 1                     | Self-paced     |
+| Week 1  | Meeting 1: AI's Benefits &amp; the Individual Paradox | 60 min         |
+| Week 2-3 | Reading for Meeting 2                     | Self-paced     |
+| Week 3  | Meeting 2: Downstream Detriments &amp; Strategy | 60 min         |
+| Week 3+ | Team experiments in action                | Ongoing        |
 
 ## Meeting Schedule
 
 | Meeting                 | Date    | Duration | Reading Required (Targeted) | Focus                                                              |
 | :---------------------- | :------ | :------- | :-------------------------- | :----------------------------------------------------------------- |
-| Meeting 0: Kickoff      | Week 1  | 30 min   | None                        | Baseline assessment &amp; Current AI reliance                          |
-| Meeting 1: AI's Dual Impact | Week 3  | 60 min   | Pages 17-26, 27-38          | The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop) |
-| Meeting 2: Solution &amp; Strategy | Week 5  | 60 min   | Pages 57-68, 69-76          | The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities |
+| Meeting 0: Kickoff (Optional) | As needed  | 30 min   | None                        | Setting the stage, baseline assessment &amp; questions                          |
+| Meeting 1: AI's Dual Impact | Week 1  | 60 min   | Pages 17-26, 27-38          | The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop) |
+| Meeting 2: Solution &amp; Strategy | Week 3  | 60 min   | Pages 57-68, 69-76          | The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities |
 
 ## General Meeting Structure
 
