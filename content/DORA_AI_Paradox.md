@@ -40,44 +40,6 @@ Four behaviors that define user-centric teams:
 
 **Insight**: When teams do this well, they can achieve high product quality even without perfect delivery metrics.
 
-### Experiment Template (for Meeting 2)
-
-**EXPERIMENT COMMITMENT**
-
-**Problem**: [What we're trying to improve, e.g., "The average size of our Pull Requests is increasing."]
-
-**Hypothesis**: If we [action, e.g., "enforce a 100-line limit on AI-generated code snippets in a single PR"], then we expect [outcome, e.g., "our change failure rate to decrease by 5%"].
-
-**Measurement**: We'll track [metric] and consider it successful if [criteria].
-
-**Duration**: [timeframe - recommend 2-4 weeks]
-
-**Owner**: [Who's coordinating this?]
-
-**Check-in**: [When will we review progress?]
-
-## Resources
-
-Full PDF: 
-
-$$Link to DORA report$$
-
-DORA Quick Check: https://dora.dev/quickcheck
-
-DORA Capabilities: https://dora.dev/capabilities
-
-Discussion Space: 
-
-$$Slack channel / Teams link$$
-
-## Contact
-
-Facilitator: 
-
-$$Your name$$
-
-Questions: 
-
-$$Contact method$$
+---
 
 "The best teams are those that achieve elite improvement, not necessarily elite performance." - DORA Report 2024

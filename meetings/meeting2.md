@@ -48,15 +48,30 @@ The Priority Stability Problem (10 min)
 ---
 
 Experiment Commitment (10 min)
-*   Use the Experiment Template to design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
+*   Use the Experiment Template below to design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
 *   Define the problem, hypothesis, measurement, duration, owner, and check-in for the experiment.
-*   Reference: Quick Reference - "Experiment Template (for Meeting 2)".
 
 ### Key Questions
 *   Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?
 *   How user-centric are we really as a team/organization?
 *   How stable are our organizational priorities currently?
 *   What experiment will we commit to in order to mitigate the AI Paradox or address foundational issues?
+
+## Experiment Template
+
+**EXPERIMENT COMMITMENT**
+
+**Problem**: [What we're trying to improve, e.g., "The average size of our Pull Requests is increasing."]
+
+**Hypothesis**: If we [action, e.g., "enforce a 100-line limit on AI-generated code snippets in a single PR"], then we expect [outcome, e.g., "our change failure rate to decrease by 5%"].
+
+**Measurement**: We'll track [metric] and consider it successful if [criteria].
+
+**Duration**: [timeframe - recommend 2-4 weeks]
+
+**Owner**: [Who's coordinating this?]
+
+**Check-in**: [When will we review progress?]
 
 ## Meeting Resources
 *   Deep Dive Podcast: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/podcast.mp3`
