@@ -14,9 +14,6 @@
                 <button class="tab__button" type="button" data-tab="overview">
                     Overview
                 </button>
-                <button class="tab__button" type="button" data-tab="facilitator-guide">
-                    Facilitator Guide
-                </button>
                 <button class="tab__button" type="button" data-tab="visual-summary">
                     Visual Summary
                 </button>
@@ -35,82 +32,11 @@
             </div>
 
             <div id="overview" class="tabcontent">
-                <h1>The DORA AI Paradox: Schedule &amp; Quick Reference</h1>
+                <h1>The DORA AI Paradox: Book Club Guide</h1>
 <p><strong>Theme</strong>: AI's Productivity Gains vs. Stability Collapse: The Great DORA Paradox</p>
 <p><strong>Core Question</strong>: How can we maximize AI's benefits while actively reducing its negative impact on software delivery stability ($\downarrow -7.2%$), by returning to core DORA principles (small batch sizes, user-centricity, stable priorities)?</p>
-<h2>Meeting Schedule</h2>
-<table class="table">
-<thead class="table__head">
-<tr class="table__row">
-<th class="table__cell table__cell--header">Meeting</th>
-<th class="table__cell table__cell--header">Date</th>
-<th class="table__cell table__cell--header">Duration</th>
-<th class="table__cell table__cell--header">Reading Required (Targeted)</th>
-<th class="table__cell table__cell--header">Focus</th>
-</tr>
-</thead>
-<tbody class="table__body">
-<tr class="table__row">
-<td class="table__cell">Meeting 0: Kickoff</td>
-<td class="table__cell">Week 1</td>
-<td class="table__cell">30 min</td>
-<td class="table__cell">None</td>
-<td class="table__cell">Baseline assessment &amp; Current AI reliance</td>
-</tr>
-<tr class="table__row">
-<td class="table__cell">Meeting 1: AI's Dual Impact</td>
-<td class="table__cell">Week 3</td>
-<td class="table__cell">60 min</td>
-<td class="table__cell">Pages 17-26, 27-38</td>
-<td class="table__cell">The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop)</td>
-</tr>
-<tr class="table__row">
-<td class="table__cell">Meeting 2: Solution &amp; Strategy</td>
-<td class="table__cell">Week 5</td>
-<td class="table__cell">60 min</td>
-<td class="table__cell">Pages 57-68, 69-76</td>
-<td class="table__cell">The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities</td>
-</tr>
-<tr class="table__row">
-<td class="table__cell">Meeting 3: Lessons</td>
-<td class="table__cell">Week 9</td>
-<td class="table__cell">30 min</td>
-<td class="table__cell">Experiment data</td>
-<td class="table__cell">Review experiment results &amp; next steps</td>
-</tr>
-</tbody>
-</table>
-<h2>Quick Reference: Key Concepts</h2>
-<h3>The Vacuum Hypothesis</h3>
-<p>AI increases productivity but DECREASES time on valuable work.</p>
-<p><strong>Result</strong>: A &quot;vacuum&quot; of time that gets filled with non-valuable work (meetings, interruptions).</p>
-<h3>The Stability Contradiction (The Paradox)</h3>
-<p><strong>Observed</strong>: Better processes (code quality, documentation, reviews)</p>
-<p><strong>Observed</strong>: WORSE delivery stability ($\downarrow -7.2%$)</p>
-<p><strong>Leading Hypothesis</strong>: AI enables larger batch sizes (changelists), which DORA consistently shows is the primary driver for low stability.</p>
-<h3>User-Centricity</h3>
-<p>Four behaviors that define user-centric teams:</p>
-<ul>
-<li>Incorporate user feedback to reprioritize features.</li>
-<li>Know what users want to accomplish.</li>
-<li>Believe user experience is key to business success.</li>
-<li>Treat user experience as top priority.</li>
-</ul>
-<p><strong>Insight</strong>: When teams do this well, they can achieve high product quality even without perfect delivery metrics.</p>
-<hr>
-<p>&quot;The best teams are those that achieve elite improvement, not necessarily elite performance.&quot; - DORA Report 2024</p>
-
-            </div>
-
-            <div id="facilitator-guide" class="tabcontent">
-                <h1>The DORA AI Paradox: Facilitator Guide</h1>
-<p><strong>Duration</strong>: 6 weeks total (3 meetings + 1 checkpoint)
-<strong>Meeting Frequency</strong>: Every 2 weeks
-<strong>Format</strong>: 60-minute discussions</p>
-<h2>Overall Theme &amp; Learning Objectives</h2>
-<p><strong>Core Tension</strong>: AI's immediate benefits versus its complex downstream consequences.</p>
-<p><strong>Guiding Question</strong>: How can we maximize the organizational and individual benefits of AI adoption while proactively managing the unexpected trade-offs, particularly the $\downarrow -7.2%$ drop in software delivery stability?</p>
-<h3>Learning Objectives:</h3>
+<p><strong>Duration</strong>: 6 weeks total | <strong>Format</strong>: 3 meetings + 1 experiment checkpoint | <strong>Meeting Frequency</strong>: Every 2 weeks</p>
+<h2>Learning Objectives</h2>
 <ul>
 <li>Establish baseline understanding of current AI usage and delivery friction.</li>
 <li>Critically analyze the AI Paradox: improved processes leading to worse outcomes.</li>
@@ -164,8 +90,50 @@
 </tr>
 <tr class="table__row">
 <td class="table__cell">Week 9</td>
-<td class="table__cell">Meeting 3: Lessons from Experiments (Optional)</td>
+<td class="table__cell">Meeting 3: Lessons from Experiments</td>
 <td class="table__cell">30 min</td>
+</tr>
+</tbody>
+</table>
+<h2>Meeting Schedule</h2>
+<table class="table">
+<thead class="table__head">
+<tr class="table__row">
+<th class="table__cell table__cell--header">Meeting</th>
+<th class="table__cell table__cell--header">Date</th>
+<th class="table__cell table__cell--header">Duration</th>
+<th class="table__cell table__cell--header">Reading Required (Targeted)</th>
+<th class="table__cell table__cell--header">Focus</th>
+</tr>
+</thead>
+<tbody class="table__body">
+<tr class="table__row">
+<td class="table__cell">Meeting 0: Kickoff</td>
+<td class="table__cell">Week 1</td>
+<td class="table__cell">30 min</td>
+<td class="table__cell">None</td>
+<td class="table__cell">Baseline assessment &amp; Current AI reliance</td>
+</tr>
+<tr class="table__row">
+<td class="table__cell">Meeting 1: AI's Dual Impact</td>
+<td class="table__cell">Week 3</td>
+<td class="table__cell">60 min</td>
+<td class="table__cell">Pages 17-26, 27-38</td>
+<td class="table__cell">The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop)</td>
+</tr>
+<tr class="table__row">
+<td class="table__cell">Meeting 2: Solution &amp; Strategy</td>
+<td class="table__cell">Week 5</td>
+<td class="table__cell">60 min</td>
+<td class="table__cell">Pages 57-68, 69-76</td>
+<td class="table__cell">The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities</td>
+</tr>
+<tr class="table__row">
+<td class="table__cell">Meeting 3: Lessons</td>
+<td class="table__cell">Week 9</td>
+<td class="table__cell">30 min</td>
+<td class="table__cell">Experiment data</td>
+<td class="table__cell">Review experiment results &amp; next steps</td>
 </tr>
 </tbody>
 </table>
@@ -177,14 +145,25 @@
 <li><strong>Key Takeaways &amp; Decisions (5-10 min)</strong>: Summarize main insights, identify actionable items, and assign owners.</li>
 <li><strong>Next Steps &amp; Pre-work (5 min)</strong>: Outline reading assignments or tasks for the next meeting.</li>
 </ol>
-<h2>Meeting Details</h2>
-<p>For detailed discussion flows, key questions, and facilitator preparation for each meeting, please refer to the individual meeting pages:</p>
+<h2>Quick Reference: Key Concepts</h2>
+<h3>The Vacuum Hypothesis</h3>
+<p>AI increases productivity but DECREASES time on valuable work.</p>
+<p><strong>Result</strong>: A &quot;vacuum&quot; of time that gets filled with non-valuable work (meetings, interruptions).</p>
+<h3>The Stability Contradiction (The Paradox)</h3>
+<p><strong>Observed</strong>: Better processes (code quality, documentation, reviews)</p>
+<p><strong>Observed</strong>: WORSE delivery stability ($\downarrow -7.2%$)</p>
+<p><strong>Leading Hypothesis</strong>: AI enables larger batch sizes (changelists), which DORA consistently shows is the primary driver for low stability.</p>
+<h3>User-Centricity</h3>
+<p>Four behaviors that define user-centric teams:</p>
 <ul>
-<li><a href="meeting0.md">Meeting 0: Baseline Assessment &amp; Kickoff</a></li>
-<li><a href="meeting1.md">Meeting 1: AI's Benefits &amp; the Individual Paradox</a></li>
-<li><a href="meeting2.md">Meeting 2: Downstream Detriments &amp; Strategy</a></li>
-<li><a href="meeting3.md">Meeting 3: Lessons from Experiments</a></li>
+<li>Incorporate user feedback to reprioritize features.</li>
+<li>Know what users want to accomplish.</li>
+<li>Believe user experience is key to business success.</li>
+<li>Treat user experience as top priority.</li>
 </ul>
+<p><strong>Insight</strong>: When teams do this well, they can achieve high product quality even without perfect delivery metrics.</p>
+<hr>
+<p>&quot;The best teams are those that achieve elite improvement, not necessarily elite performance.&quot; - DORA Report 2024</p>
 
             </div>
 
