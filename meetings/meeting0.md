@@ -6,6 +6,14 @@ This kickoff meeting aims to establish a baseline understanding of the team's cu
 ## Reading Required
 None
 
+## Pre-Work (Send 2-3 days before)
+
+Take 5 minutes to note:
+
+*   One task you used AI for this week (code, writing, summary).
+*   The last major production incident we had and its root cause (1-2 sentences).
+*   How stable do our org priorities feel? (1-5 scale)
+
 ## Facilitator Guide Details
 **Date**: [Date] | **Duration**: 30 min
 
@@ -32,6 +40,12 @@ Define Core Metric for Tracking AI Impact (10 min)
 *   Where is our greatest current friction point in delivery (the real bottleneck)?
 *   What is the current team-wide consensus on trust in AI-generated code?
 *   How stable do our organizational priorities feel? (1-5 scale)
+
+**Immediate Action**: We must define one metric to track AI impact (e.g., PR size, deployment frequency).
+
+### Outcome
+
+Establish baseline understanding of team's current state with AI and delivery performance.
 
 ## Meeting Resources
 *   Deep Dive Podcast: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/podcast.mp3`

@@ -13,30 +13,6 @@
 | Meeting 2: Solution & Strategy | Week 5  | 60 min   | Pages 57-68, 69-76          | The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities |
 | Meeting 3: Lessons      | Week 9  | 30 min   | Experiment data             | Review experiment results & next steps                             |
 
-## Meeting 0: Baseline Assessment (Week 1)
-
-**Duration**: 30 minutes | **Reading**: None
-
-### Pre-Work (Send 2-3 days before)
-
-Take 5 minutes to note:
-
-*   One task you used AI for this week (code, writing, summary).
-*   The last major production incident we had and its root cause (1-2 sentences).
-*   How stable do our org priorities feel? (1-5 scale)
-
-### Key Questions
-
-*   What AI tools are we relying on today (and why)?
-*   Where is our greatest current friction point in delivery (the real bottleneck)?
-*   What is the current team-wide consensus on trust in AI-generated code?
-
-**Immediate Action**: We must define one metric to track AI impact (e.g., PR size, deployment frequency).
-
-### Outcome
-
-Establish baseline understanding of team's current state with AI and delivery performance.
-
 ## Quick Reference: Key Concepts
 
 ### The Vacuum Hypothesis
