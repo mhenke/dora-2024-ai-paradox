@@ -49,7 +49,7 @@ The Priority Stability Problem (10 min)
 
 Experiment Commitment (10 min)
 *   Design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
-*   Define the problem, hypothesis, measurement, duration, owner, and check-in for the experiment.
+*   Define the problem, hypothesis, measurement, duration, and owner for the experiment.
 
 ## Key Questions
 
@@ -67,4 +67,3 @@ Experiment Commitment (10 min)
 ## Facilitator Post Meeting
 
 *   [ ] Send out meeting summary and the documented experiment commitment.
-*   [ ] Set calendar reminder for experiment check-in.

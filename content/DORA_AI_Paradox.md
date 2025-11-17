@@ -4,7 +4,7 @@
 
 **Core Question**: How can we maximize AI's benefits while actively reducing its negative impact on software delivery stability ($\downarrow -7.2\%$), by returning to core DORA principles (small batch sizes, user-centricity, stable priorities)?
 
-**Duration**: 6 weeks total | **Format**: 3 meetings + 1 experiment checkpoint | **Meeting Frequency**: Every 2 weeks
+**Duration**: 5 weeks | **Format**: 1 pre-meeting + 2 meetings | **Meeting Frequency**: Every 2 weeks
 
 ## Learning Objectives
 
