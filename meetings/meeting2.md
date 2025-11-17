@@ -13,7 +13,7 @@ Pages 57-68, 69-76 of the 2024 DORA Accelerate State of DevOps Report.
 *   [ ] Send reading reminder 1 week before (Pgs 57-68, 69-76).
 *   [ ] Prepare Figure 15 (p. 60) from the PDF to share (User-Centricity and Product Performance).
 *   [ ] Prepare Figure 17 (p. 67) from the PDF to share (Priority Stability and Software Delivery Stability).
-*   [ ] Have the Experiment Template ready in a shared, editable document.
+*   [ ] Have a shared, editable document ready for documenting the experiment commitment.
 
 ## Agenda
 Delivery Performance (10 min)
@@ -48,7 +48,7 @@ The Priority Stability Problem (10 min)
 ---
 
 Experiment Commitment (10 min)
-*   Use the Experiment Template below to design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
+*   Design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
 *   Define the problem, hypothesis, measurement, duration, owner, and check-in for the experiment.
 
 ## Key Questions
@@ -57,22 +57,6 @@ Experiment Commitment (10 min)
 *   How user-centric are we really as a team/organization?
 *   How stable are our organizational priorities currently?
 *   What experiment will we commit to in order to mitigate the AI Paradox or address foundational issues?
-
-## Experiment Template
-
-**EXPERIMENT COMMITMENT**
-
-**Problem**: [What we're trying to improve, e.g., "The average size of our Pull Requests is increasing."]
-
-**Hypothesis**: If we [action, e.g., "enforce a 100-line limit on AI-generated code snippets in a single PR"], then we expect [outcome, e.g., "our change failure rate to decrease by 5%"].
-
-**Measurement**: We'll track [metric] and consider it successful if [criteria].
-
-**Duration**: [timeframe - recommend 2-4 weeks]
-
-**Owner**: [Who's coordinating this?]
-
-**Check-in**: [When will we review progress?]
 
 ## Meeting Resources
 
