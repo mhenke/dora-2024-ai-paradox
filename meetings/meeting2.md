@@ -67,6 +67,4 @@ Experiment Commitment (10 min)
 ## Facilitator Post Meeting
 
 *   [ ] Send out meeting summary and the documented experiment commitment.
-*   [ ] Set calendar reminder for check-in/Meeting 3.
-*   [ ] Distribute reading materials for Meeting 3 (Experiment data).
-*   [ ] Schedule Meeting 3.
+*   [ ] Set calendar reminder for experiment check-in.

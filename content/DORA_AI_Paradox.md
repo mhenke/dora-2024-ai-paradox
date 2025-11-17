@@ -23,17 +23,15 @@
 | Week 3  | Meeting 1: AI's Benefits & the Individual Paradox | 60 min         |
 | Week 4-5 | Reading for Meeting 2                     | Self-paced     |
 | Week 5  | Meeting 2: Downstream Detriments & Strategy | 60 min         |
-| Week 5-9 | Team experiments in action                | Ongoing        |
-| Week 9  | Meeting 3: Lessons from Experiments       | 30 min         |
+| Week 5+ | Team experiments in action                | Ongoing        |
 
 ## Meeting Schedule
 
 | Meeting                 | Date    | Duration | Reading Required (Targeted) | Focus                                                              |
 | :---------------------- | :------ | :------- | :-------------------------- | :----------------------------------------------------------------- |
-| Meeting 0: Kickoff      | Week 1  | 30 min   | None                        | Baseline assessment & Current AI reliance                          |
+| Meeting 0: Kickoff      | Week 1  | 30 min   | None                        | Baseline assessment &amp; Current AI reliance                          |
 | Meeting 1: AI's Dual Impact | Week 3  | 60 min   | Pages 17-26, 27-38          | The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop) |
-| Meeting 2: Solution & Strategy | Week 5  | 60 min   | Pages 57-68, 69-76          | The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities |
-| Meeting 3: Lessons      | Week 9  | 30 min   | Experiment data             | Review experiment results & next steps                             |
+| Meeting 2: Solution &amp; Strategy | Week 5  | 60 min   | Pages 57-68, 69-76          | The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities |
 
 ## General Meeting Structure
 
