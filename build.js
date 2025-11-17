@@ -2,8 +2,8 @@ import MarkdownIt from 'markdown-it';
 import fs from 'fs';
 import path from 'path';
 
-// Define the base URL for GitHub Pages deployment
-const BASE_URL = '/dora-2024-ai-paradox/'; // Replace with your repository name if different
+// Define the base URL - use root for local dev, GitHub Pages path for production
+const BASE_URL = process.env.NODE_ENV === 'development' ? '/' : '/dora-2024-ai-paradox/';
 
 // Configure markdown-it to use custom renderers for tables
 const md = new MarkdownIt();

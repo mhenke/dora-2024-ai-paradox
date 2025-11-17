@@ -9,7 +9,7 @@ const bs = browserSync.create();
 function runBuild(callback) {
     console.log('🔨 Running build script...');
     const startTime = Date.now();
-    exec('npm run build', (error, stdout, stderr) => {
+    exec('NODE_ENV=development npm run build', (error, stdout, stderr) => {
         const duration = Date.now() - startTime;
         if (error) {
             console.error(`❌ BUILD FAILED (${duration}ms):`);
@@ -55,7 +55,7 @@ bs.init({
             'docs/'
         ],
         ext: 'md,js,css',
-        exec: 'npm run build',
+        exec: 'NODE_ENV=development npm run build',
         stdout: false,
         stderr: true
     })

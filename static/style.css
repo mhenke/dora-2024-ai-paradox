@@ -1,55 +1,540 @@
-body {
-    font-family: sans-serif;
-    line-height: 1.6;
+/* Import distinctive fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cutive+Mono&display=swap');
+
+:root {
+    /* RPG Fantasy Color Palette */
+    --parchment-light: #f4e8d0;
+    --parchment-dark: #e8dcc8;
+    --burgundy-deep: #4a1a1a;
+    --burgundy-rich: #6b1f1f;
+    --leather-dark: #2d1b0e;
+    --leather-deeper: #1a0f06;
+    --ink-ancient: #1a1412;
+    --gold-antique: #d4af37;
+    --gold-muted: #c5a253;
+    --ember-glow: #c45d4f;
+    --shadow-deep: rgb(26 15 6 / 60%);
+    --shadow-soft: rgb(74 26 26 / 30%);
+}
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--ink-ancient);
+    background: linear-gradient(135deg, var(--parchment-dark) 0%, var(--parchment-light) 50%, var(--parchment-dark) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Parchment texture overlay */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgb(74 26 26 / 3%) 2px, rgb(74 26 26 / 3%) 4px),
+        repeating-linear-gradient(90deg, transparent, transparent 2px, rgb(74 26 26 / 3%) 2px, rgb(74 26 26 / 3%) 4px);
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto;
+    position: relative;
+    z-index: 2;
+    background: var(--parchment-light);
+    padding: 60px;
+    border: 3px solid var(--burgundy-deep);
+    border-radius: 2px;
+    box-shadow:
+        0 0 0 12px var(--gold-muted),
+        0 0 0 15px var(--burgundy-deep),
+        0 20px 60px var(--shadow-deep),
+        inset 0 0 80px rgb(212 175 55 / 10%);
+    animation: fade-in 0.8s ease-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ornate corner decorations */
+.container::before,
+.container::after {
+    content: '✦';
+    position: absolute;
+    font-size: 32px;
+    color: var(--gold-antique);
+    text-shadow: 0 2px 8px var(--shadow-soft);
+}
+
+.container::before {
+    top: 20px;
+    left: 20px;
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.container::after {
+    top: 20px;
+    right: 20px;
+    animation: pulse-glow 3s ease-in-out infinite 1.5s;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        opacity: 0.6;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
 }
 
 h1 {
+    font-family: Cinzel, serif;
+    font-size: 64px;
+    font-weight: 900;
     text-align: center;
-    color: #333;
+    color: var(--burgundy-deep);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    text-shadow:
+        2px 2px 0 var(--gold-muted),
+        4px 4px 12px var(--shadow-soft);
+    position: relative;
+    animation: slide-down 0.6s ease-out 0.2s both;
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Decorative underline for h1 */
+h1::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, var(--gold-antique), transparent);
+    margin: 20px auto 0;
+}
+
+h2 {
+    font-family: Cinzel, serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--burgundy-rich);
+    margin: 40px 0 20px;
+    border-bottom: 2px solid var(--gold-muted);
+    padding-bottom: 10px;
+    position: relative;
+}
+
+h2::before {
+    content: '◆';
+    color: var(--gold-antique);
+    margin-right: 12px;
+}
+
+h3 {
+    font-family: Cinzel, serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--burgundy-deep);
+    margin: 30px 0 15px;
 }
 
 .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(180deg, var(--leather-dark), var(--leather-deeper));
+    border: 2px solid var(--gold-muted);
+    border-radius: 4px;
+    box-shadow:
+        inset 0 2px 8px rgb(0 0 0 / 40%),
+        0 8px 24px var(--shadow-deep);
+    animation: slideDown 0.6s ease-out 0.4s both;
 }
 
 .tab__button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
+    background: linear-gradient(180deg, var(--parchment-light), var(--parchment-dark));
+    color: var(--ink-ancient);
+    font-family: Cinzel, serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid var(--burgundy-deep);
+    border-radius: 4px;
+    padding: 14px 24px;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow:
+        0 4px 8px var(--shadow-soft),
+        inset 0 1px 0 rgb(255 255 255 / 30%);
+}
+
+.tab__button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(212 175 55 / 0%), rgb(212 175 55 / 20%));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 2px;
 }
 
 .tab__button:hover {
-    background-color: #ddd;
+    transform: translateY(-2px);
+    box-shadow:
+        0 6px 16px var(--shadow-soft),
+        inset 0 1px 0 rgb(255 255 255 / 40%),
+        0 0 20px var(--gold-muted);
+    border-color: var(--gold-antique);
+}
+
+.tab__button:hover::before {
+    opacity: 1;
 }
 
 .tab__button--active {
-    background-color: #ccc;
+    background: linear-gradient(180deg, var(--gold-antique), var(--gold-muted));
+    color: var(--leather-deeper);
+    border-color: var(--burgundy-rich);
+    box-shadow:
+        inset 0 2px 8px rgb(0 0 0 / 30%),
+        0 0 24px var(--ember-glow);
+    transform: translateY(0);
+}
+
+.tab__button--active::before {
+    opacity: 0;
 }
 
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    padding: 40px;
+    background: var(--parchment-light);
+    border: 3px double var(--burgundy-deep);
+    border-radius: 4px;
+    box-shadow:
+        inset 0 0 40px rgb(212 175 55 / 10%),
+        0 8px 24px var(--shadow-soft);
+    animation: fade-in-content 0.5s ease-out;
+}
+
+@keyframes fade-in-content {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .tabcontent--active {
     display: block;
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px 0 20px 40px;
+}
+
+li {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Strong/bold text */
+strong {
+    font-weight: 600;
+    color: var(--burgundy-deep);
+}
+
+/* Emphasis */
+em {
+    font-style: italic;
+    color: var(--burgundy-rich);
+}
+
+/* Paragraphs */
+p {
+    margin: 15px 0;
+}
+
+/* Code blocks */
+code {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    background: rgb(74 26 26 / 8%);
+    padding: 2px 8px;
+    border-radius: 2px;
+    color: var(--ember-glow);
+}
+
+/* RPG-style Tables - Ancient Scroll Aesthetic */
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 30px 0;
+    background: linear-gradient(180deg, var(--parchment-light), var(--parchment-dark));
+    border: 3px solid var(--burgundy-deep);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow:
+        0 0 0 1px var(--gold-muted),
+        0 8px 24px var(--shadow-soft),
+        inset 0 1px 0 rgb(255 255 255 / 40%);
+}
+
+.table__head {
+    background: linear-gradient(180deg, var(--burgundy-deep), var(--burgundy-rich));
+    color: var(--gold-antique);
+    font-family: Cinzel, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.table__head .table__row {
+    border-bottom: 2px solid var(--gold-antique);
+}
+
+.table__cell {
+    padding: 16px 20px;
+    border-right: 1px solid rgb(74 26 26 / 15%);
+    font-size: 16px;
+    position: relative;
+}
+
+.table__cell:last-child {
+    border-right: none;
+}
+
+.table__cell--header {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+}
+
+.table__body .table__row {
+    transition: all 0.3s ease;
+    background: var(--parchment-light);
+}
+
+.table__body .table__row:nth-child(even) {
+    background: linear-gradient(90deg, var(--parchment-dark), var(--parchment-light), var(--parchment-dark));
+}
+
+.table__body .table__row:hover {
+    background: linear-gradient(90deg, rgb(212 175 55 / 15%), rgb(212 175 55 / 25%), rgb(212 175 55 / 15%));
+    box-shadow: inset 0 0 20px rgb(212 175 55 / 20%);
+    transform: scale(1.01);
+}
+
+.table__body .table__row:not(:last-child) {
+    border-bottom: 1px solid rgb(74 26 26 / 10%);
+}
+
+/* First column emphasis (often contains meeting names) */
+.table__body .table__cell:first-child {
+    font-weight: 600;
+    color: var(--burgundy-deep);
+    font-family: Cinzel, serif;
+}
+
+/* Links */
+a {
+    color: var(--burgundy-rich);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold-muted);
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--gold-antique);
+    border-bottom-color: var(--burgundy-deep);
+    text-shadow: 0 0 8px rgb(212 175 55 / 40%);
+}
+
+/* Blockquotes - Sacred Scroll Style */
+blockquote {
+    margin: 30px 0;
+    padding: 20px 30px 20px 60px;
+    background: linear-gradient(90deg, rgb(107 31 31 / 8%), transparent);
+    border-left: 4px solid var(--gold-antique);
+    font-style: italic;
+    position: relative;
+    color: var(--burgundy-rich);
+}
+
+blockquote::before {
+    content: '"';
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 60px;
+    font-family: Cinzel, serif;
+    color: var(--gold-muted);
+    opacity: 0.5;
+    line-height: 1;
+}
+
+/* Horizontal rules - Ornamental dividers */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold-antique), transparent);
+    margin: 40px 0;
+    position: relative;
+}
+
+hr::after {
+    content: '✦';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--parchment-light);
+    color: var(--gold-antique);
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (width <= 1200px) {
+    .container {
+        width: 95%;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 48px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+@media (width <= 768px) {
+    .container {
+        padding: 30px 20px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 36px;
+        letter-spacing: 1px;
+    }
+
+    h1::after {
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .tab {
+        padding: 15px;
+    }
+
+    .tab__button {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    .tabcontent {
+        padding: 20px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+    .table__cell {
+        padding: 12px 10px;
+    }
+
+    .table__cell--header {
+        padding: 16px 10px;
+        font-size: 12px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (width <= 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container::before,
+    .container::after {
+        font-size: 20px;
+        top: 10px;
+    }
+
+    .container::before {
+        left: 10px;
+    }
+
+    .container::after {
+        right: 10px;
+    }
 }
