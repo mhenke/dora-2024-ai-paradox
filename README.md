@@ -2,6 +2,8 @@
 
 Understanding the tension between individual AI productivity gains and organizational DevOps stability costs.
 
+**Live Site:** https://mhenke.github.io/dora-2024-ai-paradox/
+
 ## Quick Start
 
 ```bash
