@@ -48,11 +48,6 @@ function generateFilesList() {
             tabId: 'overview'
         },
         {
-            mdFile: 'content/DORA_AI_Paradox_Facilitator_Guide.md',
-            htmlFile: 'docs/DORA_AI_Paradox_Facilitator_Guide.html',
-            tabId: 'facilitator-guide'
-        },
-        {
             mdFile: 'content/The_AI_Paradox_Visual_Summary.md',
             htmlFile: 'docs/The_AI_Paradox_Visual_Summary.html',
             tabId: 'visual-summary'
