@@ -7,12 +7,12 @@ From the 2024 DORA Accelerate State of DevOps Report
 <div class="comparison">
   <div class="comparison__side">
     <div class="comparison__title">✓ Clear Benefits</div>
-    <div class="comparison__content">Individual & Process Level improvements across the board</div>
+    <div class="comparison__content">Individual &amp; Process Level improvements across the board</div>
   </div>
   <div class="comparison__divider">vs.</div>
   <div class="comparison__side">
     <div class="comparison__title">⚠ Unexpected Consequences</div>
-    <div class="comparison__content">Delivery & Stability Level: <strong style="color: #c45d4f;">↓ 7.2%</strong></div>
+    <div class="comparison__content">Delivery &amp; Stability Level: <strong class="stat-row__value--negative">↓ 7.2%</strong></div>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ From the 2024 DORA Accelerate State of DevOps Report
 ### Process Level
 
 <div class="stat-block">
-  <div class="stat-block__header">Code & Process Quality</div>
+  <div class="stat-block__header">Code &amp; Process Quality</div>
   <div class="stat-row">
     <span class="stat-row__label">Code quality</span>
     <span class="stat-row__value stat-row__value--positive">
@@ -85,7 +85,7 @@ From the 2024 DORA Accelerate State of DevOps Report
   </div>
 </div>
 
-### Team & Organization Level
+### Team &amp; Organization Level
 
 <div class="stat-block">
   <div class="stat-block__header">Organizational Impact</div>
@@ -165,10 +165,10 @@ From the 2024 DORA Accelerate State of DevOps Report
 <div class="visual-bar">
   <div class="visual-bar__label">BEFORE AI:</div>
   <div class="visual-bar__container">
-    <div class="visual-bar__segment visual-bar__segment--valuable" style="width: 60%;">
+    <div class="visual-bar__segment visual-bar__segment--valuable visual-bar__segment--width-60">
       Valuable Work: 60%
     </div>
-    <div class="visual-bar__segment visual-bar__segment--toil" style="width: 40%;">
+    <div class="visual-bar__segment visual-bar__segment--toil visual-bar__segment--width-40">
       Toil: 40%
     </div>
   </div>
@@ -177,13 +177,13 @@ From the 2024 DORA Accelerate State of DevOps Report
 <div class="visual-bar">
   <div class="visual-bar__label">AFTER AI:</div>
   <div class="visual-bar__container">
-    <div class="visual-bar__segment visual-bar__segment--valuable" style="width: 57%;">
+    <div class="visual-bar__segment visual-bar__segment--valuable visual-bar__segment--width-57">
       Valuable Work: 57%
     </div>
-    <div class="visual-bar__segment visual-bar__segment--toil" style="width: 40%;">
+    <div class="visual-bar__segment visual-bar__segment--toil visual-bar__segment--width-40">
       Toil: 40%
     </div>
-    <div class="visual-bar__segment visual-bar__segment--mystery" style="width: 3%;">
+    <div class="visual-bar__segment visual-bar__segment--mystery visual-bar__segment--width-3">
       ?: 3%
     </div>
   </div>
@@ -306,7 +306,7 @@ The Disconnect: Short-term experience is positive, but long-term expectations ar
   <div class="flow-arrow">↓</div>
   <div class="flow-step">3. Develop hypotheses</div>
   <div class="flow-arrow">↓</div>
-  <div class="flow-step" style="border-color: var(--gold-antique); background: linear-gradient(90deg, rgb(212 175 55 / 15%), var(--parchment-light));">4. Commit to a plan ← <strong>OUR BOOK CLUB ENDS HERE</strong></div>
+  <div class="flow-step flow-step--highlight">4. Commit to a plan ← <strong>OUR BOOK CLUB ENDS HERE</strong></div>
   <div class="flow-arrow">↓</div>
   <div class="flow-step">5. Do the work</div>
   <div class="flow-arrow">↓</div>
@@ -322,7 +322,7 @@ The Disconnect: Short-term experience is positive, but long-term expectations ar
 
 ## Key Questions for Discussion
 
-### Meeting 1: Benefits & Paradox
+### Meeting 1: Benefits &amp; Paradox
 
 Where does the AI-freed time actually go?
 
@@ -330,7 +330,7 @@ Is code quality truly better, or just easier to work with?
 
 Why the disconnect between current gains and future pessimism?
 
-### Meeting 2: Detriments & Strategy
+### Meeting 2: Detriments &amp; Strategy
 
 Are our batch sizes increasing with AI?
 
@@ -347,7 +347,7 @@ What experiment will we commit to?
 <div class="callout callout--info">
   <div class="callout__title">AI IS TRANSFORMATIVE, BUT COMPLEX</div>
 
-  <div class="stat-block" style="margin-top: 15px;">
+  <div class="stat-block">
     <div class="stat-row">
       <span class="stat-row__label">✓ Individuals feel more productive, satisfied, and in flow</span>
     </div>

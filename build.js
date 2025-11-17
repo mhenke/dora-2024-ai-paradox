@@ -5,8 +5,10 @@ import path from 'path';
 // Define the base URL - use root for local dev, GitHub Pages path for production
 const BASE_URL = process.env.NODE_ENV === 'development' ? '/' : '/dora-2024-ai-paradox/';
 
-// Configure markdown-it to use custom renderers for tables
-const md = new MarkdownIt();
+// Configure markdown-it to use custom renderers for tables and allow raw HTML
+const md = new MarkdownIt({
+    html: true // Enable HTML tags in source
+});
 
 // Override table rendering to use CSS classes instead of inline styles
 md.renderer.rules.table_open = () => '<table class="table">\n';
