@@ -14,14 +14,14 @@ Take 5 minutes to note:
 *   The last major production incident we had and its root cause (1-2 sentences).
 *   How stable do our org priorities feel? (1-5 scale)
 
-## Facilitator Guide Details
+## Facilitator Preparation
+
 **Date**: [Date] | **Duration**: 30 min
 
-### Facilitator Preparation
 *   [ ] Ensure the key questions are visible (e.g., on a whiteboard or shared document).
 *   [ ] Prepare reading assignment handout for Meeting 1 (Pages 17-38 of the DORA report).
 
-### Agenda
+## Agenda
 Introduction & Context (5 min)
 *   Set the context—this book club is about critical analysis of AI's impact, not just praise. The DORA report identified major trade-offs that we will explore.
 
@@ -35,7 +35,8 @@ Review Pre-Work & Current Friction Points (15 min)
 Define Core Metric for Tracking AI Impact (10 min)
 *   As a team, decide on one quantitative metric (e.g., Change Failure Rate, PR Size, Deployment Frequency) that the group will track over the course of the book club to measure AI's impact.
 
-### Key Questions
+## Key Questions
+
 *   What AI tools are we relying on today (and why)?
 *   Where is our greatest current friction point in delivery (the real bottleneck)?
 *   What is the current team-wide consensus on trust in AI-generated code?
@@ -43,7 +44,7 @@ Define Core Metric for Tracking AI Impact (10 min)
 
 **Immediate Action**: We must define one metric to track AI impact (e.g., PR size, deployment frequency).
 
-### Outcome
+## Outcome
 
 Establish baseline understanding of team's current state with AI and delivery performance.
 
@@ -52,7 +53,8 @@ Establish baseline understanding of team's current state with AI and delivery pe
 *   PDF Slides: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/slides.pdf`
 *   Video: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/video.mp4`
 
-### Facilitator Post Meeting
+## Facilitator Post Meeting
+
 *   [ ] Send out meeting summary and agreed-upon core metric.
 *   [ ] Distribute reading materials for Meeting 1 (Pages 17-38 of the DORA report).
 *   [ ] Schedule Meeting 1.

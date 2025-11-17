@@ -6,16 +6,16 @@ This meeting focuses on the downstream detriments of AI adoption, particularly i
 ## Reading Required
 Pages 57-68, 69-76 of the 2024 DORA Accelerate State of DevOps Report.
 
-## Facilitator Guide Details
+## Facilitator Preparation
+
 **Date**: [Date] | **Duration**: 60 min
 
-### Facilitator Preparation
 *   [ ] Send reading reminder 1 week before (Pgs 57-68, 69-76).
 *   [ ] Prepare Figure 15 (p. 60) from the PDF to share (User-Centricity and Product Performance).
 *   [ ] Prepare Figure 17 (p. 67) from the PDF to share (Priority Stability and Software Delivery Stability).
 *   [ ] Have the Experiment Template ready in a shared, editable document.
 
-### Agenda
+## Agenda
 Delivery Performance (10 min)
 *   Review the observed decline in software delivery stability ($\downarrow -7.2\%$) and throughput ($\downarrow -1.5\%$) with increased AI adoption (Visual Summary).
 *   Discuss why, historically, better code quality and faster reviews led to better delivery performance, but with AI, this trend is reversed (p. 27).
@@ -51,7 +51,8 @@ Experiment Commitment (10 min)
 *   Use the Experiment Template below to design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).
 *   Define the problem, hypothesis, measurement, duration, owner, and check-in for the experiment.
 
-### Key Questions
+## Key Questions
+
 *   Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?
 *   How user-centric are we really as a team/organization?
 *   How stable are our organizational priorities currently?
@@ -74,11 +75,13 @@ Experiment Commitment (10 min)
 **Check-in**: [When will we review progress?]
 
 ## Meeting Resources
+
 *   Deep Dive Podcast: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/podcast.mp3`
 *   PDF Slides: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/slides.pdf`
 *   Video: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/video.mp4`
 
-### Facilitator Post Meeting
+## Facilitator Post Meeting
+
 *   [ ] Send out meeting summary and the documented experiment commitment.
 *   [ ] Set calendar reminder for check-in/Meeting 3.
 *   [ ] Distribute reading materials for Meeting 3 (Experiment data).
