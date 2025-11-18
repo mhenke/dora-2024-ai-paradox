@@ -4,7 +4,19 @@
 
 **Core Question**: How can we use AI to amplify our strengths rather than our weaknesses? We will explore why AI increases throughput but hurts stability ($\downarrow -7.2\%$), and how to build the foundational capabilities (Platform Engineering, VSM) to fix it.
 
-**Duration**: 6 weeks | **Format**: 3 meetings + Kickoff | **Meeting Frequency**: Every 2 weeks
+**Duration**: 6 weeks (flexible: can run in 4 weeks if weekly) | **Format**: 3 core meetings + optional Kickoff | **Meeting Frequency**: Every 1-2 weeks
+
+## Target Audience
+
+This book club is designed for:
+- **Individual contributors** (software engineers, SREs) who use AI tools and can influence team practices
+- **Tech leads** who want to guide their team's AI adoption strategy
+- **Engineering managers** seeking to understand AI's organizational impact
+
+**Time commitment**: 
+- ~30 min reading every 1-2 weeks
+- 60-70 min per meeting (3 meetings total)
+- Optional 30-min kickoff for baseline assessment
 
 ## Learning Objectives
 
@@ -16,8 +28,9 @@
 
 ## Resources
 *   **Source 1**: [2024 DORA Accelerate State of DevOps Report](https://dora.dev/research/2024/dora-report/)
-*   **Source 2**: [DORA Impact of Gen AI Report](https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf)
-*   **Source 3**: [2025 DORA State of AI-Assisted Software Development](https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report?hl=en)
+*   **Source 2**: [2025 DORA State of AI-Assisted Software Development](https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report?hl=en)
+
+**Reading Note**: Source 1 (2024) provides foundational context on AI adoption and the initial "AI Paradox" findings. Source 2 (2025) updates these findings with the "Amplifier" concept, Team Profiles, and Capabilities Model. Page ranges are curated to minimize overlap—you won't be reading the same content twice.
 
 ## Timeline Overview
 
@@ -36,15 +49,48 @@
 | Meeting                 | Date    | Duration | Reading Required (Targeted) | Focus                                                              |
 | :---------------------- | :------ | :------- | :-------------------------- | :----------------------------------------------------------------- |
 | Meeting 0: Kickoff      | Week 0  | 30 min   | None                        | Setting the stage, baseline assessment & questions                 |
-| Meeting 1: The AI Paradox | Week 2  | 60 min   | Source 1: 17-38; Source 3: 3-6 | The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis |
-| Meeting 2: Organizational Friction | Week 4  | 60 min   | Source 1: 57-68; Source 3: 11-16 | Throughput vs. Stability, Team Profiles, and Value |
-| Meeting 3: Strategy & Success | Week 6  | 60 min   | Source 1: 69-76; Source 3: 49-64 | Capabilities Model, Platform Engineering, and Trust |
+| Meeting 1: The AI Paradox | Week 2  | 60 min   | Source 1: 17-38; Source 2: 3-6 | The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis |
+| Meeting 2: Organizational Friction | Week 4  | 60 min   | Source 1: 57-68; Source 2: 11-16 | Throughput vs. Stability, Team Profiles, and Value |
+| Meeting 3: Strategy & Success | Week 6  | 60 min   | Source 1: 69-76; Source 2: 49-64 | Capabilities Model, Platform Engineering, and Trust |
 
 ## Enhancing Understanding
 
 To clarify the complex interplay between AI-driven individual performance gains and organizational stability losses:
 
 AI is currently acting like a super-efficient new tool in a factory that encourages workers to make massive parts instead of small, tested components. The individual workers (developers) feel productive and satisfied because they are generating huge amounts of output (code) very quickly. However, when these massive, quickly-generated parts are introduced into the overall production line (the software delivery pipeline), they are much harder to test and deploy reliably, leading to more defects and greater instability further down the line, ultimately harming the factory's overall speed and reliability. The solution is not to stop using the efficient tool, but to enforce the disciplined practice of manufacturing in small batch sizes so that the gains in productivity translate into stable organizational outcomes.
+
+## Success Criteria
+
+After 6 weeks, the book club is successful if:
+
+**Level 1 (Participation)**:
+- [ ] 80%+ attendance at core meetings
+- [ ] 60%+ pre-reading completion rate
+
+**Level 2 (Understanding)**:
+- [ ] Team can articulate the "AI as Amplifier" concept
+- [ ] Team identifies their profile from the 7 Team Profiles
+- [ ] Team assesses themselves against the 7 Capabilities
+
+**Level 3 (Action)**:
+- [ ] Core metric tracked for full 6 weeks (Meeting 0)
+- [ ] 3+ specific commitments documented (Meeting 3)
+- [ ] 3-month check-in scheduled
+
+**Level 4 (Impact)** - Measured at 3-month check-in:
+- [ ] Core metric shows improvement OR team understands why not
+- [ ] Team references DORA concepts in retrospectives/planning
+- [ ] At least 1 commitment has been implemented
+
+### About the Core Metric
+
+**What if the metric gets worse?** This is valuable data, not failure. If your metric degrades:
+1. Review which of the 7 Capabilities you're missing
+2. Check if you're working in small batches (most common issue)
+3. Assess if AI is amplifying existing dysfunctions
+4. Use this as input for your Meeting 3 commitments
+
+**The metric is a learning tool**, not a success/fail test.
 
 ## General Meeting Structure
 
