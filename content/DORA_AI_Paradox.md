@@ -2,7 +2,7 @@
 
 **Theme**: AI as an Amplifier: The Paradox of Speed vs. Stability
 
-**Core Question**: How can we use AI to amplify our strengths rather than our weaknesses? We will explore why AI increases throughput but hurts stability ($\downarrow -7.2\%$), and how to build the foundational capabilities (Platform Engineering, VSM) to fix it.
+**Core Question**: How can we use AI to amplify our strengths rather than our weaknesses? We will explore why AI increases throughput but hurts stability (↓ -7.2%), and how to build the foundational capabilities (Platform Engineering, VSM) to fix it.
 
 **Duration**: 6 weeks (flexible: can run in 4 weeks if weekly) | **Format**: 3 core meetings + optional Kickoff | **Meeting Frequency**: Every 1-2 weeks
 
@@ -32,26 +32,18 @@ This book club is designed for:
 
 **Reading Note**: Source 1 (2024) provides foundational context on AI adoption and the initial "AI Paradox" findings. Source 2 (2025) updates these findings with the "Amplifier" concept, Team Profiles, and Capabilities Model. Page ranges are curated to minimize overlap—you won't be reading the same content twice.
 
-## Timeline Overview
+## Book Club Schedule
 
-| Week    | Activity                                  | Duration       |
-| :------ | :---------------------------------------- | :------------- |
-| Week 0  | Meeting 0: Kickoff (Baseline Assessment)  | 30 min         |
-| Week 1-2 | Pre-reading for Meeting 1 (Pages 17-38)  | Self-paced     |
-| Week 2  | Meeting 1: The AI Paradox & The Amplifier | 60 min         |
-| Week 3-4 | Pre-reading for Meeting 2 (Pages 57-76)  | Self-paced     |
-| Week 4  | Meeting 2: Organizational Friction        | 60 min         |
-| Week 5-6 | Pre-reading for Meeting 3 (Strategy)     | Self-paced     |
-| Week 6  | Meeting 3: Strategy, Trust, and Measurement | 60 min         |
+| Week | Activity | Duration | Reading Required | Focus |
+| :--- | :------- | :------- | :--------------- | :---- |
+| Week 0 | **Meeting 0: Kickoff** | 30 min | None | Setting the stage, baseline assessment & questions |
+| Week 1-2 | Pre-reading for Meeting 1 | Self-paced | Source 1: 17-38; Source 2: 3-6 | — |
+| Week 2 | **Meeting 1: The AI Paradox** | 60 min | Source 1: 17-38; Source 2: 3-6 | The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis |
+| Week 3-4 | Pre-reading for Meeting 2 | Self-paced | Source 1: 57-68; Source 2: 11-16 | — |
+| Week 4 | **Meeting 2: Organizational Friction** | 60 min | Source 1: 57-68; Source 2: 11-16 | Throughput vs. Stability, Team Profiles, and Value |
+| Week 5-6 | Pre-reading for Meeting 3 | Self-paced | Source 1: 69-76; Source 2: 49-64 | — |
+| Week 6 | **Meeting 3: Strategy & Success** | 60 min | Source 1: 69-76; Source 2: 49-64 | Capabilities Model, Platform Engineering, and Trust |
 
-## Meeting Schedule
-
-| Meeting                 | Date    | Duration | Reading Required (Targeted) | Focus                                                              |
-| :---------------------- | :------ | :------- | :-------------------------- | :----------------------------------------------------------------- |
-| Meeting 0: Kickoff      | Week 0  | 30 min   | None                        | Setting the stage, baseline assessment & questions                 |
-| Meeting 1: The AI Paradox | Week 2  | 60 min   | Source 1: 17-38; Source 2: 3-6 | The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis |
-| Meeting 2: Organizational Friction | Week 4  | 60 min   | Source 1: 57-68; Source 2: 11-16 | Throughput vs. Stability, Team Profiles, and Value |
-| Meeting 3: Strategy & Success | Week 6  | 60 min   | Source 1: 69-76; Source 2: 49-64 | Capabilities Model, Platform Engineering, and Trust |
 
 ## Enhancing Understanding
 

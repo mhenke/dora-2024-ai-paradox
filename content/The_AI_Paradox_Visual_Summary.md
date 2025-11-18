@@ -474,33 +474,6 @@ These 7 capabilities **amplify** AI's benefits:
   <p>Teams that invest in these capabilities see <strong>greater benefits from AI</strong>. Without them, AI can amplify existing dysfunctions (e.g., large batch sizes → more instability).</p>
 </div>
 
----
-
-## Success Criteria Framework
-
-<div class="stat-block">
-  <div class="stat-block__header">4 Levels of Book Club Success</div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">**Level 1: Participation**</span>
-    <span class="stat-row__value">80%+ attendance, 60%+ pre-reading completion</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">**Level 2: Understanding**</span>
-    <span class="stat-row__value">Can articulate "AI as Amplifier", identify Team Profile, assess Capabilities</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">**Level 3: Action**</span>
-    <span class="stat-row__value">Core metric tracked for 6 weeks, commitments documented, check-in scheduled</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">**Level 4: Impact** (3-month check-in)</span>
-    <span class="stat-row__value">Metric improves OR team understands why not, concepts used in retrospectives</span>
-  </div>
-</div>
 
 <div class="callout callout--info">
   <div class="callout__title">Using This Page</div>

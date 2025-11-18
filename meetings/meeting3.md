@@ -81,8 +81,3 @@ The final meeting synthesizes actionable strategies. We will focus on the new **
 - Good example: "I will reduce PR size to <400 lines"
 - Bad example: "I'll use AI better"
 - Schedule the 3-month check-in before people leave the meeting
-## Meeting Resources
-*   **Assessment**: [Final Assessment](../content/Final_Assessment.md) (Complete this after the meeting)
-*   Deep Dive Podcast: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/podcast.mp3`
-*   PDF Slides: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/slides.pdf`
-*   Video: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/video.mp4`

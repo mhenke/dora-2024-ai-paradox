@@ -46,10 +46,6 @@ Take 5 minutes to note:
 ## Outcome
 Establish baseline understanding of team's current state with AI and delivery performance, and agree on a tracking metric.
 
-## Meeting Resources
-*   Deep Dive Podcast: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/podcast.mp3`
-*   PDF Slides: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/slides.pdf`
-*   Video: `https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/video.mp4`
 
 ## Facilitator Post Meeting
 *   [ ] Send out meeting summary and agreed-upon core metric.
