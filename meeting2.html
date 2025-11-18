@@ -1,67 +1,118 @@
-<h1>Meeting 2: Downstream Detriments &amp; Strategy</h1>
+<h1>Meeting 2: Organizational Friction</h1>
 <h2>Overview</h2>
-<p>This meeting focuses on the downstream detriments of AI adoption, particularly its impact on software delivery stability and throughput. We will explore the leading hypothesis linking AI to larger changelists and lower stability, and discuss the critical roles of user-centricity and stable priorities in mitigating these negative effects. The session will conclude with a commitment to actionable experiments.</p>
-<h2>Reading Required</h2>
-<p>Pages 57-68, 69-76 of the 2024 DORA Accelerate State of DevOps Report.</p>
+<p>This meeting focuses on the downstream effects of AI. We will discuss the 2025 finding that while AI <em>is</em> improving throughput (speed), it is still negatively impacting stability. We will also look at the &quot;7 Team Profiles&quot; to see where we fit.</p>
+<h2>Reading Required (Est. 30 min)</h2>
+<ul>
+<li><strong>Source 1</strong> - 2024 DORA Report: Pages 57-68 (Exploring the Downstream Impact of AI)
+<ul>
+<li>File: <code>2024-dora-accelerate-state-of-devops-report.pdf</code></li>
+</ul>
+</li>
+<li><strong>Source 2</strong> - 2025 DORA Report: Pages 11-16 (Software Delivery Performance &amp; Team Profiles)
+<ul>
+<li>File: <code>2025_state_of_ai_assisted_software_development.pdf</code></li>
+</ul>
+</li>
+</ul>
+<h2>Pre-Work (Optional, 5 min)</h2>
+<p>Before the meeting, reflect on these questions:</p>
+<ul>
+<li>How do you personally define &quot;valuable work&quot;?</li>
+<li>Does AI help you do more valuable work, or just more work?</li>
+</ul>
 <h2>Facilitator Preparation</h2>
 <p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 60 min</p>
 <ul>
-<li>[ ] Send reading reminder 1 week before (Pgs 57-68, 69-76).</li>
-<li>[ ] Prepare Figure 15 (p. 60) from the PDF to share (User-Centricity and Product Performance).</li>
-<li>[ ] Prepare Figure 17 (p. 67) from the PDF to share (Priority Stability and Software Delivery Stability).</li>
-<li>[ ] Have a shared, editable document ready for documenting the experiment commitment.</li>
+<li>[ ] Send reading reminder 1 week before.</li>
+<li>[ ] Review the &quot;7 Team Profiles&quot; (e.g., Harmonious high-achievers, Legacy bottleneck).</li>
+<li>[ ] Prepare to discuss the &quot;Throughput vs. Stability&quot; trade-off.</li>
 </ul>
 <h2>Agenda</h2>
-<p>Delivery Performance (10 min)</p>
+<h3>1. The Shift: Throughput is Improving (10 min)</h3>
 <ul>
-<li>Review the observed decline in software delivery stability ($\downarrow -7.2%$) and throughput ($\downarrow -1.5%$) with increased AI adoption (Visual Summary).</li>
-<li>Discuss why, historically, better code quality and faster reviews led to better delivery performance, but with AI, this trend is reversed (p. 27).</li>
+<li><strong>Review</strong>:
+<ul>
+<li>2024 Finding: AI hurt both throughput and stability.</li>
+<li>2025 Finding: AI now <em>improves</em> throughput, but <em>still hurts</em> stability.</li>
 </ul>
-<hr>
-<p>The Leading Hypothesis: AI, Changelists, and Stability (15 min)</p>
-<ul>
-<li>Discuss the hypothesis: AI → Faster code writing → Larger changelists → Lower stability (Visual Summary).</li>
-<li>Explore the idea that AI may be causing us to forget DORA's basic principle: Small batch sizes = Fast + Stable.</li>
-<li>Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?</li>
+</li>
+<li><strong>Discussion</strong>: Are we shipping faster? Are we breaking things more often?</li>
 </ul>
-<hr>
-<p>User-Centricity as a Mitigation Strategy (15 min)</p>
+<h3>2. The Stability Problem (15 min)</h3>
 <ul>
-<li>Discuss DORA's surprising finding: &quot;When organizations focus on the user, stability and throughput of software delivery are not a requirement for product quality.&quot; (p. 59). Product quality will be high as long as the user experience is at the forefront.</li>
-<li>Review the four behaviors of user-centric teams (p. 58). Which of these is our greater organizational weakness?</li>
-<li>Discuss how user-centered approaches increase productivity, job satisfaction, and reduce burnout (p. 59).</li>
-<li>Reference: Visual Summary - &quot;The Alternative Path: User-Centricity&quot; section.</li>
-<li>Facilitator Note: Prepare Figure 15 (p. 60) from the PDF to share (Product performance and delivery throughput across 3 levels of user centricity).</li>
+<li><strong>Review</strong>: The persistent negative impact on delivery stability.</li>
+<li><strong>Hypothesis</strong>: We are moving faster than our systems can handle. The &quot;Amplifier&quot; effect is making our instability worse.</li>
+<li><strong>Discussion</strong>: What is our biggest source of instability right now?</li>
 </ul>
-<hr>
-<p>The Priority Stability Problem (10 min)</p>
+<h3>3. The 7 Team Profiles (20 min)</h3>
 <ul>
-<li>Discuss how unstable organizational priorities lead to meaningful decreases in productivity and substantial increases in burnout (p. 65).</li>
-<li>Explore the finding that strong leaders, good documentation, and user-centered approaches <em>cannot</em> mitigate the burnout caused by unstable priorities (p. 65).</li>
-<li>How stable are our priorities currently? What can organizations do to stabilize priorities or shield employees from constant shifts? (p. 68).</li>
-<li>Reference: Visual Summary - &quot;The Priority Stability Problem&quot; section.</li>
-<li>Facilitator Note: Prepare Figure 17 (p. 67) from the PDF to share (Software delivery stability as a function of adding AI-powered experiences).</li>
+<li><strong>Review</strong> (5 min): The new profiles identified in 2025 (refer to Source 2, Figure 2, page 16):
+<ul>
+<li><strong>Harmonious high-achievers</strong>: High performance, low friction, low burnout</li>
+<li><strong>Pragmatic performers</strong>: Balanced across most factors</li>
+<li><strong>Stable and methodical</strong>: Stable but slower throughput</li>
+<li><strong>High impact, low cadence</strong>: Strong product, low deployment frequency</li>
+<li><strong>Constrained by process</strong>: High friction, burnout from inefficient processes</li>
+<li><strong>Legacy bottleneck</strong>: Constant firefighting, unstable systems</li>
+<li><strong>Foundational challenges</strong>: Low across all performance indicators</li>
 </ul>
-<hr>
-<p>Experiment Commitment (10 min)</p>
+</li>
+<li><strong>Activity</strong> (15 min total):
+<ol>
+<li><strong>Individual assessment</strong> (3 min): Each person silently identifies 1-2 profiles that best describe the team</li>
+<li><strong>Pair discussion</strong> (7 min): In pairs, share your choices and reasoning</li>
+<li><strong>Full team convergence</strong> (5 min): Poll the team and discuss the top 1-2 profiles</li>
+</ol>
+</li>
+<li><strong>Discussion</strong>: What is holding us back from being &quot;Harmonious high-achievers&quot;?</li>
+</ul>
+<h3>4. How Developers Define Value (10 min)</h3>
 <ul>
-<li>Design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).</li>
-<li>Define the problem, hypothesis, measurement, duration, and owner for the experiment.</li>
+<li><strong>Review</strong>: The Five views of &quot;value&quot;:
+<ul>
+<li><strong>Utilitarian</strong>: Value from solving problems and being useful to others</li>
+<li><strong>Reputational</strong>: Value from peer recognition and status in the community</li>
+<li><strong>Economic</strong>: Value from compensation and career advancement</li>
+<li><strong>Intrinsic</strong>: Value from personal growth, mastery, and learning</li>
+<li><strong>Hedonistic</strong>: Value from enjoyment, fun, and pleasure in the work itself</li>
+</ul>
+</li>
+<li><strong>Discussion</strong>: Does AI help us achieve the value we care about?</li>
+</ul>
+<h3>5. Wrap-up &amp; Next Steps (5 min)</h3>
+<ul>
+<li>Summarize key takeaways.</li>
+<li>Assign reading for Meeting 3: Strategy &amp; Success (Source 1: 69-76; Source 2: 49-64).</li>
 </ul>
 <h2>Key Questions</h2>
 <ul>
-<li>Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?</li>
-<li>How user-centric are we really as a team/organization?</li>
-<li>How stable are our organizational priorities currently?</li>
-<li>What experiment will we commit to in order to mitigate the AI Paradox or address foundational issues?</li>
+<li>Why is our stability lagging behind our speed?</li>
+<li>Which &quot;Team Profile&quot; do we aspire to be, and what is the gap?</li>
 </ul>
-<h2>Meeting Resources</h2>
+<h2>Facilitator Notes</h2>
+<p><strong>If the Team Profile activity causes conflict</strong>:</p>
 <ul>
-<li>Deep Dive Podcast: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/podcast.mp3</code></li>
-<li>PDF Slides: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/slides.pdf</code></li>
-<li>Video: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/video.mp4</code></li>
+<li>Frame as &quot;current state, not permanent identity&quot;</li>
+<li>Ask: &quot;What would it take to move one profile closer to Harmonious high-achievers?&quot;</li>
+<li>If there's strong disagreement, capture both views: &quot;Some see us as X, others as Y&quot;</li>
 </ul>
-<h2>Facilitator Post Meeting</h2>
+<p><strong>If discussion stalls on throughput vs. stability</strong>:</p>
 <ul>
-<li>[ ] Send out meeting summary and the documented experiment commitment.</li>
+<li>Ask concrete questions: &quot;How many production incidents this month? Last month?&quot;</li>
+<li>&quot;Are we shipping more frequently or just coding faster?&quot;</li>
+</ul>
+<p><strong>If no one did the reading</strong>:</p>
+<ul>
+<li>Display Figure 2 (Team Profiles) from Source 2 and walk through it</li>
+<li>Shorten Section 1 to 5 min, extend Section 3 (profiles) to 25 min</li>
+</ul>
+<p><strong>If you run over time</strong>:</p>
+<ul>
+<li>Priority order: Section 3 (Profiles) &gt; Section 2 (Stability) &gt; Section 4 (Value) &gt; Section 1</li>
+<li>Combine Sections 1 and 2 into 15 min total</li>
+</ul>
+<p><strong>Managing the &quot;Five Views of Value&quot; discussion</strong>:</p>
+<ul>
+<li>Don't try to get consensus—different people value different things</li>
+<li>Capture which view is most dominant on the team (useful for Meeting 3)</li>
 </ul>

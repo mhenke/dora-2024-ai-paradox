@@ -26,20 +26,43 @@
                 <button class="tab__button" type="button" data-tab="meeting-2">
                     Meeting 2
                 </button>
+                <button class="tab__button" type="button" data-tab="meeting-3">
+                    Meeting 3
+                </button>
             </div>
 
             <div id="overview" class="tabcontent">
                 <h1>The DORA AI Paradox: Book Club Guide</h1>
-<p><strong>Theme</strong>: AI's Productivity Gains vs. Stability Collapse: The Great DORA Paradox</p>
-<p><strong>Core Question</strong>: How can we maximize AI's benefits while actively reducing its negative impact on software delivery stability ($\downarrow -7.2%$), by returning to core DORA principles (small batch sizes, user-centricity, stable priorities)?</p>
-<p><strong>Duration</strong>: 4 weeks | <strong>Format</strong>: 2 meetings (+ optional kickoff) | <strong>Meeting Frequency</strong>: Every 2 weeks</p>
+<p><strong>Theme</strong>: AI as an Amplifier: The Paradox of Speed vs. Stability</p>
+<p><strong>Core Question</strong>: How can we use AI to amplify our strengths rather than our weaknesses? We will explore why AI increases throughput but hurts stability ($\downarrow -7.2%$), and how to build the foundational capabilities (Platform Engineering, VSM) to fix it.</p>
+<p><strong>Duration</strong>: 6 weeks (flexible: can run in 4 weeks if weekly) | <strong>Format</strong>: 3 core meetings + optional Kickoff | <strong>Meeting Frequency</strong>: Every 1-2 weeks</p>
+<h2>Target Audience</h2>
+<p>This book club is designed for:</p>
+<ul>
+<li><strong>Individual contributors</strong> (software engineers, SREs) who use AI tools and can influence team practices</li>
+<li><strong>Tech leads</strong> who want to guide their team's AI adoption strategy</li>
+<li><strong>Engineering managers</strong> seeking to understand AI's organizational impact</li>
+</ul>
+<p><strong>Time commitment</strong>:</p>
+<ul>
+<li>~30 min reading every 1-2 weeks</li>
+<li>60-70 min per meeting (3 meetings total)</li>
+<li>Optional 30-min kickoff for baseline assessment</li>
+</ul>
 <h2>Learning Objectives</h2>
 <ul>
 <li>Establish baseline understanding of current AI usage and delivery friction.</li>
 <li>Critically analyze the AI Paradox: improved processes leading to worse outcomes.</li>
-<li>Identify and test the core drivers: Batch Size and Stable Priorities.</li>
-<li>Commit to actionable experiments using DORA's continuous improvement framework.</li>
+<li>Understand AI as an <strong>Amplifier</strong>: magnifying both strengths and dysfunctions.</li>
+<li>Identify core drivers: Batch Size, Stable Priorities, and Platform Quality.</li>
+<li>Commit to actionable strategies using the <strong>DORA AI Capabilities Model</strong>.</li>
 </ul>
+<h2>Resources</h2>
+<ul>
+<li><strong>Source 1</strong>: <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Accelerate State of DevOps Report</a></li>
+<li><strong>Source 2</strong>: <a href="https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report?hl=en">2025 DORA State of AI-Assisted Software Development</a></li>
+</ul>
+<p><strong>Reading Note</strong>: Source 1 (2024) provides foundational context on AI adoption and the initial &quot;AI Paradox&quot; findings. Source 2 (2025) updates these findings with the &quot;Amplifier&quot; concept, Team Profiles, and Capabilities Model. Page ranges are curated to minimize overlap—you won't be reading the same content twice.</p>
 <h2>Timeline Overview</h2>
 <table class="table">
 <thead class="table__head">
@@ -51,7 +74,7 @@
 </thead>
 <tbody class="table__body">
 <tr class="table__row">
-<td class="table__cell">Optional</td>
+<td class="table__cell">Week 0</td>
 <td class="table__cell">Meeting 0: Kickoff (Baseline Assessment)</td>
 <td class="table__cell">30 min</td>
 </tr>
@@ -62,7 +85,7 @@
 </tr>
 <tr class="table__row">
 <td class="table__cell">Week 2</td>
-<td class="table__cell">Meeting 1: AI's Benefits &amp; the Individual Paradox</td>
+<td class="table__cell">Meeting 1: The AI Paradox &amp; The Amplifier</td>
 <td class="table__cell">60 min</td>
 </tr>
 <tr class="table__row">
@@ -72,13 +95,18 @@
 </tr>
 <tr class="table__row">
 <td class="table__cell">Week 4</td>
-<td class="table__cell">Meeting 2: Downstream Detriments &amp; Strategy</td>
+<td class="table__cell">Meeting 2: Organizational Friction</td>
 <td class="table__cell">60 min</td>
 </tr>
 <tr class="table__row">
-<td class="table__cell">Week 4+</td>
-<td class="table__cell">Team experiments in action</td>
-<td class="table__cell">Ongoing</td>
+<td class="table__cell">Week 5-6</td>
+<td class="table__cell">Pre-reading for Meeting 3 (Strategy)</td>
+<td class="table__cell">Self-paced</td>
+</tr>
+<tr class="table__row">
+<td class="table__cell">Week 6</td>
+<td class="table__cell">Meeting 3: Strategy, Trust, and Measurement</td>
+<td class="table__cell">60 min</td>
 </tr>
 </tbody>
 </table>
@@ -95,28 +123,72 @@
 </thead>
 <tbody class="table__body">
 <tr class="table__row">
-<td class="table__cell">Meeting 0: Kickoff (Optional)</td>
-<td class="table__cell">As needed</td>
+<td class="table__cell">Meeting 0: Kickoff</td>
+<td class="table__cell">Week 0</td>
 <td class="table__cell">30 min</td>
 <td class="table__cell">None</td>
 <td class="table__cell">Setting the stage, baseline assessment &amp; questions</td>
 </tr>
 <tr class="table__row">
-<td class="table__cell">Meeting 1: AI's Dual Impact</td>
+<td class="table__cell">Meeting 1: The AI Paradox</td>
 <td class="table__cell">Week 2</td>
 <td class="table__cell">60 min</td>
-<td class="table__cell">Pages 17-26, 27-38</td>
-<td class="table__cell">The Paradox: Benefits (Flow, Productivity) vs. The Major Detriment (Stability Drop)</td>
+<td class="table__cell">Source 1: 17-38; Source 2: 3-6</td>
+<td class="table__cell">The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis</td>
 </tr>
 <tr class="table__row">
-<td class="table__cell">Meeting 2: Solution &amp; Strategy</td>
+<td class="table__cell">Meeting 2: Organizational Friction</td>
 <td class="table__cell">Week 4</td>
 <td class="table__cell">60 min</td>
-<td class="table__cell">Pages 57-68, 69-76</td>
-<td class="table__cell">The Hypotheses: Batch Size, Vacuum, and the Power of User-Centricity/Stable Priorities</td>
+<td class="table__cell">Source 1: 57-68; Source 2: 11-16</td>
+<td class="table__cell">Throughput vs. Stability, Team Profiles, and Value</td>
+</tr>
+<tr class="table__row">
+<td class="table__cell">Meeting 3: Strategy &amp; Success</td>
+<td class="table__cell">Week 6</td>
+<td class="table__cell">60 min</td>
+<td class="table__cell">Source 1: 69-76; Source 2: 49-64</td>
+<td class="table__cell">Capabilities Model, Platform Engineering, and Trust</td>
 </tr>
 </tbody>
 </table>
+<h2>Enhancing Understanding</h2>
+<p>To clarify the complex interplay between AI-driven individual performance gains and organizational stability losses:</p>
+<p>AI is currently acting like a super-efficient new tool in a factory that encourages workers to make massive parts instead of small, tested components. The individual workers (developers) feel productive and satisfied because they are generating huge amounts of output (code) very quickly. However, when these massive, quickly-generated parts are introduced into the overall production line (the software delivery pipeline), they are much harder to test and deploy reliably, leading to more defects and greater instability further down the line, ultimately harming the factory's overall speed and reliability. The solution is not to stop using the efficient tool, but to enforce the disciplined practice of manufacturing in small batch sizes so that the gains in productivity translate into stable organizational outcomes.</p>
+<h2>Success Criteria</h2>
+<p>After 6 weeks, the book club is successful if:</p>
+<p><strong>Level 1 (Participation)</strong>:</p>
+<ul>
+<li>[ ] 80%+ attendance at core meetings</li>
+<li>[ ] 60%+ pre-reading completion rate</li>
+</ul>
+<p><strong>Level 2 (Understanding)</strong>:</p>
+<ul>
+<li>[ ] Team can articulate the &quot;AI as Amplifier&quot; concept</li>
+<li>[ ] Team identifies their profile from the 7 Team Profiles</li>
+<li>[ ] Team assesses themselves against the 7 Capabilities</li>
+</ul>
+<p><strong>Level 3 (Action)</strong>:</p>
+<ul>
+<li>[ ] Core metric tracked for full 6 weeks (Meeting 0)</li>
+<li>[ ] 3+ specific commitments documented (Meeting 3)</li>
+<li>[ ] 3-month check-in scheduled</li>
+</ul>
+<p><strong>Level 4 (Impact)</strong> - Measured at 3-month check-in:</p>
+<ul>
+<li>[ ] Core metric shows improvement OR team understands why not</li>
+<li>[ ] Team references DORA concepts in retrospectives/planning</li>
+<li>[ ] At least 1 commitment has been implemented</li>
+</ul>
+<h3>About the Core Metric</h3>
+<p><strong>What if the metric gets worse?</strong> This is valuable data, not failure. If your metric degrades:</p>
+<ol>
+<li>Review which of the 7 Capabilities you're missing</li>
+<li>Check if you're working in small batches (most common issue)</li>
+<li>Assess if AI is amplifying existing dysfunctions</li>
+<li>Use this as input for your Meeting 3 commitments</li>
+</ol>
+<p><strong>The metric is a learning tool</strong>, not a success/fail test.</p>
 <h2>General Meeting Structure</h2>
 <p>Most meetings will follow a similar flow to ensure consistency and productive discussion:</p>
 <ol>
@@ -125,25 +197,6 @@
 <li><strong>Key Takeaways &amp; Decisions (5-10 min)</strong>: Summarize main insights, identify actionable items, and assign owners.</li>
 <li><strong>Next Steps &amp; Pre-work (5 min)</strong>: Outline reading assignments or tasks for the next meeting.</li>
 </ol>
-<h2>Quick Reference: Key Concepts</h2>
-<h3>The Vacuum Hypothesis</h3>
-<p>AI increases productivity but DECREASES time on valuable work.</p>
-<p><strong>Result</strong>: A &quot;vacuum&quot; of time that gets filled with non-valuable work (meetings, interruptions).</p>
-<h3>The Stability Contradiction (The Paradox)</h3>
-<p><strong>Observed</strong>: Better processes (code quality, documentation, reviews)</p>
-<p><strong>Observed</strong>: WORSE delivery stability ($\downarrow -7.2%$)</p>
-<p><strong>Leading Hypothesis</strong>: AI enables larger batch sizes (changelists), which DORA consistently shows is the primary driver for low stability.</p>
-<h3>User-Centricity</h3>
-<p>Four behaviors that define user-centric teams:</p>
-<ul>
-<li>Incorporate user feedback to reprioritize features.</li>
-<li>Know what users want to accomplish.</li>
-<li>Believe user experience is key to business success.</li>
-<li>Treat user experience as top priority.</li>
-</ul>
-<p><strong>Insight</strong>: When teams do this well, they can achieve high product quality even without perfect delivery metrics.</p>
-<hr>
-<p>&quot;The best teams are those that achieve elite improvement, not necessarily elite performance.&quot; - DORA Report 2024</p>
 
             </div>
 
@@ -454,15 +507,119 @@
   </ul>
 </div>
 <hr>
-<p><strong>Source:</strong> 2024 DORA Accelerate State of DevOps Report
-<strong>Available at:</strong> https://dora.dev/research/2024/dora-report/</p>
+<h2>The 7 Team Profiles (2025 Update)</h2>
+<p>From Source 2: 2025 DORA State of AI-Assisted Software Development</p>
+<div class="stat-block">
+  <div class="stat-block__header">How Teams Perform with AI</div>
+  <div class="stat-row">
+    <span class="stat-row__label">🏆 **Harmonious high-achievers**</span>
+    <span class="stat-row__value">High performance, low friction, low burnout - the ideal state</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">⚖️ **Pragmatic performers**</span>
+    <span class="stat-row__value">Balanced across most factors - solid middle ground</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">🐢 **Stable and methodical**</span>
+    <span class="stat-row__value">Very stable but slower throughput - quality over speed</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">🎯 **High impact, low cadence**</span>
+    <span class="stat-row__value">Strong product quality, low deployment frequency</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">⚙️ **Constrained by process**</span>
+    <span class="stat-row__value">High friction and burnout from inefficient processes</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">🔥 **Legacy bottleneck**</span>
+    <span class="stat-row__value">Constant firefighting, unstable systems</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">⚠️ **Foundational challenges**</span>
+    <span class="stat-row__value">Low across all performance indicators - needs fundamental change</span>
+  </div>
+</div>
+<div class="callout callout--info">
+  <div class="callout__title">Key Insight</div>
+  <p>Most teams start in "Constrained by process" or "Legacy bottleneck" when adopting AI. The goal is to move toward "Harmonious high-achievers" by addressing the 7 Capabilities.</p>
+</div>
+<hr>
+<h2>DORA AI Capabilities Model (2025)</h2>
+<p>These 7 capabilities <strong>amplify</strong> AI's benefits:</p>
+<div class="stat-block">
+  <div class="stat-block__header">The 7 Capabilities</div>
+  <div class="stat-row">
+    <span class="stat-row__label">1. **Clear and Communicated AI Stance**</span>
+    <span class="stat-row__value">Organization's official position on AI use is clear and widely communicated</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">2. **Healthy Data Ecosystems**</span>
+    <span class="stat-row__value">Quality, accessible, unified internal data systems</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">3. **AI-Accessible Internal Data**</span>
+    <span class="stat-row__value">AI tools are connected to internal company systems and data</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">4. **Strong Version Control Practices**</span>
+    <span class="stat-row__value">Frequent commits and robust rollback capability</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">5. **Working in Small Batches**</span>
+    <span class="stat-row__value">Breaking changes into manageable, reviewable units</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">6. **User-Centric Focus**</span>
+    <span class="stat-row__value">Keeping end users at the center of development decisions</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">7. **Quality Internal Platforms**</span>
+    <span class="stat-row__value">High-quality developer experience infrastructure</span>
+  </div>
+</div>
+<div class="callout callout--success">
+  <div class="callout__title">The Amplifier Effect</div>
+  <p>Teams that invest in these capabilities see <strong>greater benefits from AI</strong>. Without them, AI can amplify existing dysfunctions (e.g., large batch sizes → more instability).</p>
+</div>
+<hr>
+<h2>Success Criteria Framework</h2>
+<div class="stat-block">
+  <div class="stat-block__header">4 Levels of Book Club Success</div>
+  <div class="stat-row">
+    <span class="stat-row__label">**Level 1: Participation**</span>
+    <span class="stat-row__value">80%+ attendance, 60%+ pre-reading completion</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">**Level 2: Understanding**</span>
+    <span class="stat-row__value">Can articulate "AI as Amplifier", identify Team Profile, assess Capabilities</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">**Level 3: Action**</span>
+    <span class="stat-row__value">Core metric tracked for 6 weeks, commitments documented, check-in scheduled</span>
+  </div>
+  <div class="stat-row">
+    <span class="stat-row__label">**Level 4: Impact** (3-month check-in)</span>
+    <span class="stat-row__value">Metric improves OR team understands why not, concepts used in retrospectives</span>
+  </div>
+</div>
+<div class="callout callout--info">
+  <div class="callout__title">Using This Page</div>
+  <p><strong>Print this page as a 1-2 page reference handout</strong> for book club participants. It provides a quick visual summary of key concepts from both the 2024 and 2025 DORA reports.</p>
+</div>
+<hr>
+<p><strong>Sources:</strong></p>
+<ul>
+<li>2024 DORA Accelerate State of DevOps Report - https://dora.dev/research/2024/dora-report/</li>
+<li>2025 DORA State of AI-Assisted Software Development - https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report</li>
+</ul>
 
             </div>
 
             <div id="meeting-0" class="tabcontent">
-                <h1>Meeting 0: Baseline Assessment &amp; Kickoff</h1>
+                <h1>Meeting 0: Kickoff &amp; Baseline Assessment</h1>
 <h2>Overview</h2>
-<p>This kickoff meeting aims to establish a baseline understanding of the team's current AI usage, perceptions, and existing delivery friction. We will define a core metric to track AI's impact throughout the book club series.</p>
+<p>This kickoff meeting establishes a baseline understanding of the team's current AI usage and delivery performance. We will introduce the core theme: <strong>AI as an Amplifier</strong>—magnifying both strengths and dysfunctions—and define a metric to track AI's impact over the 6-week book club.</p>
 <h2>Reading Required</h2>
 <p>None</p>
 <h2>Pre-Work (Send 2-3 days before)</h2>
@@ -475,34 +632,45 @@
 <h2>Facilitator Preparation</h2>
 <p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 30 min</p>
 <ul>
-<li>[ ] Ensure the key questions are visible (e.g., on a whiteboard or shared document).</li>
-<li>[ ] Prepare reading assignment handout for Meeting 1 (Pages 17-38 of the DORA report).</li>
+<li>[ ] Ensure the key questions are visible.</li>
+<li>[ ] Prepare reading assignment handout for Meeting 1:
+<ul>
+<li>Source 1 (2024 DORA Report): Pages 17-38</li>
+<li>Source 2 (2025 DORA Report): Pages 3-6</li>
+</ul>
+</li>
 </ul>
 <h2>Agenda</h2>
-<p>Introduction &amp; Context (5 min)</p>
+<h3>1. Introduction &amp; Context (5 min)</h3>
 <ul>
-<li>Set the context—this book club is about critical analysis of AI's impact, not just praise. The DORA report identified major trade-offs that we will explore.</li>
+<li><strong>Set the context</strong>: This book club explores AI's complex impact on software delivery.</li>
+<li><strong>The Amplifier Effect</strong>: The 2025 DORA findings show AI acts as an <strong>amplifier</strong>—it magnifies both our strengths (productivity, satisfaction) and our weaknesses (instability, batch size issues).</li>
+<li><strong>The Central Question</strong>: How do we use AI to amplify our strengths rather than our dysfunctions?</li>
 </ul>
-<hr>
-<p>Review Pre-Work &amp; Current Friction Points (15 min)</p>
+<h3>2. Review Pre-Work &amp; Current Friction Points (15 min)</h3>
 <ul>
-<li>Capture collective answers on the whiteboard regarding individual AI usage, recent production incidents, and perceived organizational priority stability. Focus discussion on identifying the greatest current friction point in delivery.</li>
+<li><strong>Discussion</strong>:
+<ul>
+<li>How are we using AI today?</li>
+<li>Where is our greatest current friction point in delivery?</li>
+<li>Do we feel our priorities are stable?</li>
 </ul>
-<hr>
-<p>Define Core Metric for Tracking AI Impact (10 min)</p>
+</li>
+</ul>
+<h3>3. Define Core Metric for Tracking AI Impact (10 min)</h3>
 <ul>
-<li>As a team, decide on one quantitative metric (e.g., Change Failure Rate, PR Size, Deployment Frequency) that the group will track over the course of the book club to measure AI's impact.</li>
+<li><strong>Decision</strong>: As a team, decide on one quantitative metric (e.g., PR Size, Change Failure Rate, Deployment Frequency) to track over the 6 weeks.</li>
+<li><strong>Goal</strong>: Align with Success Criteria Level 3 - track this metric to see if it improves or degrades.</li>
+<li><strong>Important</strong>: If the metric gets worse, that's valuable data (not failure) - use it to diagnose which of the 7 Capabilities we need.</li>
 </ul>
 <h2>Key Questions</h2>
 <ul>
 <li>What AI tools are we relying on today (and why)?</li>
 <li>Where is our greatest current friction point in delivery (the real bottleneck)?</li>
 <li>What is the current team-wide consensus on trust in AI-generated code?</li>
-<li>How stable do our organizational priorities feel? (1-5 scale)</li>
 </ul>
-<p><strong>Immediate Action</strong>: We must define one metric to track AI impact (e.g., PR size, deployment frequency).</p>
 <h2>Outcome</h2>
-<p>Establish baseline understanding of team's current state with AI and delivery performance.</p>
+<p>Establish baseline understanding of team's current state with AI and delivery performance, and agree on a tracking metric.</p>
 <h2>Meeting Resources</h2>
 <ul>
 <li>Deep Dive Podcast: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting0/podcast.mp3</code></li>
@@ -512,152 +680,353 @@
 <h2>Facilitator Post Meeting</h2>
 <ul>
 <li>[ ] Send out meeting summary and agreed-upon core metric.</li>
-<li>[ ] Distribute reading materials for Meeting 1 (Pages 17-38 of the DORA report).</li>
+<li>[ ] Distribute reading materials for Meeting 1:
+<ul>
+<li>Source 1 (2024 DORA Report): Pages 17-38</li>
+<li>Source 2 (2025 DORA Report): Pages 3-6</li>
+<li>Both sources available at: https://dora.dev</li>
+</ul>
+</li>
 <li>[ ] Schedule Meeting 1.</li>
 </ul>
 
             </div>
 
             <div id="meeting-1" class="tabcontent">
-                <h1>Meeting 1: AI's Benefits &amp; the Individual Paradox</h1>
+                <h1>Meeting 1: The AI Paradox &amp; The Amplifier</h1>
 <h2>Overview</h2>
-<p>This meeting will delve into the dual impact of AI, exploring both the significant benefits it brings to individual productivity and development processes, as well as the surprising detriment to overall software delivery stability. We will critically analyze the &quot;AI Paradox&quot; and the underlying hypotheses.</p>
-<h2>Reading Required</h2>
-<p>Pages 17-26, 27-38 of the 2024 DORA Accelerate State of DevOps Report.</p>
+<p>This meeting establishes the current landscape of AI adoption. We will explore the &quot;AI Paradox&quot; (productivity vs. value) and the new 2025 finding that AI acts as an <strong>Amplifier</strong>—magnifying both organizational strengths and dysfunctions.</p>
+<h2>Reading Required (Est. 35 min)</h2>
+<ul>
+<li><strong>Source 1</strong> - 2024 DORA Report: Pages 17-38 (Executive Summary, Adoption and Attitudes)
+<ul>
+<li>File: <code>2024-dora-accelerate-state-of-devops-report.pdf</code></li>
+</ul>
+</li>
+<li><strong>Source 2</strong> - 2025 DORA Report: Pages 3-6 (Executive Summary: AI is an Amplifier)
+<ul>
+<li>File: <code>2025_state_of_ai_assisted_software_development.pdf</code></li>
+</ul>
+</li>
+</ul>
 <h2>Facilitator Preparation</h2>
 <p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 60 min</p>
 <ul>
-<li>[ ] Send reading reminder 1 week before with page numbers (17-26, 27-38).</li>
-<li>[ ] Have whiteboard ready for the Vacuum Hypothesis diagram (from the Visual Summary or Figure 8, p. 35).</li>
-<li>[ ] Prepare Figure 7 (p. 32) from the PDF to share (Impacts of AI adoption on individual success and well-being).</li>
-<li>[ ] Prepare Figure 9 (p. 37) from the PDF to share (Impacts of AI adoption on organizations).</li>
-<li>[ ] Prepare Figure 5 (p. 23) from the PDF to share (Trust in quality of AI-generated code).</li>
-<li>[ ] Prepare Figure 6 (p. 25) from the PDF to share (Respondents' expectations about AI's future negative impacts).</li>
+<li>[ ] Send reading reminder 1 week before.</li>
+<li>[ ] Review the &quot;Amplifier&quot; concept: AI makes fast teams faster, but chaotic teams more chaotic.</li>
+<li>[ ] Prepare to discuss the &quot;Vacuum Hypothesis&quot;.</li>
 </ul>
 <h2>Agenda</h2>
-<p>Review Benefits (15 min)</p>
+<h3>1. The State of AI Adoption (10 min)</h3>
 <ul>
-<li><strong>Individual Gains:</strong> Discuss how 75% of respondents reported positive productivity gains from AI. Explore increases in flow state (+2.6%), job satisfaction (+2.2%), and productivity (+2.1%) with a 25% increase in AI adoption (Figure 7, p. 32).</li>
-<li><strong>Process Improvements:</strong> Examine how AI adoption is associated with significant improvements in documentation quality (+7.5%), code quality (+3.4%), code review speed (+3.1%), approval speed (+1.3%), and a decrease in code complexity (-1.8%) (Figure 9, p. 37).</li>
-<li>Reference: Visual Summary - &quot;What's Working: The Benefits&quot; section.</li>
+<li><strong>Review</strong>:
+<ul>
+<li>90% of respondents now use AI (2025 Report).</li>
+<li>Most common uses: writing code, summarizing information.</li>
 </ul>
-<hr>
-<p>The Vacuum Hypothesis (20 min)</p>
-<ul>
-<li>Discuss the observed $\downarrow -2.6%$ drop in time spent on valuable work despite increased productivity.</li>
-<li>Explore the &quot;vacuum hypothesis&quot;: AI helps finish valuable work faster, creating extra time that gets filled with non-valuable work (meetings, interruptions, context switching), rather than reducing toil (p. 33-35).</li>
-<li>Reference: Visual Summary - &quot;The Vacuum Hypothesis&quot; diagram and explanation.</li>
+</li>
+<li><strong>Discussion</strong>: How does this match our own team's experience?</li>
 </ul>
-<hr>
-<p>The Stability Contradiction (15 min)</p>
+<h3>2. AI as an Amplifier (15 min)</h3>
 <ul>
-<li>Introduce the major finding: Despite process improvements, software delivery stability $\downarrow -7.2%$ (Visual Summary).</li>
-<li>Discuss the paradox: Why would better code quality and faster reviews lead to worse outcomes? Is it due to over-reliance on AI or trusting AI-generated code too much? (p. 38).</li>
-<li>Reference: Visual Summary - &quot;What's Broken: The Contradiction&quot; section.</li>
+<li><strong>Concept</strong>: The 2025 report states, &quot;AI’s primary role in software development is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones.&quot;</li>
+<li><strong>Discussion</strong>:
+<ul>
+<li>What strengths in our team is AI amplifying?</li>
+<li>What dysfunctions or bad habits is it making worse?</li>
 </ul>
-<hr>
-<p>Trust in AI-Generated Code (5 min)</p>
-<ul>
-<li>Discuss the complex perceptions: 87.9% reported some trust, but 39.2% reported little or no trust (Figure 5, p. 23).</li>
-<li>Explore the hypothesis that developers don't require absolute trust; &quot;mostly-correct&quot; AI-generated code that can be tweaked is valuable enough (p. 24).</li>
-<li>How does our team verify and modify AI-generated output?</li>
-<li>Reference: Visual Summary - &quot;The Trust Paradox&quot; section.</li>
+</li>
 </ul>
-<hr>
-<p>Expectations for AI's Future (5 min)</p>
+<h3>3. The Potential Trade-Offs and the Vacuum Hypothesis (20 min)</h3>
 <ul>
-<li>Discuss the mixed feelings: optimistic about product quality, but pessimistic about careers, society, and the environment in the long term (Figure 6, p. 25).</li>
-<li>Reference: Visual Summary - &quot;The Future Outlook: Mixed Feelings&quot; section.</li>
+<li><strong>Review</strong>: The finding that increased AI adoption may <em>reduce</em> time spent on valuable work (2024 Report).</li>
+<li><strong>The Vacuum Hypothesis</strong>: AI expedites valuable work, creating extra time that gets filled with non-valuable work (meetings, bureaucracy).</li>
+<li><strong>Discussion</strong>:
+<ul>
+<li>Does this hypothesis resonate with us?</li>
+<li>When AI saves us time, where does that time go?</li>
+</ul>
+</li>
+</ul>
+<h3>4. Buffer &amp; Q&amp;A (5 min)</h3>
+<ul>
+<li>Open discussion for any remaining questions or clarifications.</li>
+</ul>
+<h3>5. Wrap-up &amp; Next Steps (10 min)</h3>
+<ul>
+<li>Summarize key takeaways.</li>
+<li>Assign reading for Meeting 2: Organizational Friction (Source 1: 57-68; Source 2: 11-16).</li>
 </ul>
 <h2>Key Questions</h2>
 <ul>
-<li>Where does the AI-freed time actually go in our team/organization?</li>
-<li>Is code quality truly better, or just easier to work with due to AI assistance?</li>
-<li>Why is there a disconnect between current positive gains from AI and future pessimistic expectations?</li>
-<li>How does our team currently verify and modify AI-generated output?</li>
+<li>If AI is an amplifier, what are we amplifying right now?</li>
+<li>If AI makes us faster at coding, why might we feel less productive in terms of &quot;valuable work&quot;?</li>
 </ul>
-<h2>Meeting Resources</h2>
+<h2>Facilitator Notes</h2>
+<p><strong>If discussion stalls</strong>:</p>
 <ul>
-<li>Deep Dive Podcast: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting1/podcast.mp3</code></li>
-<li>PDF Slides: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting1/slides.pdf</code></li>
-<li>Video: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting1/video.mp4</code></li>
+<li>Ask: &quot;Think about your last sprint. Did AI help you ship faster or just code faster?&quot;</li>
+<li>Show of hands: &quot;How many have used AI this week?&quot; Then: &quot;What for?&quot;</li>
 </ul>
-<h2>Facilitator Post Meeting</h2>
+<p><strong>If no one did the reading</strong>:</p>
 <ul>
-<li>[ ] Send out meeting summary and any team-specific insights or questions that arose during the discussion.</li>
-<li>[ ] Distribute reading materials for Meeting 2 (Pages 57-68, 69-76 of the DORA report).</li>
-<li>[ ] Schedule Meeting 2.</li>
+<li>Spend 10 min summarizing the Amplifier concept from Source 2</li>
+<li>Shorten discussion sections by 3-5 min each if needed</li>
+<li>Extend wrap-up to ensure reading is assigned for Meeting 2</li>
+</ul>
+<p><strong>If you run over time</strong>:</p>
+<ul>
+<li>Priority order: Section 2 (Amplifier) &gt; Section 3 (Vacuum) &gt; Section 1 &gt; Section 4</li>
+<li>Skip Section 4 entirely and move to Meeting 2 pre-work</li>
+</ul>
+<p><strong>Handling sensitive topics</strong> (trust in AI):</p>
+<ul>
+<li>Normalize different comfort levels: &quot;It's healthy to have varied trust levels&quot;</li>
+<li>Avoid forcing consensus—capture the range of opinions</li>
+<li>Redirect blame away from individuals: &quot;This is a systems issue, not a people issue&quot;</li>
 </ul>
 
             </div>
 
             <div id="meeting-2" class="tabcontent">
-                <h1>Meeting 2: Downstream Detriments &amp; Strategy</h1>
+                <h1>Meeting 2: Organizational Friction</h1>
 <h2>Overview</h2>
-<p>This meeting focuses on the downstream detriments of AI adoption, particularly its impact on software delivery stability and throughput. We will explore the leading hypothesis linking AI to larger changelists and lower stability, and discuss the critical roles of user-centricity and stable priorities in mitigating these negative effects. The session will conclude with a commitment to actionable experiments.</p>
-<h2>Reading Required</h2>
-<p>Pages 57-68, 69-76 of the 2024 DORA Accelerate State of DevOps Report.</p>
+<p>This meeting focuses on the downstream effects of AI. We will discuss the 2025 finding that while AI <em>is</em> improving throughput (speed), it is still negatively impacting stability. We will also look at the &quot;7 Team Profiles&quot; to see where we fit.</p>
+<h2>Reading Required (Est. 30 min)</h2>
+<ul>
+<li><strong>Source 1</strong> - 2024 DORA Report: Pages 57-68 (Exploring the Downstream Impact of AI)
+<ul>
+<li>File: <code>2024-dora-accelerate-state-of-devops-report.pdf</code></li>
+</ul>
+</li>
+<li><strong>Source 2</strong> - 2025 DORA Report: Pages 11-16 (Software Delivery Performance &amp; Team Profiles)
+<ul>
+<li>File: <code>2025_state_of_ai_assisted_software_development.pdf</code></li>
+</ul>
+</li>
+</ul>
+<h2>Pre-Work (Optional, 5 min)</h2>
+<p>Before the meeting, reflect on these questions:</p>
+<ul>
+<li>How do you personally define &quot;valuable work&quot;?</li>
+<li>Does AI help you do more valuable work, or just more work?</li>
+</ul>
 <h2>Facilitator Preparation</h2>
 <p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 60 min</p>
 <ul>
-<li>[ ] Send reading reminder 1 week before (Pgs 57-68, 69-76).</li>
-<li>[ ] Prepare Figure 15 (p. 60) from the PDF to share (User-Centricity and Product Performance).</li>
-<li>[ ] Prepare Figure 17 (p. 67) from the PDF to share (Priority Stability and Software Delivery Stability).</li>
-<li>[ ] Have a shared, editable document ready for documenting the experiment commitment.</li>
+<li>[ ] Send reading reminder 1 week before.</li>
+<li>[ ] Review the &quot;7 Team Profiles&quot; (e.g., Harmonious high-achievers, Legacy bottleneck).</li>
+<li>[ ] Prepare to discuss the &quot;Throughput vs. Stability&quot; trade-off.</li>
 </ul>
 <h2>Agenda</h2>
-<p>Delivery Performance (10 min)</p>
+<h3>1. The Shift: Throughput is Improving (10 min)</h3>
 <ul>
-<li>Review the observed decline in software delivery stability ($\downarrow -7.2%$) and throughput ($\downarrow -1.5%$) with increased AI adoption (Visual Summary).</li>
-<li>Discuss why, historically, better code quality and faster reviews led to better delivery performance, but with AI, this trend is reversed (p. 27).</li>
+<li><strong>Review</strong>:
+<ul>
+<li>2024 Finding: AI hurt both throughput and stability.</li>
+<li>2025 Finding: AI now <em>improves</em> throughput, but <em>still hurts</em> stability.</li>
 </ul>
-<hr>
-<p>The Leading Hypothesis: AI, Changelists, and Stability (15 min)</p>
-<ul>
-<li>Discuss the hypothesis: AI → Faster code writing → Larger changelists → Lower stability (Visual Summary).</li>
-<li>Explore the idea that AI may be causing us to forget DORA's basic principle: Small batch sizes = Fast + Stable.</li>
-<li>Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?</li>
+</li>
+<li><strong>Discussion</strong>: Are we shipping faster? Are we breaking things more often?</li>
 </ul>
-<hr>
-<p>User-Centricity as a Mitigation Strategy (15 min)</p>
+<h3>2. The Stability Problem (15 min)</h3>
 <ul>
-<li>Discuss DORA's surprising finding: &quot;When organizations focus on the user, stability and throughput of software delivery are not a requirement for product quality.&quot; (p. 59). Product quality will be high as long as the user experience is at the forefront.</li>
-<li>Review the four behaviors of user-centric teams (p. 58). Which of these is our greater organizational weakness?</li>
-<li>Discuss how user-centered approaches increase productivity, job satisfaction, and reduce burnout (p. 59).</li>
-<li>Reference: Visual Summary - &quot;The Alternative Path: User-Centricity&quot; section.</li>
-<li>Facilitator Note: Prepare Figure 15 (p. 60) from the PDF to share (Product performance and delivery throughput across 3 levels of user centricity).</li>
+<li><strong>Review</strong>: The persistent negative impact on delivery stability.</li>
+<li><strong>Hypothesis</strong>: We are moving faster than our systems can handle. The &quot;Amplifier&quot; effect is making our instability worse.</li>
+<li><strong>Discussion</strong>: What is our biggest source of instability right now?</li>
 </ul>
-<hr>
-<p>The Priority Stability Problem (10 min)</p>
+<h3>3. The 7 Team Profiles (20 min)</h3>
 <ul>
-<li>Discuss how unstable organizational priorities lead to meaningful decreases in productivity and substantial increases in burnout (p. 65).</li>
-<li>Explore the finding that strong leaders, good documentation, and user-centered approaches <em>cannot</em> mitigate the burnout caused by unstable priorities (p. 65).</li>
-<li>How stable are our priorities currently? What can organizations do to stabilize priorities or shield employees from constant shifts? (p. 68).</li>
-<li>Reference: Visual Summary - &quot;The Priority Stability Problem&quot; section.</li>
-<li>Facilitator Note: Prepare Figure 17 (p. 67) from the PDF to share (Software delivery stability as a function of adding AI-powered experiences).</li>
+<li><strong>Review</strong> (5 min): The new profiles identified in 2025 (refer to Source 2, Figure 2, page 16):
+<ul>
+<li><strong>Harmonious high-achievers</strong>: High performance, low friction, low burnout</li>
+<li><strong>Pragmatic performers</strong>: Balanced across most factors</li>
+<li><strong>Stable and methodical</strong>: Stable but slower throughput</li>
+<li><strong>High impact, low cadence</strong>: Strong product, low deployment frequency</li>
+<li><strong>Constrained by process</strong>: High friction, burnout from inefficient processes</li>
+<li><strong>Legacy bottleneck</strong>: Constant firefighting, unstable systems</li>
+<li><strong>Foundational challenges</strong>: Low across all performance indicators</li>
 </ul>
-<hr>
-<p>Experiment Commitment (10 min)</p>
+</li>
+<li><strong>Activity</strong> (15 min total):
+<ol>
+<li><strong>Individual assessment</strong> (3 min): Each person silently identifies 1-2 profiles that best describe the team</li>
+<li><strong>Pair discussion</strong> (7 min): In pairs, share your choices and reasoning</li>
+<li><strong>Full team convergence</strong> (5 min): Poll the team and discuss the top 1-2 profiles</li>
+</ol>
+</li>
+<li><strong>Discussion</strong>: What is holding us back from being &quot;Harmonious high-achievers&quot;?</li>
+</ul>
+<h3>4. How Developers Define Value (10 min)</h3>
 <ul>
-<li>Design a mitigation strategy for the AI Paradox (e.g., limiting PR size, stabilizing a priority).</li>
-<li>Define the problem, hypothesis, measurement, duration, and owner for the experiment.</li>
+<li><strong>Review</strong>: The Five views of &quot;value&quot;:
+<ul>
+<li><strong>Utilitarian</strong>: Value from solving problems and being useful to others</li>
+<li><strong>Reputational</strong>: Value from peer recognition and status in the community</li>
+<li><strong>Economic</strong>: Value from compensation and career advancement</li>
+<li><strong>Intrinsic</strong>: Value from personal growth, mastery, and learning</li>
+<li><strong>Hedonistic</strong>: Value from enjoyment, fun, and pleasure in the work itself</li>
+</ul>
+</li>
+<li><strong>Discussion</strong>: Does AI help us achieve the value we care about?</li>
+</ul>
+<h3>5. Wrap-up &amp; Next Steps (5 min)</h3>
+<ul>
+<li>Summarize key takeaways.</li>
+<li>Assign reading for Meeting 3: Strategy &amp; Success (Source 1: 69-76; Source 2: 49-64).</li>
 </ul>
 <h2>Key Questions</h2>
 <ul>
-<li>Are our Pull Requests (PRs) getting bigger with AI assistance? Can we measure this?</li>
-<li>How user-centric are we really as a team/organization?</li>
-<li>How stable are our organizational priorities currently?</li>
-<li>What experiment will we commit to in order to mitigate the AI Paradox or address foundational issues?</li>
+<li>Why is our stability lagging behind our speed?</li>
+<li>Which &quot;Team Profile&quot; do we aspire to be, and what is the gap?</li>
+</ul>
+<h2>Facilitator Notes</h2>
+<p><strong>If the Team Profile activity causes conflict</strong>:</p>
+<ul>
+<li>Frame as &quot;current state, not permanent identity&quot;</li>
+<li>Ask: &quot;What would it take to move one profile closer to Harmonious high-achievers?&quot;</li>
+<li>If there's strong disagreement, capture both views: &quot;Some see us as X, others as Y&quot;</li>
+</ul>
+<p><strong>If discussion stalls on throughput vs. stability</strong>:</p>
+<ul>
+<li>Ask concrete questions: &quot;How many production incidents this month? Last month?&quot;</li>
+<li>&quot;Are we shipping more frequently or just coding faster?&quot;</li>
+</ul>
+<p><strong>If no one did the reading</strong>:</p>
+<ul>
+<li>Display Figure 2 (Team Profiles) from Source 2 and walk through it</li>
+<li>Shorten Section 1 to 5 min, extend Section 3 (profiles) to 25 min</li>
+</ul>
+<p><strong>If you run over time</strong>:</p>
+<ul>
+<li>Priority order: Section 3 (Profiles) &gt; Section 2 (Stability) &gt; Section 4 (Value) &gt; Section 1</li>
+<li>Combine Sections 1 and 2 into 15 min total</li>
+</ul>
+<p><strong>Managing the &quot;Five Views of Value&quot; discussion</strong>:</p>
+<ul>
+<li>Don't try to get consensus—different people value different things</li>
+<li>Capture which view is most dominant on the team (useful for Meeting 3)</li>
+</ul>
+
+            </div>
+
+            <div id="meeting-3" class="tabcontent">
+                <h1>Meeting 3: Strategy &amp; Success</h1>
+<h2>Overview</h2>
+<p>The final meeting synthesizes actionable strategies. We will focus on the new <strong>DORA AI Capabilities Model</strong> and the critical role of <strong>Platform Engineering</strong> in unlocking AI's value.</p>
+<h2>Reading Required (Est. 25 min)</h2>
+<ul>
+<li><strong>Source 1</strong> - 2024 DORA Report: Pages 69-76 (Applying Insights)
+<ul>
+<li>File: <code>2024-dora-accelerate-state-of-devops-report.pdf</code></li>
+</ul>
+</li>
+<li><strong>Source 2</strong> - 2025 DORA Report: Pages 49-64 (DORA AI Capabilities Model &amp; Platform Engineering)
+<ul>
+<li>File: <code>2025_state_of_ai_assisted_software_development.pdf</code></li>
+</ul>
+</li>
+</ul>
+<h2>Facilitator Preparation</h2>
+<p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 60 min</p>
+<ul>
+<li>[ ] Send reading reminder 1 week before.</li>
+<li>[ ] Review the 7 Capabilities in the DORA AI Capabilities Model.</li>
+<li>[ ] Prepare to discuss &quot;Platform as a Product&quot;.</li>
+</ul>
+<h2>Agenda</h2>
+<h3>1. The DORA AI Capabilities Model (20 min)</h3>
+<ul>
+<li><strong>Review</strong>: The 7 foundational capabilities that amplify AI's impact:
+<ol>
+<li><strong>Clear and Communicated AI Stance</strong> - Organization's official position on AI use</li>
+<li><strong>Healthy Data Ecosystems</strong> - Quality, accessible, unified internal data</li>
+<li><strong>AI-Accessible Internal Data</strong> - AI tools connected to internal systems</li>
+<li><strong>Strong Version Control Practices</strong> - Frequent commits and rollback capability</li>
+<li><strong>Working in Small Batches</strong> - Breaking changes into manageable units</li>
+<li><strong>User-Centric Focus</strong> - Keeping end users at center of development</li>
+<li><strong>Quality Internal Platforms</strong> - High-quality developer experience infrastructure</li>
+</ol>
+</li>
+<li><strong>Discussion</strong>: Which of these 7 capabilities is our strongest? Which is our weakest?</li>
+</ul>
+<h3>2. Platform Engineering as a Foundation (15 min)</h3>
+<ul>
+<li><strong>Review</strong>:
+<ul>
+<li>90% of organizations have adopted platform engineering.</li>
+<li>A high-quality platform is essential for AI success.</li>
+</ul>
+</li>
+<li><strong>Discussion</strong>: Do we have a &quot;paved road&quot; for development? Does our platform reduce cognitive load?</li>
+</ul>
+<h3>3. Fostering Trust (10 min)</h3>
+<ul>
+<li><strong>Review</strong>: Strategies to address low trust (policies, feedback, exposure).</li>
+<li><strong>Discussion</strong>: Has our trust in AI changed over the last 6 weeks?</li>
+</ul>
+<h3>4. Measuring Success (10 min)</h3>
+<ul>
+<li><strong>Review</strong>: Moving beyond simple metrics (like &quot;lines of code&quot;) to outcomes (Flow, Satisfaction, Value).</li>
+<li><strong>Discussion</strong>: What metrics should we track going forward?</li>
+</ul>
+<h3>5. Team Commitments &amp; Next Steps (10 min)</h3>
+<ul>
+<li><strong>Activity</strong>:
+<ol>
+<li><strong>Individual</strong> (3 min): Write down ONE specific change you'll make
+<ul>
+<li>Format: &quot;In the next 3 months, I will [action] to [outcome]&quot;</li>
+<li>Example: &quot;I will reduce my PR size to &lt;400 lines to improve code review quality&quot;</li>
+</ul>
+</li>
+<li><strong>Pair share</strong> (4 min): Share with a partner for accountability</li>
+<li><strong>Team summary</strong> (3 min): Facilitator captures top 3 team commitments</li>
+</ol>
+</li>
+<li><strong>Schedule 3-month check-in</strong>: Add 30-min meeting to calendar for Week 18</li>
+<li><strong>Deliverable</strong>: Facilitator sends team commitments doc within 24 hours</li>
+</ul>
+<h2>Key Questions</h2>
+<ul>
+<li>Do we have the foundational capabilities (like a good platform) to support AI?</li>
+<li>Are we treating our internal platform as a product?</li>
+</ul>
+<h2>Facilitator Notes</h2>
+<p><strong>If the commitment activity feels rushed</strong>:</p>
+<ul>
+<li>Extend the meeting to 70 min to give proper time (10 min instead of 5)</li>
+<li>Make commitments in writing, not just verbal</li>
+<li>Use the format: &quot;In the next 3 months, I will [action] to [outcome]&quot;</li>
+</ul>
+<p><strong>If discussion stalls on the 7 Capabilities</strong>:</p>
+<ul>
+<li>Go through each capability and ask: &quot;Rate us 1-5 on this. Why?&quot;</li>
+<li>Focus on the weakest 2-3 capabilities, not all 7</li>
+</ul>
+<p><strong>If no one did the reading</strong>:</p>
+<ul>
+<li>Display the 7 Capabilities (already listed in Section 1) and define each briefly</li>
+<li>Shorten Section 2 (Platform) to 10 min</li>
+</ul>
+<p><strong>If you run over time</strong>:</p>
+<ul>
+<li>Priority order: Section 5 (Commitments) &gt; Section 1 (Capabilities) &gt; Section 3 (Trust) &gt; Section 2</li>
+<li>Skip Section 4 (Metrics) if necessary—most teams know what to track by now</li>
+</ul>
+<p><strong>Making commitments actionable</strong>:</p>
+<ul>
+<li>Insist on specificity: &quot;I'll be more careful&quot; is not a commitment</li>
+<li>Good example: &quot;I will reduce PR size to &lt;400 lines&quot;</li>
+<li>Bad example: &quot;I'll use AI better&quot;</li>
+<li>Schedule the 3-month check-in before people leave the meeting</li>
 </ul>
 <h2>Meeting Resources</h2>
 <ul>
-<li>Deep Dive Podcast: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/podcast.mp3</code></li>
-<li>PDF Slides: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/slides.pdf</code></li>
-<li>Video: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting2/video.mp4</code></li>
-</ul>
-<h2>Facilitator Post Meeting</h2>
-<ul>
-<li>[ ] Send out meeting summary and the documented experiment commitment.</li>
+<li><strong>Assessment</strong>: <a href="../content/Final_Assessment.md">Final Assessment</a> (Complete this after the meeting)</li>
+<li>Deep Dive Podcast: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/podcast.mp3</code></li>
+<li>PDF Slides: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/slides.pdf</code></li>
+<li>Video: <code>https://your-unique-bucket-name.s3.your-aws-region.amazonaws.com/meeting3/video.mp4</code></li>
 </ul>
 
             </div>
