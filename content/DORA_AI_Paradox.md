@@ -27,9 +27,11 @@ This book club is designed for:
 *   Commit to actionable strategies using the **DORA AI Capabilities Model**.
 
 ## Resources
-*   **Source 1 (PRIMARY)**: [State of AI-Assisted Software Development (2025)](https://dora.dev/research/ai/#state-of-ai-assisted-software-development) - 142 pages
+For a complete collection of reports, deep dives, and articles, visit [DORA Research: Artificial Intelligence](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development).
+
+*   **Source 1 (PRIMARY)**: [State of AI-Assisted Software Development (2025)](https://cloud.google.com/dora) - 142 pages
     - Main research report with Amplifier concept, 7 Team Profiles, DORA AI Capabilities Model
-*   **Source 2 (SECONDARY)**: [Impact of Gen AI in Software Development (2025)](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development) - 56 pages
+*   **Source 2 (SECONDARY)**: [Impact of Gen AI in Software Development (2025)](https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf) - 56 pages
     - Companion guide providing Vacuum Hypothesis, Five Views of Value, practical strategies
 
 **Reading Note**: Source 1 is the comprehensive 2025 State report containing all essential frameworks. Source 2 is a companion guide that provides deeper analysis on specific topics. Reading assignments use BOTH sources strategically—approximately 8-10 pages from Source 1 (primary) and 4-6 pages from Source 2 (secondary) per meeting, totaling ~30 minutes of reading.
