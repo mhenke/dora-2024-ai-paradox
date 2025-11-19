@@ -322,7 +322,7 @@ The Disconnect: Short-term experience is positive, but long-term expectations ar
 
 ## Key Questions for Discussion
 
-### Meeting 1: Diagnosis & Paradoxes
+### Meeting 1: Diagnosis &amp; Paradoxes
 Where does the AI-freed time actually go?
 Why is instability increasing despite individual productivity gains?
 Which of the Five Views of Value is most at risk in our team?
@@ -332,7 +332,7 @@ If our platform quality is poor, what are the immediate risks of AI adoption?
 Do we have visibility into our end-to-end flow (VSM)?
 What company-specific data should AI tools access to be more effective?
 
-### Meeting 3: Execution & Trust
+### Meeting 3: Execution &amp; Trust
 How do we enforce small batch discipline when AI encourages large changes?
 What would "dedicated learning time" look like concretely for our team?
 Where might we be moving fast in the wrong direction (user-centric check)?
@@ -364,7 +364,7 @@ Where might we be moving fast in the wrong direction (user-centric check)?
   <ul>
     <li><strong>Platform Engineering</strong> (The essential foundation)</li>
     <li><strong>Value Stream Management</strong> (The force multiplier)</li>
-    <li><strong>Data & Governance</strong> (The enablers)</li>
+    <li><strong>Data &amp; Governance</strong> (The enablers)</li>
     <li><strong>Execution Discipline</strong> (Small batches, version control, user focus)</li>
   </ul>
 </div>

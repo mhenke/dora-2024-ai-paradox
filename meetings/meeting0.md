@@ -1,4 +1,4 @@
-# Meeting 0: Kickoff & Baseline Assessment
+# Meeting 0: Kickoff &amp; Baseline Assessment
 
 ## Overview
 This kickoff meeting establishes a baseline understanding of the team's current AI usage and delivery performance. We introduce the core theme: **AI as an Amplifier**—magnifying both strengths and dysfunctions—and define a metric to track AI's impact over the 6-week book club.
@@ -24,12 +24,12 @@ Take 5 minutes to note:
 
 ## Agenda
 
-### 1. Introduction & Context (5 min)
+### 1. Introduction &amp; Context (5 min)
 *   **Set the context**: This book club explores AI's complex impact on software delivery.
 *   **The Amplifier Effect**: The 2025 DORA findings show AI acts as an **amplifier**—it magnifies both our strengths (productivity, satisfaction) and our weaknesses (instability, batch size issues).
 *   **The Central Question**: How do we use AI to amplify our strengths rather than our dysfunctions?
 
-### 2. Review Pre-Work & Current Friction Points (10 min)
+### 2. Review Pre-Work &amp; Current Friction Points (10 min)
 *   **Discussion**:
     *   How are we using AI today?
     *   Where is our greatest current friction point in delivery?

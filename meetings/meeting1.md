@@ -37,7 +37,7 @@ This meeting establishes the current landscape of AI adoption and confronts the 
 
 ### Phase I: Explicit Amplifier Definition (15 min)
 
-**AI Ubiquity & The Mirror**:
+**AI Ubiquity &amp; The Mirror**:
 - 90% use AI; 71% for writing code.
 - **Concept**: AI acts as a mirror, reflecting the true state of our system.
 
@@ -63,7 +63,7 @@ This meeting establishes the current landscape of AI adoption and confronts the 
     - Hypothesis: Systems haven't evolved to safely manage the accelerated speed.
     - **Analyze Figure 28**: Look at the "Stubborn results" column.
 
-**2. Burnout & Friction (15 min)**
+**2. Burnout &amp; Friction (15 min)**
 - **The Finding**: AI has **no measurable relationship** with friction or burnout.
 - **Discussion**: "If AI handles rote scaffolding, why are burnout and friction unaffected?"
     - Hypothesis: These are properties of the **sociotechnical system** and culture, not individual tools.
@@ -86,7 +86,7 @@ This meeting establishes the current landscape of AI adoption and confronts the 
 - **Recommendation**: Reward **work outcomes**, not just time spent.
 - **Discussion**: "Which view of value is most at risk in our team?"
 
-### Phase IV: Wrap & Transition (5 min)
+### Phase IV: Wrap &amp; Transition (5 min)
 
 **Key Takeaways**:
 1. AI is an **amplifier** - it magnifies what we already do

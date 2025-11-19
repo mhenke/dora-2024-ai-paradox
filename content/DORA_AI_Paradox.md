@@ -44,20 +44,20 @@ This book club is designed for:
 | :------ | :---------------------------------------- | :------------- | :--------------- |
 | Week 0  | Meeting 0: Kickoff (Baseline Assessment)  | 30 min         | None             |
 | Week 1-2 | Pre-reading for Meeting 1               | Self-paced     | ~25 min reading  |
-| Week 2  | Meeting 1: Diagnosis & Paradoxes          | 60 min         | —                |
+| Week 2  | Meeting 1: Diagnosis &amp; Paradoxes          | 60 min         | —                |
 | Week 3-4 | Pre-reading for Meeting 2               | Self-paced     | ~25 min reading  |
 | Week 4  | Meeting 2: Systemic Foundations           | 60 min         | —                |
 | Week 5-6 | Pre-reading for Meeting 3               | Self-paced     | ~25 min reading  |
-| Week 6  | Meeting 3: Execution & Trust              | 60 min         | —                |
+| Week 6  | Meeting 3: Execution &amp; Trust              | 60 min         | —                |
 
 ## Meeting Schedule
 
 | Meeting                 | Date    | Duration | Reading Required (~25 min ea.) | Focus                                                              |
 | :---------------------- | :------ | :------- | :----------------------------- | :----------------------------------------------------------------- |
 | Meeting 0: Kickoff      | Week 0  | 30 min   | None                           | Baseline assessment, metric selection                              |
-| Meeting 1: Diagnosis & Paradoxes | Week 2  | 60 min   | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
+| Meeting 1: Diagnosis &amp; Paradoxes | Week 2  | 60 min   | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
 | Meeting 2: Systemic Foundations    | Week 4  | 60 min   | Figures 44 (Platform), 51 (VSM), 35-36 (Data) | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
-| Meeting 3: Execution & Trust     | Week 6  | 60 min   | Figures 39-40, 43; Trust & Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
+| Meeting 3: Execution &amp; Trust     | Week 6  | 60 min   | Figures 39-40, 43; Trust &amp; Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
 
 ## Enhancing Understanding
 
@@ -65,28 +65,7 @@ To clarify the complex interplay between AI-driven individual performance gains 
 
 AI is currently acting like a super-efficient new tool in a factory that encourages workers to make massive parts instead of small, tested components. The individual workers (developers) feel productive and satisfied because they are generating huge amounts of output (code) very quickly. However, when these massive, quickly-generated parts are introduced into the overall production line (the software delivery pipeline), they are much harder to test and deploy reliably, leading to more defects and greater instability further down the line, ultimately harming the factory's overall speed and reliability. The solution is not to stop using the efficient tool, but to enforce the disciplined practice of manufacturing in small batch sizes so that the gains in productivity translate into stable organizational outcomes.
 
-## Success Criteria
 
-After 6 weeks, the book club is successful if:
-
-**Level 1 (Participation)**:
-- [ ] 80%+ attendance at core meetings
-- [ ] 60%+ pre-reading completion rate
-
-**Level 2 (Understanding)**:
-- [ ] Team can articulate the "AI as Amplifier" concept
-- [ ] Team identifies their profile from the 7 Team Profiles
-- [ ] Team assesses themselves against the 7 Capabilities
-
-**Level 3 (Action)**:
-- [ ] Core metric tracked for full 6 weeks (Meeting 0)
-- [ ] 3+ specific commitments documented (Meeting 3)
-- [ ] 3-month check-in scheduled
-
-**Level 4 (Impact)** - Measured at 3-month check-in:
-- [ ] Core metric shows improvement OR team understands why not
-- [ ] Team references DORA concepts in retrospectives/planning
-- [ ] At least 1 commitment has been implemented
 
 ### About the Core Metric
 
@@ -102,7 +81,7 @@ After 6 weeks, the book club is successful if:
 
 Most meetings will follow a similar flow to ensure consistency and productive discussion:
 
-1.  **Welcome & Check-in (5-10 min)**: Briefly review the previous meeting's outcomes or pre-work.
+1.  **Welcome &amp; Check-in (5-10 min)**: Briefly review the previous meeting's outcomes or pre-work.
 2.  **Core Discussion (30-40 min)**: Dive into the main topics, guided by key questions and relevant DORA report sections. Facilitate open discussion and critical analysis.
-3.  **Key Takeaways & Decisions (5-10 min)**: Summarize main insights, identify actionable items, and assign owners.
-4.  **Next Steps & Pre-work (5 min)**: Outline reading assignments or tasks for the next meeting.
+3.  **Key Takeaways &amp; Decisions (5-10 min)**: Summarize main insights, identify actionable items, and assign owners.
+4.  **Next Steps &amp; Pre-work (5 min)**: Outline reading assignments or tasks for the next meeting.

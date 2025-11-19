@@ -42,7 +42,7 @@ This meeting shifts from diagnosis to solution: the **organizational and technic
 
 ## Agenda
 
-### Phase I: Preamble & Systems View (5 min)
+### Phase I: Preamble &amp; Systems View (5 min)
 
 **Recap Meeting 1**:
 - We saw the paradox: Individual gains but organizational instability
@@ -95,13 +95,13 @@ This meeting shifts from diagnosis to solution: the **organizational and technic
 - **Healthy Data Ecosystems**: Amplifies organizational performance.
 - **AI-Accessible Internal Data**: Amplifies individual effectiveness.
 
-**Vote & Discuss** (10 min):
+**Vote &amp; Discuss** (10 min):
 1.  **Vote**: "Which of these 3 is our weakest link?"
 2.  **Discuss**:
     - **Clear Stance**: "Does lack of clarity cause us to act too conservatively or too permissively?"
     - **Data**: "How would accessing internal data change our daily work?"
 
-### Phase V: Wrap & Transition (5 min)
+### Phase V: Wrap &amp; Transition (5 min)
 
 **Key Takeaways**:
 1. **Platform quality** is the essential foundation - low quality = negligible AI benefit
@@ -148,7 +148,7 @@ This meeting shifts from diagnosis to solution: the **organizational and technic
 - Focus all time on the scenario: "Is our platform good enough for AI?"
 
 **If you run over time**:
-- Priority: Platform discussion (15 min) > VSM (10 min) > Data & Governance (combined 10 min) > Preamble
+- Priority: Platform discussion (15 min) > VSM (10 min) > Data &amp; Governance (combined 10 min) > Preamble
 - Platform is NON-NEGOTIABLE—must address "what if quality is poor?"
 - Can combine Data Ecosystems + AI-Accessible Data into single 10-min discussion
 
