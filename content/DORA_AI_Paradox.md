@@ -30,7 +30,7 @@ This book club is designed for:
 For a complete collection of reports, deep dives, and articles, visit [DORA Research: Artificial Intelligence](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development).
 
 *   **Source 1 (PRIMARY)**: [State of AI-Assisted Software Development (2025)](https://cloud.google.com/dora) - 142 pages
-    - Main research report with Amplifier concept, 7 Team Profiles, DORA AI Capabilities Model
+    - Main research report with Amplifier concept, DORA AI Capabilities Model
 *   **Source 2 (SECONDARY)**: [Impact of Gen AI in Software Development (2025)](https://dora.dev/research/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf) - 56 pages
     - Companion guide providing Vacuum Hypothesis, Five Views of Value, practical strategies
 
@@ -45,9 +45,9 @@ For a complete collection of reports, deep dives, and articles, visit [DORA Rese
 | Week | Meeting | Duration | Preparation (Readings) | Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | Week 0 | **Meeting 0: Kickoff** | 30 min | None | Baseline assessment, metric selection |
-| Week 2 | **Meeting 1: Diagnosis &amp; Paradoxes** | 60 min | **Source 1**: pp. 3-6, 23-26, 33-38; **Source 2**: pp. 5-8, 15-17 | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
-| Week 4 | **Meeting 2: Systemic Foundations** | 60 min | **Source 1**: pp. 49-57, 65-68, 73-76 | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
-| Week 6 | **Meeting 3: Execution &amp; Trust** | 60 min | **Source 1**: pp. 58-63; **Source 2**: pp. 23-37 | Small batches discipline, 131% adoption lift, User-centric mandate |
+| Week 2 | **Meeting 1: Diagnosis &amp; Paradoxes** | 60 min | **Source 1**: pp. 3-6, 23-26, 33-38; **Source 2**: pp. 5-8, 15-17 | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis, Five Views of Value |
+| Week 4 | **Meeting 2: Systemic Foundations** | 60 min | **Source 1**: pp. 49-57, 65-68, 73-76 | Capabilities Model, Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
+| Week 6 | **Meeting 3: Execution &amp; Trust** | 60 min | **Source 1**: pp. 58-63; **Source 2**: pp. 23-37 | Small batches &amp; Version Control, 131% adoption lift, User-centric mandate |
 
 ## Enhancing Understanding
 
