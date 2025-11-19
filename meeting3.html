@@ -1,110 +1,257 @@
-<h1>Meeting 3: Strategy &amp; Success</h1>
+<h1>Meeting 3: Execution, Mitigation, and Transformation</h1>
 <h2>Overview</h2>
-<p>The final meeting synthesizes actionable strategies. We will focus on the new <strong>DORA AI Capabilities Model</strong> and the critical role of <strong>Platform Engineering</strong> in unlocking AI's value.</p>
-<h2>Reading Required (Est. 25 min)</h2>
+<p>This meeting addresses the <strong>team-level execution capabilities</strong> required to manage AI-induced instability, build trust, and ensure AI accelerates us in the right direction. We focus on engineering discipline (small batches, version control), trust strategies (including the 131% adoption lift from dedicated learning time), and the user-centric mandate.</p>
+<h2>Reading Required (Est. &lt;25 min - HYPER-SPECIFIC)</h2>
+<h3>Source 1: State of AI-Assisted Software Development</h3>
 <ul>
-<li><strong>Source 1</strong> - 2024 DORA Report: Pages 69-76 (Applying Insights)
+<li><strong>DORA AI Capabilities (continued) (pp. 58-62)</strong>:
 <ul>
-<li>File: <code>2024-dora-accelerate-state-of-devops-report.pdf</code></li>
+<li><strong>Working in Small Batches (pp. 58-59)</strong>:
+<ul>
+<li>Definition paragraph</li>
+<li><strong>Figure 39</strong>: Amplifies product performance, reduces friction - <em>Look for: The positive slope.</em></li>
 </ul>
 </li>
-<li><strong>Source 2</strong> - 2025 DORA Report: Pages 49-64 (DORA AI Capabilities Model &amp; Platform Engineering)
+<li><strong>Strong Version Control Practices (pp. 60-61)</strong>:
 <ul>
-<li>File: <code>2025_state_of_ai_assisted_software_development.pdf</code></li>
+<li>Definition paragraph (focus on rollback capability)</li>
+<li><strong>Figure 40</strong>: Amplifies team performance - <em>Look for: The &quot;Psychological Safety Net&quot; concept.</em></li>
+</ul>
+</li>
+<li><strong>User-Centric Focus (pp. 62-63)</strong>:
+<ul>
+<li>Definition paragraph</li>
+<li><strong>Figure 43 (CRITICAL)</strong>: Shows absence = NEGATIVE impact on team performance - <em>Look for: The dip below the line (harm) when user focus is low.</em></li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<h3>Source 2: Impact of Gen AI in Software Development</h3>
+<ul>
+<li>
+<p><strong>Fostering Developers' Trust in Gen AI (pp. 23-29)</strong>:</p>
+<ul>
+<li><strong>Scan headers</strong>: Five strategies for fostering trust</li>
+<li><strong>Read</strong>: &quot;Trust but verify&quot; approach paragraph (p. 23)</li>
+<li><strong>Key strategies</strong>:
+<ul>
+<li>Establishing clear policies</li>
+<li>Doubling down on fast, high-quality feedback loops</li>
+<li>Providing exposure/training</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Helping Developers Adopt Gen AI (pp. 30-37)</strong>:</p>
+<ul>
+<li><strong>Scan headers</strong>: Four practical strategies</li>
+<li><strong>Figure (p. 33) - CRITICAL</strong>: 131% increase in adoption from dedicated learning time - <em>Look for: The massive bar compared to other strategies.</em></li>
+<li><strong>Read</strong>: &quot;Allowing ample time&quot; section - <em>Look for: The mention of &quot;communities of practice&quot; and &quot;hack-a-thons&quot; (structured time).</em></li>
+</ul>
+</li>
+</ul>
+<p><strong>Total</strong>: 3 figures + 9 strategy headers + 2 detailed sections = <strong>~20-23 minutes</strong></p>
 <h2>Facilitator Preparation</h2>
 <p><strong>Date</strong>: [Date] | <strong>Duration</strong>: 60 min</p>
 <ul>
-<li>[ ] Send reading reminder 1 week before.</li>
-<li>[ ] Review the 7 Capabilities in the DORA AI Capabilities Model.</li>
-<li>[ ] Prepare to discuss &quot;Platform as a Product&quot;.</li>
+<li>[ ] Print Figure 43 (User-Centric Focus - shows negative impact risk)</li>
+<li>[ ] Print or highlight the <strong>131% adoption increase</strong> finding</li>
+<li>[ ] Prepare flip chart: &quot;Discipline vs. AI's Natural Output&quot;</li>
+<li>[ ] Prepare SMART commitment template</li>
+<li>[ ] Schedule 3-month check-in placeholder (Week 18)</li>
+<li>[ ] Send reading reminder 1 week before with SPECIFIC figure numbers</li>
 </ul>
 <h2>Agenda</h2>
-<h3>1. The DORA AI Capabilities Model (20 min)</h3>
+<h3>Phase I: Managing AI-Induced Instability (25 min)</h3>
+<p><strong>Preamble</strong> (3 min):</p>
 <ul>
-<li><strong>Review</strong>: The 7 foundational capabilities that amplify AI's impact:
+<li><strong>Recap</strong>: Meeting 1 showed instability paradox. Meeting 2 showed systemic enablers.</li>
+<li><strong>Today</strong>: Team-level <strong>execution disciplines</strong> that counter AI velocity</li>
+</ul>
+<p><strong>Part A: The Discipline vs. Speed Conflict</strong> (12 min)</p>
+<p><strong>Present the conflict</strong> (5 min):</p>
+<blockquote>
+<p>&quot;AI generates code FAST. This creates a natural temptation to:</p>
+<ul>
+<li>Generate large code changes (1000+ line PRs)</li>
+<li>Skip incremental testing</li>
+<li>Deploy big batches</li>
+</ul>
+<p><strong>But the DORA research shows</strong>: Working in small batches amplifies product performance and reduces friction.&quot;</p>
+</blockquote>
+<p><strong>Structured Discussion</strong> (7 min):</p>
 <ol>
-<li><strong>Clear and Communicated AI Stance</strong> - Organization's official position on AI use</li>
-<li><strong>Healthy Data Ecosystems</strong> - Quality, accessible, unified internal data</li>
-<li><strong>AI-Accessible Internal Data</strong> - AI tools connected to internal systems</li>
-<li><strong>Strong Version Control Practices</strong> - Frequent commits and rollback capability</li>
-<li><strong>Working in Small Batches</strong> - Breaking changes into manageable units</li>
-<li><strong>User-Centric Focus</strong> - Keeping end users at center of development</li>
-<li><strong>Quality Internal Platforms</strong> - High-quality developer experience infrastructure</li>
+<li><strong>Question</strong>: &quot;How can we enforce small batch discipline when AI incentivizes the opposite?&quot;</li>
+<li><strong>Brainstorm</strong> (5 min): Capture concrete guardrails:
+<ul>
+<li>Automated PR size limits (&lt;400 lines)?</li>
+<li>Review process changes (reject large AI-generated PRs)?</li>
+<li>Team agreements (&quot;I will limit AI PRs to X lines&quot;)?</li>
+</ul>
+</li>
+<li><strong>Vote</strong> (2 min): Which guardrail to try first?</li>
+</ol>
+<p><strong>Facilitator captures</strong> on flip chart</p>
+<p><strong>Part B: The Psychological Safety Net</strong> (10 min)</p>
+<p><strong>Present the finding</strong> (3 min):</p>
+<ul>
+<li><strong>Strong version control practices</strong> (especially <strong>rollback capability</strong>) amplify team performance</li>
+<li><strong>Why?</strong> Acts as a psychological safety net in an accelerated environment</li>
+<li><strong>Figure 40</strong>: Shows the amplification effect</li>
+</ul>
+<p><strong>Discussion</strong> (7 min):</p>
+<ul>
+<li><strong>Question 1</strong>: &quot;How confident are we in our ability to rollback a bad deployment?&quot; (5-point scale)</li>
+<li><strong>Question 2</strong>: &quot;If rollback is hard, how does that change our appetite for risk?&quot;</li>
+<li><strong>Key insight</strong>: Fast rollback enables fast experimentation. Slow rollback forces caution.</li>
+</ul>
+<h3>Phase II: Fostering Trust and Adoption (20 min)</h3>
+<p><strong>Part A: Trust Strategies</strong> (10 min)</p>
+<p><strong>Present the finding</strong> (3 min):</p>
+<ul>
+<li>30% of developers have little to no trust in AI-generated code</li>
+<li>This is <strong>healthy skepticism</strong>: &quot;Trust but verify&quot; approach</li>
+<li><strong>Strategies that work</strong>:
+<ol>
+<li>Establishing clear acceptable use policies</li>
+<li><strong>Doubling down on fast, high-quality feedback loops</strong> (code reviews, automated testing)</li>
+<li>Providing exposure and training</li>
 </ol>
 </li>
-<li><strong>Discussion</strong>: Which of these 7 capabilities is our strongest? Which is our weakest?</li>
 </ul>
-<h3>2. Platform Engineering as a Foundation (15 min)</h3>
+<p><strong>Discussion</strong> (7 min):</p>
 <ul>
-<li><strong>Review</strong>:
+<li><strong>Question</strong>: &quot;Which of our existing feedback loops need to get FASTER to support AI?&quot;
 <ul>
-<li>90% of organizations have adopted platform engineering.</li>
-<li>A high-quality platform is essential for AI success.</li>
+<li>Examples: Code review SLA? Test automation coverage? Deploy frequency?</li>
 </ul>
 </li>
-<li><strong>Discussion</strong>: Do we have a &quot;paved road&quot; for development? Does our platform reduce cognitive load?</li>
+<li><strong>Capture</strong>: One feedback loop to accelerate</li>
 </ul>
-<h3>3. Fostering Trust (10 min)</h3>
-<ul>
-<li><strong>Review</strong>: Strategies to address low trust (policies, feedback, exposure).</li>
-<li><strong>Discussion</strong>: Has our trust in AI changed over the last 6 weeks?</li>
-</ul>
-<h3>4. Measuring Success (10 min)</h3>
-<ul>
-<li><strong>Review</strong>: Moving beyond simple metrics (like &quot;lines of code&quot;) to outcomes (Flow, Satisfaction, Value).</li>
-<li><strong>Discussion</strong>: What metrics should we track going forward?</li>
-</ul>
-<h3>5. Team Commitments &amp; Next Steps (10 min)</h3>
-<ul>
-<li><strong>Activity</strong>:
+<p><strong>Part B: The 131% Adoption Lift</strong> (10 min) - ANCHOR FOR RESISTANCE</p>
+<p><strong>Present the quantitative finding</strong> (3 min):</p>
+<blockquote>
+<p><strong>Research finding</strong>: Providing developers <strong>dedicated time during work hours</strong> to explore AI tools leads to a <strong>131% increase in team AI adoption</strong>.</p>
+<p><strong>Crucial Nuance</strong>: This isn't just &quot;free time.&quot; The report highlights <strong>structured social learning</strong>: communities of practice, hack-a-thons, and lunch-n-learns.</p>
+<p>This is the highest-leverage adoption strategy measured.</p>
+</blockquote>
+<p><strong>Structured Activity</strong> (7 min):</p>
+<p><strong>If there's buy-in</strong>:</p>
 <ol>
-<li><strong>Individual</strong> (3 min): Write down ONE specific change you'll make
+<li><strong>Small groups</strong> (5 min): &quot;What would 'dedicated time' look like for us?&quot;
 <ul>
-<li>Format: &quot;In the next 3 months, I will [action] to [outcome]&quot;</li>
-<li>Example: &quot;I will reduce my PR size to &lt;400 lines to improve code review quality&quot;</li>
+<li>NOT vague &quot;20% time&quot;</li>
+<li>SPECIFIC: &quot;Friday mornings&quot;? &quot;First 2 hours of sprint&quot;? &quot;Rotating learning days&quot;?</li>
 </ul>
 </li>
-<li><strong>Pair share</strong> (4 min): Share with a partner for accountability</li>
-<li><strong>Team summary</strong> (3 min): Facilitator captures top 3 team commitments</li>
+<li><strong>Share</strong> (2 min): Each group shares one concrete idea</li>
 </ol>
-</li>
-<li><strong>Schedule 3-month check-in</strong>: Add 30-min meeting to calendar for Week 18</li>
-<li><strong>Deliverable</strong>: Facilitator sends team commitments doc within 24 hours</li>
-</ul>
-<h2>Key Questions</h2>
+<p><strong>If there's resistance</strong> (CONTINGENCY):
+<strong>Anchor on Data</strong>:</p>
+<blockquote>
+<p>&quot;I hear skepticism. Let's look at the return on investment:</p>
 <ul>
-<li>Do we have the foundational capabilities (like a good platform) to support AI?</li>
-<li>Are we treating our internal platform as a product?</li>
+<li><strong>Input</strong>: Dedicated learning time during work hours (not mandated, just allowed)</li>
+<li><strong>Output</strong>: 131% increase in adoption</li>
+<li><strong>Question</strong>: What are the risks of NOT investing in this time, given this massive return?&quot;</li>
 </ul>
+</blockquote>
+<p><strong>Frame the choice</strong>: &quot;Would you rather people learn AI on their own time (inconsistent, slow) or via <strong>structured investment</strong> during work hours (aligned, fast)?&quot;</p>
+<p><strong>Facilitator captures</strong> concrete time allocation ideas</p>
+<h3>Phase III: The User-Centric Mandate (10 min)</h3>
+<p><strong>Present the CRITICAL warning</strong> (3 min):</p>
+<ul>
+<li><strong>User-centric focus</strong> is a prerequisite.</li>
+<li><strong>Figure 43 (CRITICAL)</strong>: Shows absence = NEGATIVE impact on team performance.</li>
+<li><strong>The Business Case</strong>: Without user focus, AI simply <strong>accelerates the creation of technical debt and waste</strong>. We build the wrong things, faster.</li>
+</ul>
+<p><strong>Discussion</strong> (7 min):</p>
+<ol>
+<li><strong>Direction Check</strong>: &quot;Are we using AI to solve user problems, or just to write more code?&quot;</li>
+<li><strong>Waste Identification</strong>: &quot;Where might we be accelerating 'feature factories' instead of value delivery?&quot;</li>
+</ol>
+<h3>Phase IV: Transformation and Commitment (5 min)</h3>
+<p><strong>SMART Commitment Activity</strong>:</p>
+<ol>
+<li><strong>Individual</strong> (3 min): Write ONE specific commitment.
+<ul>
+<li><strong>Format</strong>: &quot;In the next 2 weeks, I will [action] to [outcome].&quot;</li>
+<li>Must address a DORA Capability or Strategy.</li>
+</ul>
+</li>
+<li><strong>Share</strong> (2 min): Brief round-robin or pair share.</li>
+</ol>
+<p><strong>Final Takeaway</strong>:</p>
+<blockquote>
+<p>&quot;AI adoption must be treated as an <strong>organizational transformation</strong>.
+The organization must evolve its systems to harness AI's speed.&quot;</p>
+</blockquote>
+<h2>Key Discussion Questions</h2>
+<ol>
+<li><strong>How do we enforce small batch discipline when AI encourages large changes?</strong></li>
+<li><strong>How confident are we in our rollback capability? (1-5 scale)</strong></li>
+<li><strong>Which feedback loop needs to get faster to support AI verification?</strong></li>
+<li><strong>What would &quot;dedicated learning time&quot; look like concretely for our team?</strong></li>
+<li><strong>Where might we be moving fast in the wrong direction? (User-centric check)</strong></li>
+</ol>
 <h2>Facilitator Notes</h2>
-<p><strong>If the commitment activity feels rushed</strong>:</p>
+<p><strong>Contingency for Resistance to Dedicated Learning Time</strong> (FROM USER):
+If participants push back on dedicating work time to AI learning:</p>
+<p><strong>Anchor on Adoption Data</strong>:</p>
+<blockquote>
+<p>&quot;Let me counter that skepticism with data:</p>
+<p>Simply giving developers <strong>dedicated time during work hours</strong> to explore AI tools leads to a <strong>131% increase in team AI adoption</strong>.</p>
+<p><strong>Question for the room</strong>: What are the RISKS of NOT investing in this dedicated time, given the massive return?&quot;</p>
+</blockquote>
+<p>Then force the choice:</p>
 <ul>
-<li>Extend the meeting to 70 min to give proper time (10 min instead of 5)</li>
-<li>Make commitments in writing, not just verbal</li>
-<li>Use the format: &quot;In the next 3 months, I will [action] to [outcome]&quot;</li>
+<li>Option A: People learn inconsistently on their own time (slow, variable skill levels)</li>
+<li>Option B: Structured learning during work (fast, aligned adoption)</li>
 </ul>
-<p><strong>If discussion stalls on the 7 Capabilities</strong>:</p>
+<p><strong>Which option gets us to high-performing AI use faster?</strong></p>
+<p><strong>If discussion stalls on Small Batches</strong>:</p>
 <ul>
-<li>Go through each capability and ask: &quot;Rate us 1-5 on this. Why?&quot;</li>
-<li>Focus on the weakest 2-3 capabilities, not all 7</li>
+<li>Prompt: &quot;Last sprint, what was your largest PR size? Did it deploy cleanly?&quot;</li>
+<li>Show Figure 39: Small batches amplify product performance</li>
+<li>Ask: &quot;If AI makes 1000-line PRs easier, what's the organizational cost?&quot;</li>
+</ul>
+<p><strong>If discussion stalls on User-Centric</strong>:</p>
+<ul>
+<li>Use the <strong>&quot;wrecking the car&quot; analogy</strong>: &quot;AI is the fast engine. User focus is the steering wheel. What happens if you accelerate without steering?&quot;</li>
+<li>Ask for specific example: &quot;Tell me about a time we built the wrong thing quickly&quot;</li>
 </ul>
 <p><strong>If no one did the reading</strong>:</p>
 <ul>
-<li>Display the 7 Capabilities (already listed in Section 1) and define each briefly</li>
-<li>Shorten Section 2 (Platform) to 10 min</li>
+<li>Show Figure 43 (user-centric prerequisite) - this is the most critical</li>
+<li>Show the 131% adoption data point</li>
+<li>Skip detailed trust strategies</li>
+<li>Focus all time on: Small batches conflict + Dedicated time discussion + User-centric warning</li>
 </ul>
 <p><strong>If you run over time</strong>:</p>
 <ul>
-<li>Priority order: Section 5 (Commitments) &gt; Section 1 (Capabilities) &gt; Section 3 (Trust) &gt; Section 2</li>
-<li>Skip Section 4 (Metrics) if necessary—most teams know what to track by now</li>
+<li>Priority: Phase III (User-Centric - 15 min) &gt; Phase II (Trust/Adoption - 15 min) &gt; Phase I (Discipline - 15 min) &gt; Phase IV (Commitments)</li>
+<li>Phase III is NON-NEGOTIABLE—the negative impact warning is critical</li>
+<li>Can shorten commitments to 3 min if needed (individual write only, skip pair share)</li>
 </ul>
-<p><strong>Making commitments actionable</strong>:</p>
+<p><strong>Handling the &quot;AI Safety Net&quot; discussion</strong>:
+Frame rollback capability as <strong>enabling speed, not preventing it</strong>:</p>
+<blockquote>
+<p>&quot;Fast rollback doesn't mean we expect to fail. It means we can take smart risks.
+Slow rollback forces us to be conservative, which defeats the purpose of AI velocity.&quot;</p>
+</blockquote>
+<p><strong>Time allocation adjustments</strong>:
+If commitment activity reveals deep engagement, extend Phase IV to 10 min:</p>
 <ul>
-<li>Insist on specificity: &quot;I'll be more careful&quot; is not a commitment</li>
-<li>Good example: &quot;I will reduce PR size to &lt;400 lines&quot;</li>
-<li>Bad example: &quot;I'll use AI better&quot;</li>
-<li>Schedule the 3-month check-in before people leave the meeting</li>
+<li>Individual: 4 min</li>
+<li>Pair: 3 min</li>
+<li>Team: 3 min</li>
 </ul>
+<p>Take the time from Phase I or II (whichever discussion resolved faster).</p>
+<p><strong>Linking back to Meeting 1 paradox</strong> (use in wrap-up):</p>
+<blockquote>
+<p>&quot;In Meeting 1, we saw the paradox: individual gains, organizational instability.
+Today we learned WHY: We need discipline (small batches, version control), trust mechanisms (feedback loops, learning time), and direction (user focus).
+Without these, AI just makes us fail faster.&quot;</p>
+</blockquote>
