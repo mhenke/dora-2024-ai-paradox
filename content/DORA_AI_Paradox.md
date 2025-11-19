@@ -38,26 +38,14 @@ This book club is designed for:
 > **Page Numbering**: All page references refer to the **printed page number** at the bottom of the page, NOT the PDF viewer page count.
 
 
-## Timeline Overview
+## Program Schedule
 
-| Week    | Activity                                  | Duration       | Reading          |
-| :------ | :---------------------------------------- | :------------- | :--------------- |
-| Week 0  | Meeting 0: Kickoff (Baseline Assessment)  | 30 min         | None             |
-| Week 1-2 | Pre-reading for Meeting 1               | Self-paced     | ~25 min reading  |
-| Week 2  | Meeting 1: Diagnosis &amp; Paradoxes          | 60 min         | —                |
-| Week 3-4 | Pre-reading for Meeting 2               | Self-paced     | ~25 min reading  |
-| Week 4  | Meeting 2: Systemic Foundations           | 60 min         | —                |
-| Week 5-6 | Pre-reading for Meeting 3               | Self-paced     | ~25 min reading  |
-| Week 6  | Meeting 3: Execution &amp; Trust              | 60 min         | —                |
-
-## Meeting Schedule
-
-| Meeting                 | Date    | Duration | Reading Required (~25 min ea.) | Focus                                                              |
-| :---------------------- | :------ | :------- | :----------------------------- | :----------------------------------------------------------------- |
-| Meeting 0: Kickoff      | Week 0  | 30 min   | None                           | Baseline assessment, metric selection                              |
-| Meeting 1: Diagnosis &amp; Paradoxes | Week 2  | 60 min   | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
-| Meeting 2: Systemic Foundations    | Week 4  | 60 min   | Figures 44 (Platform), 51 (VSM), 35-36 (Data) | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
-| Meeting 3: Execution &amp; Trust     | Week 6  | 60 min   | Figures 39-40, 43; Trust &amp; Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
+| Week | Meeting | Duration | Preparation (Readings) | Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| Week 0 | **Meeting 0: Kickoff** | 30 min | None | Baseline assessment, metric selection |
+| Week 2 | **Meeting 1: Diagnosis &amp; Paradoxes** | 60 min | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
+| Week 4 | **Meeting 2: Systemic Foundations** | 60 min | Figures 44 (Platform), 51 (VSM), 35-36 (Data) | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
+| Week 6 | **Meeting 3: Execution &amp; Trust** | 60 min | Figures 39-40, 43; Trust &amp; Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
 
 ## Enhancing Understanding
 
@@ -67,15 +55,7 @@ AI is currently acting like a super-efficient new tool in a factory that encoura
 
 
 
-### About the Core Metric
 
-**What if the metric gets worse?** This is valuable data, not failure. If your metric degrades:
-1. Review which of the 7 Capabilities you're missing
-2. Check if you're working in small batches (most common issue)
-3. Assess if AI is amplifying existing dysfunctions
-4. Use this as input for your Meeting 3 commitments
-
-**The metric is a learning tool**, not a success/fail test.
 
 ## General Meeting Structure
 
