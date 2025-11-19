@@ -43,9 +43,9 @@ This book club is designed for:
 | Week | Meeting | Duration | Preparation (Readings) | Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | Week 0 | **Meeting 0: Kickoff** | 30 min | None | Baseline assessment, metric selection |
-| Week 2 | **Meeting 1: Diagnosis &amp; Paradoxes** | 60 min | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
-| Week 4 | **Meeting 2: Systemic Foundations** | 60 min | Figures 44 (Platform), 51 (VSM), 35-36 (Data) | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
-| Week 6 | **Meeting 3: Execution &amp; Trust** | 60 min | Figures 39-40, 43; Trust &amp; Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
+| Week 2 | **Meeting 1: Diagnosis &amp; Paradoxes** | 60 min | **Source 1**: pp. 3-6, 23-26, 33-38; **Source 2**: pp. 5-8, 15-17 | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
+| Week 4 | **Meeting 2: Systemic Foundations** | 60 min | **Source 1**: pp. 49-57, 65-68, 73-76 | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
+| Week 6 | **Meeting 3: Execution &amp; Trust** | 60 min | **Source 1**: pp. 58-63; **Source 2**: pp. 23-37 | Small batches discipline, 131% adoption lift, User-centric mandate |
 
 ## Enhancing Understanding
 
