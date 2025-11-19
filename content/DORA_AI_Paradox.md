@@ -27,23 +27,37 @@ This book club is designed for:
 *   Commit to actionable strategies using the **DORA AI Capabilities Model**.
 
 ## Resources
-*   **Source 1**: [2024 DORA Accelerate State of DevOps Report](https://dora.dev/research/2024/dora-report/)
-*   **Source 2**: [2025 DORA State of AI-Assisted Software Development](https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report?hl=en)
+*   **Source 1 (PRIMARY)**: [State of AI-Assisted Software Development (2025)](https://dora.dev/research/ai/#state-of-ai-assisted-software-development) - 142 pages
+    - Main research report with Amplifier concept, 7 Team Profiles, DORA AI Capabilities Model
+*   **Source 2 (SECONDARY)**: [Impact of Gen AI in Software Development (2025)](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development) - 56 pages
+    - Companion guide providing Vacuum Hypothesis, Five Views of Value, practical strategies
 
-**Reading Note**: Source 1 (2024) provides foundational context on AI adoption and the initial "AI Paradox" findings. Source 2 (2025) updates these findings with the "Amplifier" concept, Team Profiles, and Capabilities Model. Page ranges are curated to minimize overlap—you won't be reading the same content twice.
+**Reading Note**: Source 1 is the comprehensive 2025 State report containing all essential frameworks. Source 2 is a companion guide that provides deeper analysis on specific topics. Reading assignments use BOTH sources strategically—approximately 8-10 pages from Source 1 (primary) and 4-6 pages from Source 2 (secondary) per meeting, totaling ~30 minutes of reading.
 
-## Book Club Schedule
+> [!IMPORTANT]
+> **Page Numbering**: All page references refer to the **printed page number** at the bottom of the page, NOT the PDF viewer page count.
 
-| Week | Activity | Duration | Reading Required | Focus |
-| :--- | :------- | :------- | :--------------- | :---- |
-| Week 0 | **Meeting 0: Kickoff** | 30 min | None | Setting the stage, baseline assessment & questions |
-| Week 1-2 | Pre-reading for Meeting 1 | Self-paced | Source 1: 17-38; Source 2: 3-6 | — |
-| Week 2 | **Meeting 1: The AI Paradox** | 60 min | Source 1: 17-38; Source 2: 3-6 | The Amplifier Effect, Individual Benefits, and the Vacuum Hypothesis |
-| Week 3-4 | Pre-reading for Meeting 2 | Self-paced | Source 1: 57-68; Source 2: 11-16 | — |
-| Week 4 | **Meeting 2: Organizational Friction** | 60 min | Source 1: 57-68; Source 2: 11-16 | Throughput vs. Stability, Team Profiles, and Value |
-| Week 5-6 | Pre-reading for Meeting 3 | Self-paced | Source 1: 69-76; Source 2: 49-64 | — |
-| Week 6 | **Meeting 3: Strategy & Success** | 60 min | Source 1: 69-76; Source 2: 49-64 | Capabilities Model, Platform Engineering, and Trust |
 
+## Timeline Overview
+
+| Week    | Activity                                  | Duration       | Reading          |
+| :------ | :---------------------------------------- | :------------- | :--------------- |
+| Week 0  | Meeting 0: Kickoff (Baseline Assessment)  | 30 min         | None             |
+| Week 1-2 | Pre-reading for Meeting 1               | Self-paced     | ~25 min reading  |
+| Week 2  | Meeting 1: Diagnosis & Paradoxes          | 60 min         | —                |
+| Week 3-4 | Pre-reading for Meeting 2               | Self-paced     | ~25 min reading  |
+| Week 4  | Meeting 2: Systemic Foundations           | 60 min         | —                |
+| Week 5-6 | Pre-reading for Meeting 3               | Self-paced     | ~25 min reading  |
+| Week 6  | Meeting 3: Execution & Trust              | 60 min         | —                |
+
+## Meeting Schedule
+
+| Meeting                 | Date    | Duration | Reading Required (~25 min ea.) | Focus                                                              |
+| :---------------------- | :------ | :------- | :----------------------------- | :----------------------------------------------------------------- |
+| Meeting 0: Kickoff      | Week 0  | 30 min   | None                           | Baseline assessment, metric selection                              |
+| Meeting 1: Diagnosis & Paradoxes | Week 2  | 60 min   | Figures 1, 16, 18, 28; Table 1 (Five Views) | Explicit Amplifier definition, Instability paradox, Vacuum Hypothesis |
+| Meeting 2: Systemic Foundations    | Week 4  | 60 min   | Figures 44 (Platform), 51 (VSM), 35-36 (Data) | Platform as prerequisite, VSM as force multiplier, Data/Governance enablers |
+| Meeting 3: Execution & Trust     | Week 6  | 60 min   | Figures 39-40, 43; Trust & Adoption strategies | Small batches discipline, 131% adoption lift, User-centric mandate |
 
 ## Enhancing Understanding
 

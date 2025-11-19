@@ -1,6 +1,6 @@
 # The AI Paradox: Visual Summary
 
-From the 2024 DORA Accelerate State of DevOps Report
+From the 2025 DORA AI Research Reports
 
 ## The Central Tension
 
@@ -322,25 +322,20 @@ The Disconnect: Short-term experience is positive, but long-term expectations ar
 
 ## Key Questions for Discussion
 
-### Meeting 1: Benefits &amp; Paradox
-
+### Meeting 1: Diagnosis & Paradoxes
 Where does the AI-freed time actually go?
+Why is instability increasing despite individual productivity gains?
+Which of the Five Views of Value is most at risk in our team?
 
-Is code quality truly better, or just easier to work with?
+### Meeting 2: Systemic Foundations
+If our platform quality is poor, what are the immediate risks of AI adoption?
+Do we have visibility into our end-to-end flow (VSM)?
+What company-specific data should AI tools access to be more effective?
 
-Why the disconnect between current gains and future pessimism?
-
-### Meeting 2: Detriments &amp; Strategy
-
-Are our batch sizes increasing with AI?
-
-Can we measure this?
-
-How user-centric are we really?
-
-How stable are our priorities?
-
-What experiment will we commit to?
+### Meeting 3: Execution & Trust
+How do we enforce small batch discipline when AI encourages large changes?
+What would "dedicated learning time" look like concretely for our team?
+Where might we be moving fast in the wrong direction (user-centric check)?
 
 ## The Bottom Line
 
@@ -364,124 +359,72 @@ What experiment will we commit to?
 </div>
 
 <div class="callout callout--success">
-  <div class="callout__title">THE CHALLENGE</div>
-  <p><strong>Maximize benefits while managing trade-offs through:</strong></p>
+  <div class="callout__title">THE SOLUTION: SYSTEMIC AMPLIFIERS</div>
+  <p><strong>To unlock organizational value, we must invest in:</strong></p>
   <ul>
-    <li><strong>Small batch sizes</strong> (DORA's core principle)</li>
-    <li><strong>User-centricity</strong> (alternative path to quality)</li>
-    <li><strong>Stable priorities</strong> (foundation for well-being)</li>
-    <li><strong>Continuous improvement</strong> (the only path forward)</li>
+    <li><strong>Platform Engineering</strong> (The essential foundation)</li>
+    <li><strong>Value Stream Management</strong> (The force multiplier)</li>
+    <li><strong>Data & Governance</strong> (The enablers)</li>
+    <li><strong>Execution Discipline</strong> (Small batches, version control, user focus)</li>
   </ul>
 </div>
 
 ---
 
-## The 7 Team Profiles (2025 Update)
+## The 7 AI Capabilities Model (2025)
 
-From Source 2: 2025 DORA State of AI-Assisted Software Development
-
-<div class="stat-block">
-  <div class="stat-block__header">How Teams Perform with AI</div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">🏆 **Harmonious high-achievers**</span>
-    <span class="stat-row__value">High performance, low friction, low burnout - the ideal state</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">⚖️ **Pragmatic performers**</span>
-    <span class="stat-row__value">Balanced across most factors - solid middle ground</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">🐢 **Stable and methodical**</span>
-    <span class="stat-row__value">Very stable but slower throughput - quality over speed</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">🎯 **High impact, low cadence**</span>
-    <span class="stat-row__value">Strong product quality, low deployment frequency</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">⚙️ **Constrained by process**</span>
-    <span class="stat-row__value">High friction and burnout from inefficient processes</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">🔥 **Legacy bottleneck**</span>
-    <span class="stat-row__value">Constant firefighting, unstable systems</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">⚠️ **Foundational challenges**</span>
-    <span class="stat-row__value">Low across all performance indicators - needs fundamental change</span>
-  </div>
-</div>
-
-<div class="callout callout--info">
-  <div class="callout__title">Key Insight</div>
-  <p>Most teams start in "Constrained by process" or "Legacy bottleneck" when adopting AI. The goal is to move toward "Harmonious high-achievers" by addressing the 7 Capabilities.</p>
-</div>
-
----
-
-## DORA AI Capabilities Model (2025)
-
-These 7 capabilities **amplify** AI's benefits:
+These 7 capabilities **amplify** AI's benefits. Without them, AI amplifies dysfunction.
 
 <div class="stat-block">
-  <div class="stat-block__header">The 7 Capabilities</div>
+  <div class="stat-block__header">Systemic Foundations (Meeting 2)</div>
   
   <div class="stat-row">
-    <span class="stat-row__label">1. **Clear and Communicated AI Stance**</span>
-    <span class="stat-row__value">Organization's official position on AI use is clear and widely communicated</span>
+    <span class="stat-row__label">1. **Quality Internal Platforms**</span>
+    <span class="stat-row__value">The essential foundation. Low quality = negligible AI benefit.</span>
   </div>
   
   <div class="stat-row">
     <span class="stat-row__label">2. **Healthy Data Ecosystems**</span>
-    <span class="stat-row__value">Quality, accessible, unified internal data systems</span>
+    <span class="stat-row__value">Unified internal data amplifies organizational performance.</span>
   </div>
   
   <div class="stat-row">
     <span class="stat-row__label">3. **AI-Accessible Internal Data**</span>
-    <span class="stat-row__value">AI tools are connected to internal company systems and data</span>
+    <span class="stat-row__value">Connecting AI to context amplifies individual effectiveness.</span>
   </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">4. **Strong Version Control Practices**</span>
-    <span class="stat-row__value">Frequent commits and robust rollback capability</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">5. **Working in Small Batches**</span>
-    <span class="stat-row__value">Breaking changes into manageable, reviewable units</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">6. **User-Centric Focus**</span>
-    <span class="stat-row__value">Keeping end users at the center of development decisions</span>
-  </div>
-  
-  <div class="stat-row">
-    <span class="stat-row__label">7. **Quality Internal Platforms**</span>
-    <span class="stat-row__value">High-quality developer experience infrastructure</span>
+    <div class="stat-row">
+    <span class="stat-row__label">4. **Clear and Communicated AI Stance**</span>
+    <span class="stat-row__value">Policy clarity decreases friction and amplifies performance.</span>
   </div>
 </div>
 
-<div class="callout callout--success">
-  <div class="callout__title">The Amplifier Effect</div>
-  <p>Teams that invest in these capabilities see <strong>greater benefits from AI</strong>. Without them, AI can amplify existing dysfunctions (e.g., large batch sizes → more instability).</p>
+<div class="stat-block">
+  <div class="stat-block__header">Execution Strategies (Meeting 3)</div>
+  
+  <div class="stat-row">
+    <span class="stat-row__label">5. **Working in Small Batches**</span>
+    <span class="stat-row__value">Amplifies product performance. Counters AI's tendency for large changes.</span>
+  </div>
+  
+  <div class="stat-row">
+    <span class="stat-row__label">6. **Strong Version Control Practices**</span>
+    <span class="stat-row__value">Rollback capability acts as a psychological safety net.</span>
+  </div>
+  
+  <div class="stat-row">
+    <span class="stat-row__label">7. **User-Centric Focus**</span>
+    <span class="stat-row__value">A prerequisite. Absence = NEGATIVE impact on team performance.</span>
+  </div>
 </div>
 
 
 <div class="callout callout--info">
   <div class="callout__title">Using This Page</div>
-  <p><strong>Print this page as a 1-2 page reference handout</strong> for book club participants. It provides a quick visual summary of key concepts from both the 2024 and 2025 DORA reports.</p>
+  <p><strong>Print this page as a 1-2 page reference handout</strong> for book club participants. It provides a quick visual summary of key concepts from the 2025 DORA AI research reports.</p>
 </div>
 
 ---
 
 **Sources:**  
-- 2024 DORA Accelerate State of DevOps Report - https://dora.dev/research/2024/dora-report/  
-- 2025 DORA State of AI-Assisted Software Development - https://cloud.google.com/resources/content/2025-dora-ai-assisted-software-development-report
+- State of AI-assisted Software Development - https://dora.dev/research/ai/#state-of-ai-assisted-software-development  
+- Impact of Gen AI in Software Development - https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development

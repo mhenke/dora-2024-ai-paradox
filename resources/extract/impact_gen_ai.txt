@@ -1,0 +1,2098 @@
+Impact of Generative AI in
+Software Development
+     Contents
+            The AI imperative and               Helping developers adopt
+            the DORA approach             3    generative AI: Four practical
+                                                strategies for organizations     30
+            Understanding the landscape:
+            The impact of AI              5    Measuring success: Key
+                                                metrics and feedback loops       38
+            How gen AI affects the              
+            value of development work     15   A framework for
+                                                gen AI adoption                  47
+            Fostering developers'
+            trust in gen AI               23   Moving forward: Actionable
+                                                takeaways and the future of AI
+                                                in development                   51
+
+
+
+
+                                            2                                    Contents
+v. 2025.2
+The AI imperative
+and the DORA
+approach
+
+
+                Generative AI is driving a profound
+                transformation in the world of software
+                development. The 2024 DORA report1
+                confirms this, revealing that 89%
+                of organizations are prioritizing the
+                integration of AI into their applications,
+                and 76% of technologists are already
+                relying on AI in some part of their
+                daily work.
+
+                This "AI moment" is fueled by significant
+                investments as leading tech giants
+                are projected to invest approximately
+                $1 trillion in AI development over the
+                next five years. While it’s true that the
+                competitive pressure to adopt and
+                use AI is undeniable, we see a more
+                nuanced picture.
+
+
+
+
+            3              The AI imperative and the DORA approach
+v. 2025.2
+Beyond hype and headlines, legitimate                                These principles are just as relevant –
+concerns about the use of AI in software                             perhaps even more so – in the age of
+development have grown with its                                      AI. AI is a powerful tool, but its success
+immense potential. Developers express                                depends on how it's implemented.
+anxieties about job displacement,
+security risks, and the fear that AI                                 This report builds on and extends DORA's
+will diminish the time they spend on                                 research published in the Accelerate
+work they find truly valuable.                                       State of DevOps Report.2 We review
+                                                                     the current landscape of AI adoption,
+This guide aims to move beyond simple                                look into its impact on developers and
+adoption to responsible and effective                                organizations, and outline a framework
+AI integration throughout the software                               and practical guidance for successful
+development lifecycle, maximizing the                                integration, measurement, and
+benefits while mitigating the risks.                                 continuous improvement.
+
+For more than a decade, DORA                                         Remember that the adoption of new
+research has focused on identifying                                  technology can lead to some near-
+the capabilities that drive high-                                    term decreases in productivity and
+performing software delivery and                                     impact. Prioritizing sustainable, long-
+operations teams. Our findings                                       term improvement can help realize
+consistently highlight the importance                                the benefits of adopting generative AI.
+of continuous improvement, user focus,
+and data-driven decision-making.
+
+
+
+
+1.   Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+2.   Ibid.
+
+
+
+                                                                 4                The AI imperative and the DORA approach
+v. 2025.2
+Understanding
+the landscape:
+The impact of AI
+Generative AI is already having a
+significant impact on the daily work
+lives of practitioners.
+
+We measured a variety of constructs
+related to an individual's success and
+well-being:
+
+
+   Job satisfaction    A single item designed to capture someone’s overall feeling
+                       about their job.
+
+   Burnout             A factor that encapsulates the multifaceted nature of burnout,
+                       encompassing its physical, emotional, and psychological
+                       dimensions, as well as its impact on personal life.
+
+   Flow                A single item designed to capture how much focus a person tends
+                       to achieve during development tasks.
+
+   Productivity        A factor score designed to measure the extent an individual
+                       feels effective and efficient in their work, creating value and
+                       achieving tasks.
+
+   Time doing          A single item measuring the percentage of an individual’s
+   toilsome work       time spent on repetitive, manual tasks that offer little
+                       long-term value.
+
+
+   Time doing          A single item measuring the percentage of an individual's time
+   valuable work       spent on tasks that they consider valuable.
+
+
+                                             5          Understanding the landscape: The impact of AI
+v. 2025.2
+Findings
+
+Practitioner perspectives
+
+We wanted to figure out if the way
+respondents answered these questions
+changes as a function of adopting AI.
+The results suggest that is often
+the case.
+
+Figure 1 is a visualization that shows
+our best estimates about the impact
+of adopting AI on an individual’s
+success and well-being.
+
+
+
+
+If AI adoption increases by 25%…
+
+
+
+                                  flow                                                                                         2.6%
+
+
+                               Flow                                                                                  2.6%
+                       job satisfaction                                                                                     2.2%
+
+                     Job satisfaction                                                                          2.2%
+
+                          productivity                                                                                  2.1%
+  Outcome
+
+
+
+
+                        Productivity                                                                          2.1%
+Outcome
+
+
+
+
+             time doing toilsome work                                                                  0.4%
+
+        Time doing toilsome work                                                                0.4%
+
+                              burnout                                                     -0.6%
+                            Burnout                                               -0.6%
+
+
+             time doing valuable work                            -2.6%
+            Time doing valuable work                     -2.6%
+
+
+                                                -4                           -2                    0                    2
+                                           -4                      -2                       0                 2
+                                                                 Estimated % change in outcome
+                                                        Estimated % change in outcome
+Point = estimated value
+Error bar = 89% uncertainty interval
+       7: Impacts
+Figure 1:  Impacts of
+                   ofAI
+                      AI adoption
+                         adoption on
+                                  on individual
+                                      individual success
+                                                 success and
+                                                         and well-being
+                                                             well-being
+
+
+
+                                                                         6                Understanding the
+                                                                                                        Software
+                                                                                                            landscape:
+                                                                                                                  delivery
+                                                                                                                        Theperformance
+                                                                                                                            impact of AI
+v. 2025.2
+The clear benefits
+
+The story about the benefit of adopting
+AI for individuals is largely favorable, but
+like any good story, has some wrinkles.
+What seems clear is that AI has a
+substantial and beneficial impact on
+flow, productivity, and job satisfaction
+(see Figure 1).
+
+Productivity, for example, is likely to            The potential tradeoffs
+increase by approximately 2.1% when
+an individual’s AI adoption is increased           Here is where the story gets a little
+by 25% (see Figure 1). This might seem             complicated. One value proposition for
+small, but this is at the individual-level.        adopting AI is that it will help people
+Imagine this pattern extended across               spend more time doing valuable work.
+tens of developers, or even tens of                That is, by automating the manual,
+thousands of developers.                           repetitive, toilsome tasks, we expect
+                                                   respondents will be free to use their
+This pattern is what we expected.                  time on “something better.” However,
+We believe it emerged in part thanks               our data suggest that increased AI
+to AI’s ability to synthesize disparate            adoption may have the opposite effect—
+sources of information and give a                  reducing reported time spent doing
+highly personalized response in a single           valuable work—while time spent on
+location. Doing this on your own takes             toilsome work appears to be unaffected.
+time, lots of context switching, and is
+less likely to foster flow.                        Markers of respondents’ well-being,
+                                                   like flow, job satisfaction, and
+Given the strong connection that                   productivity have historically been
+productivity and flow have with job                associated with time spent doing
+satisfaction, it shouldn’t be surprising           valuable work. So, observed increases
+that we see AI adoption leads to higher            in these measures independently of
+job satisfaction.                                  decreases in time spent on valuable
+                                                   work are surprising.
+
+
+
+
+                                               7          Understanding the landscape: The impact of AI
+v. 2025.2
+A good explanation of these patterns           To make sense of these counterintuitive
+will need to wrestle with this seeming         findings we explored more deeply what
+incongruity. A good explanation of             types of work respondents judge to be
+a movie cannot ignore a scene that             valuable or toilsome. See the "How gen
+contradicts the explanation. A good            AI affects the value of development
+explanation of a book cannot ignore            work" chapter for our findings.
+a chapter that doesn’t fit neatly into
+the explanation. Similarly, a good             While AI is making the tasks people
+explanation of these patterns cannot           consider valuable easier and faster, it
+just focus on a subset of the patterns         isn’t really helping with the tasks people
+that allows us to tell a simple story.         don’t enjoy. That this is happening while
+                                               toil and burnout remain unchanged,
+There are innumerable hypotheses               obstinate in the face of AI adoption,
+that could fit the data, but we came           highlights that AI hasn’t cracked the
+up with a hypothesis that seems                code of helping us avoid the drudgery
+parsimonious with flow, productivity,          of meetings, bureaucracy, and many
+and job satisfaction benefitting from AI       other toilsome tasks (Figure 1).
+while time spent doing valuable work
+decreases and toil remains unchanged.          The good news is that AI hasn’t made
+                                               it worse, nor has it negatively affected
+We call our hypothesis the vacuum              respondents’ well-being.
+hypothesis. By increasing productivity
+and flow, AI is helping people work more
+efficiently. This efficiency is helping
+people finish up work they consider
+valuable faster.                                  Toilsome work
+
+This is where the vacuum is created;
+there is extra time. AI does not steal
+value from respondents’ work, it                                              What AI is
+expedites its realization.                                                   helping with
+
+                                                       Valuable work
+
+
+
+
+                                           8           Understanding the landscape: The impact of AI
+v. 2025.2
+     AI is changing the nature of development work.
+     • Learning and Skill Shifts: AI presents an opportunity for developers
+       to learn new skills, such as prompt engineering and effectively
+       collaborating with AI-powered tools. It's a chance to adapt to
+       evolving industry standards and move beyond routine tasks to
+       higher-level problem-solving.
+
+     • Trust and Control: DORA's research indicates developers don't need
+       to absolutely trust AI. Similar to using resources such as Stack Overflow,
+       they view it as a tool that requires verification, critical evaluation, and
+       refinement. It is important that developers maintain control over when
+       and how AI is used in their workflows. See the "Fostering developers'
+       trust in generative artificial intelligence" chapter for more on trust.
+
+
+
+
+                                              9         Understanding the landscape: The impact of AI
+v. 2025.2
+Organizational perspectives
+
+The promising impact of AI
+on development workflows
+
+The last section explored outcomes focused on the individual.
+The next set of outcomes shift focus to explore processes,
+codebases, and team coordination. Here is a list of the
+outcomes we measured:
+
+
+  Code complexity    The degree to which code’s intricacy and sophistication
+                     hinders productivity.
+
+
+  Technical debt     The extent to which existing technical debt within the
+                     primary application or service has hindered productivity
+                     over the past six months.
+
+
+  Code review        The average time required to complete a code review for the
+  speed              primary application or service.
+
+
+  Approval speed     The typical duration from proposing a code change to receiving
+                     approval for production use in the primary application or service.
+
+
+  Cross-functional   The level of agreement with the statement: "Over the last
+  team (XFN)         three months, I have been able to effectively collaborate with
+  coordination       cross-functional team members.”
+
+
+  Code quality       The level of satisfaction or dissatisfaction with the quality of code
+                     underlying the primary service or application in the last six months.
+
+
+  Documentation      The perception of internal documentation (manuals, readmes, code
+  quality            comments) in terms of its reliability, findability, updatedness, and
+                     ability to provide support.
+
+
+                                           10          Understanding the landscape: The impact of AI
+v. 2025.2
+As before, our goal here is to understand                                    A 25% increase in AI adoption is
+if these aspects seem to vary as a                                           associated with a…
+function of adopting AI. Figure 2 is
+a visualization that shows our best                                          • 7.5% increase in documentation
+estimates of the change in these                                               quality
+outcomes in relation to a 25%
+increase in AI adoption.                                                     • 3.4% increase in code quality
+
+Overall, the patterns here suggest a                                         • 3.1% increase in code review speed
+very compelling story for AI. Here are
+the substantial results from this section.                                   • 1.3% increase in approval speed
+
+                                                                             • 1.8% decrease in code complexity
+
+
+
+
+       If an individual increases AI adoption by 25%…
+
+             documentation quality                                                                               7.5%
+
+
+
+
+                      code quality                                                      3.4%
+
+
+
+
+                code review speed                                                     3.1%
+   Outcome
+
+
+
+
+                   approval speed                                            1.3%
+
+
+
+
+                 XFN coordination                                0.1%
+
+
+
+
+                        tech debt                       -0.8%
+
+
+
+
+                  code complexity               -1.8%
+
+
+
+                                                                 0                                5
+
+                                                                Estimated % change in outcome
+
+Point = estimated value
+Error bar = 89% uncertainty interval
+Figure 2: Impacts of AI adoption on organizations.
+
+
+
+                                                                        11           Understanding the landscape: The impact of AI
+v. 2025.2
+The 2024 DORA Report found that the                Further, it isn’t obvious whether the
+most common use of AI is for writing               quality of the code and the quality of the
+code. 67% of respondents report that               documentation are improving because
+AI is helping them improve their code.             AI is generating it or if AI has enhanced
+Here, we see further confirmation of               our ability to get value from what would
+that sentiment. AI seems to improve                have otherwise been considered low-
+code quality and reduce code complexity            quality code and documentation. What
+(Figure 2). When combined with some                if the threshold for what we consider
+potential refactoring of old code, the             quality code and documentation simply
+high-quality, AI-generated code could              moves down a little bit when we’re using
+lead to an overall better codebase.                AI because AI is powerful enough to help
+This codebase might be additionally                us make sense of it? These two ways of
+improved by having better access to                understanding these patterns are not
+quality documentation, which people                mutually exclusive interpretations; both
+are using AI to generate.                          could be contributing to these patterns.
+
+Better code is easier to review and                What seems clear in these patterns is
+approve. Combined with AI-assisted                 that AI helps people get more from the
+code reviews, we can get faster reviews            documents they depend on and the
+and approvals, a pattern that has clearly          codebases they work on. AI also helps
+emerged in the data (Figure 2).                    reduce costly bottlenecks in the code
+                                                   review and approval process. What isn’t
+Of course, faster code reviews and                 obvious is how exactly AI is doing this
+approvals do not equate to better and              and if these benefits lead to further
+more thorough code review processes                downstream benefits, such as software
+and approval processes. It is possible             delivery improvements.
+that we’re gaining speed through an
+over-reliance on AI for assisting in the
+process or trusting code generated by AI
+a bit too much. This finding is not at odds
+with the patterns in Figure 2, but it also
+not the obvious conclusion.
+
+
+
+
+                                              12           Understanding the landscape: The impact of AI
+v. 2025.2
+AI is hurting
+delivery performance
+For the past few years, we have seen
+that software delivery throughput
+and software delivery stability
+indicators were starting to show
+some independence from one
+another. While the traditional
+association between throughput
+and stability has persisted, emerging
+evidence suggests these factors
+operate with sufficient independence
+to warrant separate consideration.
+
+
+
+
+If AI adoption increases by 25%…
+
+
+
+
+                  Delivery throughput                                                            -1.5%
+            Outcome
+
+
+
+
+                      Delivery stability             -7.2%
+
+
+
+
+                                                 - 7. 5                  -5.0            -2.5               0.0
+
+                                                             Estimated % change in outcome
+
+
+
+
+Point = estimated value
+Error bar = 89% uncertainty interval
+Figure 3: Impacts of AI adoption on delivery throughput and stability.
+
+
+
+                                                                   13           Understanding the landscape: The impact of AI
+v. 2025.2
+Contrary to our expectations, our                                     That is, since AI allows respondents to
+findings indicate that AI adoption is                                 produce a much greater amount of code
+negatively impacting software delivery                                in the same amount of time, it is possible,
+performance. We see that the effect                                   even likely, that changelists are growing
+on delivery throughput is small, but likely                           in size. DORA has consistently shown
+negative (an estimated 1.5% reduction                                 that larger changes are slower and more
+for every 25% increase in AI adoption).                               prone to creating instability.
+The negative impact on delivery stability
+is larger (an estimated 7.2% reduction                                Considered together, our data suggest
+for every 25% increase in AI adoption).                               that improving the development process
+This data is visualized in Figure 3.                                  does not automatically improve software
+                                                                      delivery—at least not without proper
+Historically, our research has found                                  adherence to the basics of successful
+that improvements to the software                                     software delivery, like small batch sizes
+development process, including                                        and robust testing mechanisms.
+improved documentation quality,
+code quality, code review speed,                                      The beneficial impact that AI has on many
+approval speed, and reduced code                                      important individual and organizational
+complexity lead to improvements in                                    factors that foster the conditions for high
+software delivery. So, we were                                        software delivery performance is reason
+surprised to see AI improve these                                     for optimism. But, AI does not appear to
+process measures, while seemingly                                     be a panacea.
+hurting our performance measures
+of delivery throughput and stability.
+
+Drawing from our prior years’ findings,
+we hypothesize that the fundamental
+paradigm shift that AI has produced in
+terms of respondent productivity and
+code generation speed may have
+caused the field to forget one of DORA’s
+most basic principles—the importance
+of small batch sizes.
+
+
+1.   Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+
+
+
+                                                                 14               Understanding the landscape: The impact of AI
+v. 2025.2
+How gen AI
+affects the value
+of development
+work
+                 Developers’ well-being and job
+                 satisfaction have been a central
+                 topic of inquiry for the DORA
+                 research team1 for many years,
+                 including as part of the 2024 DORA
+                 Report.2 This year, we were especially
+                 interested in investigating whether
+                 there is evidence that developers’
+                 well-being is affected by the rapid
+                 adoption and use of generative
+                 artificial intelligence (gen AI) in
+                 development work.
+
+                 We found that developers who
+                 more extensively use gen AI in their
+                 work report:
+
+                 • More time in a flow state,
+
+                 • Higher overall job satisfaction,
+
+                 • Increased productivity, and
+
+                 • Less burnout.
+
+
+
+            15        How gen AI affects the value of development work
+v. 2025.2
+Conversely, we found that developers            After debating this paradox for some
+who more extensively use gen AI in their        time, and generating several plausible
+work report:                                    hypotheses to explain it, we realized
+                                                that we were, in fact, grappling with
+• No difference in time spent on                a more fundamental question:
+  toilsome work, and
+                                                How do developers actually ascribe
+• Less time spent on valuable work.             “value” to their work?
+
+• These findings were quite surprising          So, in September 2024, we conducted
+  for us, for two reasons.                      a series of 10 in-depth interviews
+                                                with development professionals,
+First, spending less time on valuable           each lasting approximately 90 minutes.
+work when you use gen AI is a notable           Participants were asked about the
+counterpoint to a popular argument              types of development tasks that
+for adopting gen AI in development              they found valuable and nonvaluable,
+work—that gen AI will speed up                  how they made assessments about
+routine development tasks, thereby              whether specific tasks had value,
+allowing developers to work on                  and whether using gen AI to perform
+“something better.”                             those tasks changed, or would change,
+                                                their evaluation.
+Second, as researchers, we found it
+paradoxical that developers spending
+less time on work they find valuable
+would also report more time in flow,
+more satisfaction, more productivity,
+and less burnout. It is reasonable to
+expect that spending one’s time on
+work that is valuable would be a
+predictor of well-being.
+
+
+
+
+                                           16        How gen AI affects the value of development work
+v. 2025.2
+Five views of “value”
+in development work
+Across these interviews, developers
+described the value of their work
+using five main views of “value,” from
+which a framework was derived for
+understanding the value of development
+work and gen AI’s impacts on those
+facets of value. This framework
+is visualized in Table 1 and further
+described below.
+
+
+
+
+                                    Five views of “value” in development work
+
+    Value                     Utilitarian         Reputational               Economic           Intrinsic         Hedonistic
+                                value                value                     value              value             value
+
+
+
+    Meaning               “My work impacts      “I am recognized           “I am paid for     “My work is       “My work is fun
+                             the world.”           for my work”               my work.”       worthwhile.”      and enjoyable.”
+
+
+
+    Positive impacts          Increases            Increases                 Increases                           Using gen AI
+    of gen AI                productivity         productivity              productivity                          can be fun
+
+
+
+    Negative impacts                                                                                          Gen AI might make
+                                                 Complicates             Makes development
+    of gen AI                                                                                                  some fun tasks
+                                               ownership of labor              easier
+                                                                                                                  obsolete
+
+
+    Neutral impacts                                                                            Changes           Using gen AI
+    of gen AI                                                                                 educational       for fun tasks is
+                                                                                               standards            optional
+
+
+
+
+Table 1: The five views of "value" of development work described
+by participants,
+Point = estimated their meanings, and the anticipated impacts of
+                    value
+gen AI on  each  of these perspectives.
+Error bar = 89% uncertainty   interval
+Figure 2: Impacts of AI adoption on organizations.
+
+
+
+                                                                    17           How gen AI affects the value of development work
+v. 2025.2
+Utilitarian value describes the impact          • However, gen AI can also be
+that the work has on the world.                   anticipated to have a potentially
+                                                  negative impact on the reputational
+• Utilitarian value is determined by the          value of development work, by calling
+  impact that developers perceive their           into question the ownership of the
+  product having in the world and the             labor performed with gen AI.
+  impact of specific development tasks
+  on the creation of that product.              Economic value describes the
+                                                pay associated with performing
+• Gen AI can be anticipated to have             development work.
+  a potentially positive impact on the
+  utilitarian value of development work,        • Economic value is determined by
+  by increasing the pace at which                 the utilitarian value of the work,
+  developers work.                                the Reputational value of the
+                                                  work, and the (in)accessibility of
+Reputational value describes the                  the skillset, where niche skillsets
+recognition that an individual                    are more highly valued.
+performed work.
+                                                • Gen AI can be anticipated to have
+• Reputational value is determined                a potentially positive impact on the
+  by the utilitarian value of that work           economic value of development work,
+  and whether its performance can                 by increasing the utilitarian value of
+  be ascribed to/owned by any                     an individual developer’s labor.
+  individual developer.
+                                                • However, gen AI can also be
+• Gen AI can be anticipated to                    anticipated to have a potentially
+  have a potentially positive impact              negative impact on the economic
+  on the reputational value of                    value of development work, by
+  development work, by increasing                 reducing the reputational value of
+  the utilitarian value of an individual          development work and by making
+  developer’s labor.                              the requisite skillset more accessible.
+
+
+
+
+                                           18        How gen AI affects the value of development work
+v. 2025.2
+Intrinsic value describes the                    • Gen AI can also be anticipated to
+inherent worthwhileness of                         have a potentially negative impact
+performing development work.                       on the hedonistic value of
+                                                   development work, if the developer
+• Intrinsic value is highly subjective,            enjoys performing a task gen AI
+  deeply personal, and often argued                renders obsolete.
+  from a perspective of valuing
+  traditional ways of learning                   • Gen AI can also be anticipated to
+  and achieving.                                   have a neutral impact on the
+                                                   hedonistic value of development
+• Gen AI can be anticipated to                     work, because, for now, developers
+  have a neutral impact on the                     are not being forced to use gen AI
+  intrinsic value of development                   and so can perform any enjoyable
+  work, because historical examples                task if they want.
+  suggest novel technologies change
+  norms around educational and                   Put simply, gen AI has variable and
+  knowledge standards (consider                  interconnected impacts on how
+  wayfinding pre-GPS or mental                   developers, and the world, perceive
+  math pre-mobile phone calculator).             the value of development work.
+
+Hedonistic value describes
+the enjoyment resultant from
+performing development work.
+
+• Hedonistic value is highly subjective
+  and dependent upon the personal
+  interests of the developer in question.
+
+• Gen AI can be anticipated to have
+  a potentially positive impact on the
+  hedonistic value of development
+  work, if the developer enjoys using
+  gen AI or gen AI makes enjoyable
+  tasks accessible.
+
+
+
+
+                                            19        How gen AI affects the value of development work
+v. 2025.2
+Five strategies for ensuring
+AI amplifies developers’ value
+Allow use of gen AI throughout                    There are even new job titles, like prompt
+the software development and                      engineer, and programming paradigms,
+delivery process.                                 like chat-oriented programming,3
+                                                  emerging in response to the labor of
+Developers who prioritized the utilitarian        using gen AI in development. Leadership
+value of their work—emphasizing                   explicitly acknowledging this labor
+their individual impact on the world—             involved in working with gen AI may help
+perceived gen AI as a clear value-                assuage fears about gen AI’s impacts on
+booster. That is, by increasing the speed         the reputational value of development,
+at which developers can change an                 by centering developers’ contributions
+application, the time taken to produce            to AI-assisted development work.
+an impact in the world is reduced. So,
+allowing the use of gen AI in as many
+development tasks as possible may                 Reward work outcomes,
+increase the perceived utilitarian value          not just time spent.
+of development work by expediting the
+completion of more steps throughout               Developers who prioritized the economic
+the development process.                          value of their work—emphasizing the pay
+                                                  associated with their labor—had mixed
+                                                  feelings about gen AI’s potential impacts
+Acknowledge the labor                             on development work’s value. On one
+of working with gen AI.                           hand, they perceived gen AI to increase
+                                                  their productivity, thereby making their
+Developers who prioritized the                    time more economically valuable. On the
+reputational value of their work—                 other hand, because gen AI expedites
+emphasizing the benefits of being                 task completion, some developers
+recognized for having completed                   expressed concerns about whether
+work—perceived gen AI as a potential              increases in individual productivity
+value-reducer. That is, by supporting             would cause reductions in workforce or
+developers in completing their work,              paid hours. How gen AI will shape our
+it is possible that gen AI will be given          future global economic systems has
+the credit for the work performed, at             been widely debated and would
+the expense of the developer. Although            be impossible for us to predict.
+gen AI can scaffold many development
+tasks, working with gen AI still requires
+labor on the part of the developer.
+
+                                             20        How gen AI affects the value of development work
+v. 2025.2
+But, we believe that rewarding                    Support developers in choosing
+developers for the outcomes of their              not to use gen AI for tasks they enjoy.
+work, not just how much time they
+spend in the office, may help mitigate            Developers who prioritized the
+these fears and encourage gen AI use.             hedonistic value of their work—
+                                                  emphasizing the pleasure derived
+                                                  from performing certain tasks—
+Frame gen AI as an opportunity                    gen AI was perceived as a potential
+to learn new skills                               value-reducer. That is, because gen
+                                                  AI is capable of doing many tasks
+Developers who prioritized the intrinsic          that these developers enjoy, it might
+value of their work—emphasizing the               spoil some of the fun of development.
+inherent value of understanding the               However, we are not aware of any
+skills of development—gen AI was                  case where gen AI use is compulsory.
+perceived as a potential value-reducer.           Although developers report many
+That is, gen AI use might make it less            benefits of gen AI use in their work,
+important for developers to maintain              we believe that organizations supporting
+some development skills. However, as              developers who would prefer to
+noted above, there are myriad examples            perform development tasks without
+throughout history of novel technologies          AI assistance is important for preserving
+which shifted the norms of educational            the joy of development work that
+standards. So, gen AI might also make             enticed many professional developers
+other skills, like prompt engineering,            into the field initially.
+more important for developers to hone.
+Framing gen AI as an opportunity to
+learn new skills across the software
+development lifecycle may help assuage
+developers’ fears about other skills being
+obsolesced, by emphasizing that novel
+technologies historically change what is
+important to know, rather than making
+knowing things unimportant.
+
+
+
+
+                                             21        How gen AI affects the value of development work
+v. 2025.2
+Conclusion
+
+As gen AI becomes increasingly central                            topic and gen AI’s role in the valuation
+to developers’ everyday worklives, it is                          of development work is still evolving,
+important to understand how its use                               it will be important to build upon and
+impacts the way developers understand                             refine this research over time. But,
+and perceive the value of their                                   our desire is that this framework and
+professional labor. For many people,                              set of recommendations for
+the value of their professional labor                             organizations will help us, collectively,
+extends well beyond the economic                                  continue to identify opportunities for
+value placed on it and the associated                             gen AI to maximize developers’
+compensation to encompass aspects                                 productivity and well-being. We look
+of personal identity, pleasure, and                               forward to working with developers,
+contribution to the world. After working                          organizations, and the DORA
+with developers for more than a decade,                           Community4 toward this goal.
+the DORA team was not surprised to find
+that developers understand the value of
+their work as a complicated and nuanced
+web of factors bridging utilitarian,
+reputational, economic, intrinsic, and
+hedonistic perspectives on the meaning
+of “value.” Since this is a complicated
+
+
+
+
+1. DORA’s Research Team - https://dora.dev/research/team/
+2. Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+3. Chat-oriented programming (CHOP) in action - https://sourcegraph.com/blog/chat-oriented-programming-in-action
+
+4. DORA Community - https://dora.community
+
+
+
+
+                                                             22        How gen AI affects the value of development work
+v. 2025.2
+Fostering
+developers' trust
+in gen AI
+
+                 It’s no secret that generative artificial
+                 intelligence (gen AI) is rapidly changing
+                 the landscape of software development,
+                 with discussions about best practices
+                 for applying this transformative
+                 technology dominating the popular
+                 press. Perhaps nowhere on Earth
+                 have these discussions been more
+                 frequent and passionate than inside the
+                 organizations dedicated to making gen
+                 AI accessible and useful to developers,
+                 including at Google. During one such
+                 discussion between researchers on
+                 Google Cloud's DORA1 and Engineering
+                 Productivity Research (EPR) teams,
+                 we were struck by a recurring finding
+                 common to development professionals
+                 both inside and outside of Google:
+
+                 Using gen AI makes developers feel
+                 more productive, and developers who
+                 trust gen AI use it more.
+
+
+
+
+            23                   Fostering developers' trust in gen AI
+v. 2025.2
+On the surface, this finding may seem          Trust and productivity
+somewhat… obvious. But, for us, it
+highlighted the deep need to better            Research conducted by Google and
+understand the factors that impact             other respected voices in technology
+developers’ trust in gen AI systems            research has found consistently high
+and ways to foster that trust, so that         use of gen AI by software developers,
+developers and development firms               and developers hold largely favorable
+can yield the most benefit from their          views of using gen AI tools at work.
+investment in gen AI development tools.        Our research suggests that this warm
+                                               reception of gen AI amongst professional
+Here, we reflect on findings from              developers is due, in no small part,
+several studies conducted at Google,2          to significant increases in reported
+regarding the productivity gains of            productivity from using gen AI.
+gen AI use in development, the impacts
+of developers’ trust on gen AI use,            The DORA team found that, outside
+and the factors we’ve observed which           of Google, 75% of 2024 DORA survey
+positively impact developers’ trust in         respondents reported positive impacts
+gen AI. We conclude with five suggested        of gen AI on their productivity. Internal
+strategies that organizations engaged          to Google, the EPR team found a
+in software development might employ           similar number of developers reported
+to foster their developers’ trust in           a positive impact of gen AI on their
+gen AI, thereby increasing their gen           productivity, as well.
+AI use and maximizing gen AI-related
+productivity gains.
+
+
+
+
+                                          24                   Fostering developers' trust in gen AI
+v. 2025.2
+Perceptions of productivity changes due to AI
+
+                      Extremely increased my productivity
+
+
+                     Moderately increased my productivity
+
+
+                         Slightly increased my productivity
+            Answer
+
+
+
+
+                             No impact on my productivity
+
+
+                        Slightly decreased my productivity
+
+
+                     Moderately decreased my productivity
+
+
+                      Extremely decreased my productivity
+
+                                                              0        10             20            30             40
+
+                                                                            Percentage of respondents
+
+Error bar represents 89% uncertainty level
+Figure 4: Respondents’ perceptions of AI’s impacts on their productivity.
+
+
+
+
+Importantly, developers who trust gen                                  Unfortunately, developers’ trust in gen AI
+AI more reap more positive productivity                                appears to be relatively low. According
+benefits from its use. In a logs-based                                 to StackOverflow’s 2024 Developer
+exploration of Google developers’ trust                                Survey,2 trusting the output of gen AI
+in AI code completion, our EPR team                                    is presently developers’ number one
+found that developers who frequently                                   challenge with AI at work, and Google’s
+accepted suggestions from a gen AI-                                    research supports this finding. The DORA
+assisted coding tool submitted more                                    team found 39% of developers outside of
+change lists (CLs) and spent less time                                 Google trust the quality of gen AI output
+seeking information than developers                                    only “a little” or “not at all."
+who infrequently accepted suggestions
+from the same tool. This was true even                                 We find these low levels of trust
+when controlling for confounding factors,                              concerning, because they suggest
+including job level, tenure, development                               that a subset of developers may not be
+type, programming language, and CL                                     experiencing the productivity gains they
+count.3 Put simply, developers who trust                               could from gen AI.
+gen AI more are more productive.
+
+
+
+
+                                                                  25                         Fostering developers' trust in gen AI
+v. 2025.2
+Five strategies for fostering
+developers’ trust in gen AI
+Given the significant investment many              Unfortunately, in qualitative interviews,
+organizations are making in gen AI, and            most participants were unable to say
+the likelihood that increasing developers’         with certainty whether their organization
+trust in gen AI would improve returns              had any policy about the use of gen AI
+on those investments, we believe it is             in development, at all. Together, these
+important to reflect on our prior research         findings suggest that many firms could
+and offer the following five strategies            increase their employees’ trust in gen
+organizations might take to foster                 AI by providing more explicit direction
+developers’ trust in gen AI:                       about its use and sufficiently advertising
+                                                   that policy to their workforce. Google
+                                                   has previously published guidance on
+Establish a policy about acceptable                how to craft an acceptable use policy
+gen AI use, even if your developers                for gen AI,3 including recommendations
+are good corporate citizens.                       for specifying scope, enforcement
+                                                   responsibilities, and delegating
+Policies about the tasks, purposes, and            accountability for data governance
+data that developers can and cannot                and information security. Our research
+use in conjunction with gen AI tools               suggests that comprehensive acceptable
+are often viewed through the lens of               use policies which include these
+preventing “bad” behavior, in the form             elements can help developers feel
+of proprietary data leaks, security                empowered to rely on and use gen AI, by
+breaches, and poor stewardship of                  knowing that appropriate risk-mitigating
+user data. While important, preventing             guardrails are in place. But, we believe
+irresponsible use of gen AI is only half of        that even a lightweight policy, such as
+the story. Our data suggest establishing           a guide to aligning gen AI-produced
+clear guidelines encouraging acceptable            code to the company’s programming
+use of gen AI will likely also promote             conventions, is likely a better signal
+cautious and responsible developers                that gen AI use is sanctioned than a
+to use gen AI, by assuaging fears of               simple lack of explicit prohibitions. For
+unknowingly acting irresponsibly. In               some firms, it may even be beneficial
+our survey, the DORA team found that               to externalize company policies about
+employees who felt their organizations             gen AI use, to assure end users of their
+were more transparent about the                    products that development was handled
+use of gen AI trusted gen AI more.                 responsibly and using reliable sources.4
+
+
+
+
+                                              26                   Fostering developers' trust in gen AI
+v. 2025.2
+Double-down on fast high-quality                   Provide opportunities for
+feedback, like code reviews and                    developers to gain exposure
+automated testing, using gen AI                    with gen AI, especially those
+as appropriate.                                    which support using their
+                                                   preferred programming language.
+Developers’ perceptions that their
+organization’s code review and                     Trust in gen AI increases as developers
+automated testing processes are                    gain exposure to it and grow more
+rigorous appear to foster trust in                 familiar with its uses, strengths, and
+gen AI. This is likely because appropriate         limitations. Additionally, developers
+safeguards assuring them that any                  appear to trust gen AI more when
+errors that may be introduced by gen               engaging it for tasks in their preferred
+AI-generated code will be detected                 programming language, likely because
+before it is deployed to production.               they have more expertise to assess
+Interestingly, data from the DORA                  and correct its outputs. Providing
+team suggests that the adoption of                 opportunities to gain exposure to gen
+gen AI makes code reviews faster and               AI, like training, unstructured activities,
+improves reported code quality, likely             or slack time devoted to trying gen
+by allowing a wider breadth of code to             AI, will help increase trust, especially
+be analyzed at a faster pace than could            if such activities can be performed in
+reasonably be expected of a human. So,             developers’ preferred programming
+it is possible there is a virtuous cycle in        language in which they are best
+which applying appropriate safeguards              equipped to evaluate gen AI’s quality.
+fosters trust in gen AI and encourages
+its use in feedback processes, like code
+reviews and testing. This strengthens              Encourage gen AI use,
+the robustness of the safeguards which             but don’t force it.
+foster trust, further promoting its use.
+The logical entry point for this cycle is          Leadership actively encouraging the
+likely encouraging developers to use gen           use of gen AI in development work
+AI in tasks that feel low-risk, until their        appears to be effective in promoting
+trust is built and reinforced over time.           its use amongst individual contributor
+                                                   developers. At the same time, control
+                                                   over the degree to which gen AI
+
+
+
+
+                                              27                    Fostering developers' trust in gen AI
+v. 2025.2
+intervenes and the tasks in which it is              vision for what the transformed role
+employed increases developers’ overall               of a developer working at a higher level
+trust in gen AI tools. So, while it is likely        of abstraction in which these repetitive
+to be to the benefit of the organization             tasks are delegated to gen AI resembles,
+for people in leadership roles to                    it will be hard to assuage fears of
+encourage their ICs to test, evaluate,               unemployment. That is, delegating
+and employ gen AI in their daily work,               mundane tasks, such as generating
+it is important developers do not feel               test paths, creating documentation,
+obligated to use gen AI. One approach                and providing system health monitoring,
+to encouraging gen AI use in a manner                is a clear small step toward using gen
+that prioritizes developers’ sense of                AI effectively. But, long-term, developers
+control is to promote the spread of                  will likely need guidance about how
+knowledge organically, by building                   to reallocate the time saved, and
+community structures5 to foster                      encouragement to explore new ways
+conversations about gen AI.                          to improve user experience, innovate
+                                                     with emerging technologies, and add
+                                                     value for their companies and users.
+Help developers think beyond                         We are unable to predict what
+automating their day-to-day                          development work will look like in
+work and envision what the                           the future, or what new tasks will
+future of their role might look like.                be performed as a result of gen AI
+                                                     increasing developer capacity. But,
+Fears that gen AI might lead to a future             we believe that acknowledging gen AI
+loss of employment for development                   will fundamentally change development
+professionals have been well-publicized              work, and empowering developers to
+and were a recurring theme in our                    have a voice in shaping the future of
+interviews and survey data. We believe               their profession will foster trust in gen
+much of this fear stems from the fact                AI by helping developers co-create
+that the most common uses of gen AI                  and move toward a world where gen
+in development replicate the daily work              AI transforms their work, rather than
+of developers, like writing code or test             simply replicating it.
+cases. Delegating these tasks to gen
+AI has, indeed, made developers more
+productive. However, without a clear
+
+
+
+
+                                                28                   Fostering developers' trust in gen AI
+v. 2025.2
+Conclusion
+
+We are still at a moment in which the
+ubiquitous use of gen AI in development
+is nascent, and the long-term efficacy
+of the strategies proposed above
+remains to be determined. Yet, given our
+opportunity to see emerging AI-powered
+development tools in action at Google
+and across the industry, we wanted to
+share our insights and observations to
+help organizations navigate these still-
+uncertain waters by sharing insights from
+our early inquiries. While the long-term
+future of gen AI use across the software
+development lifecycle is inevitable, the
+near-term path to successfully realizing
+that future is less clear. We believe
+those individuals and organizations that
+embrace this change, start with small
+projects, learn, and iterate will be in a
+better position to proactively navigate
+it than those that sit on the sidelines.
+The good news is that you are not alone
+in this journey, and we look forward to
+continuing to co-create the future of
+software development with you.
+
+1. DORA’s Research Team - https://dora.dev/research/team/
+2. A. Murillo et al., "Understanding and Designing for Trust in AI-Powered Developer Tooling," in IEEE Software, vol. 41, no. 6, pp. 23-28,
+   Nov.-Dec. 2024, doi: 10.1109/MS.2024.3439108; S. D’Angelo, A. Murillo, S. Chandra and A. Macvean, "What Do Developers Want
+   From AI?," in IEEE Software, vol. 41, no. 3, pp. 11-15, May-June 2024, doi: 10.1109/MS.2024.3363538; ML-Enhanced Code Completion
+   Improves Developer Productivity - https://research.google/blog/ml-enhanced-code-completion-improves-developer-
+   productivity/ AI in software engineering at Google: Progress and the path ahead - https://research.google/blog/ml-enhanced-
+   code-completion-improves-developer-productivity/
+3. A. Brown, et al., "Identifying the Factors That Influence Trust in AI Code Completion" in AIware 2024: Proceedings of the 1st ACM
+   International Conference on AI-Powered Software, pp. 1-9, doi: 10.1145/3664646.3664757
+4. StackOverflow’s 2024 Developer Survey - https://survey.stackoverflow.co/2024/ai#developer-tools
+
+5. How to craft an Acceptable Use Policy for gen AI (and look smart doing it) - https://cloud.google.com/transform/how-to-craft-an-
+   acceptable-use-policy-for-gen-ai-and-look-smart-doing-it
+6. How and when Gemini for Google Cloud cites sources - https://cloud.google.com/gemini/docs/discover/works#how-when-
+   gemini-cites-sources
+7. How to transform your organization: Build community structures to spread knowledge - https://dora.dev/guides/devops-culture-
+   transform/#build-community-structures-to-spread-knowledge
+
+
+
+                                                                    29                           Fostering developers' trust in gen AI
+v. 2025.2
+Helping developers
+adopt generative
+AI: Four practical
+strategies for
+organizations
+                 Generative AI is quickly becoming
+                 ubiquitous to the world of software
+                 development. AI is poised to transform
+                 every stage of the software development
+                 lifecycle – from initial design to ongoing
+                 maintenance. We know that AI is already
+                 reshaping how technologists work,
+                 and fundamentally altering how
+                 organizations function. The 2024
+                 DORA report1 indicates that AI adoption
+                 is occurring as a result of both top-down
+                 and bottom-up efforts, showing that
+                 89% of organizations are prioritizing
+                 the integration of AI into their
+                 applications and 76% of technologists
+                 report relying on AI for parts of their
+                 daily work.
+
+                 For AI adoption to lead to long-term
+                 success, organizations need to
+                 address a crucial stumbling block–
+                 scaling its adoption across the
+                 entire organization.
+
+            30                Helping developers adopt generative AI
+v. 2025.2
+Early successes seen from adopting                 1. Share and be transparent about how
+new technologies often fail to take                   your organization plans to use AI
+hold when organizations struggle to
+scale the technology, leaving teams                2. Address developer concerns about
+scrambling to keep up as the full                     AI's impact
+potential of new technologies
+remains untapped.                                  3. Allow ample time for developers
+                                                      to learn how to use AI
+However, this doesn’t have to happen
+with AI. Here are four practical, research-        4. Create policies that govern the
+backed strategies that can help your                  adoption of AI
+organization move from isolated
+experiments to sustainable                         Ultimately, the goal is to create an
+and widespread adoption of AI.                     environment where developers feel
+                                                   confident and empowered to use
+When you look at these strategies,                 AI when it makes the most sense,
+you might notice that there are                    maximizing its potential benefits
+many ways you could apply them.                    while minimizing potential risks.
+This might seem daunting, but it’s
+by design. While our findings offer                Each of these strategies assumes that
+guidance and specific approaches to                AI tooling is available to practitioners,
+follow, the successful implementation              and that initial experiments have
+of these strategies requires a deep                indicated success in driving beneficial
+understanding of the organization                  outcomes to practitioners and the
+seeking to use them, and a willingness             organization, including improving
+to experiment and iterate.                         productivity and job satisfaction.
+
+
+
+
+                                              31                 Helping developers adopt generative AI
+v. 2025.2
+Share and be                                     Address developer
+transparent about                                concerns about AI's
+how the organization                             impact
+plans to use AI
+
+Our research suggests that organizations         The rise of AI has also sparked concerns
+that apply this strategy can gain an             among developers. DORA found that
+estimated 11.4% increase in team                 nearly 15% of respondents expect AI to
+adoption of AI compared to companies             have a detrimental effect in their careers.
+that do not openly communicate their
+AI plans to employees. We recommend              This belief might drive some developers
+that organizations provide employees             to adopt AI not out of genuine interest
+with transparent information about their         or recognition of its potential benefits,
+AI mission, goals, and adoption plan.            but rather out of a reactive need to
+By articulating both the overarching             protect their careers.
+vision and specific policies, including
+addressing procedural concerns such as           One developer we spoke to said, "I think,
+permitted code placement and available           over the past year or so, people have
+tools, you can alleviate employee                realized that generative AI is at the
+apprehension and position AI as a means          point where it actually works for a lot of
+to help everyone focus on more valuable,         things. And now... no one wants to get
+fulfilling, and creative work.                   left behind."
+
+You’ll notice a call towards transparency        This reactionary approach, which
+reappearing in the strategies that               may be fueled by anxieties about job
+follow. Transparency is part of a healthy        displacement, can hinder the true
+organizational culture, and over the             potential of AI. However, DORA research
+years DORA has consistently shown                indicates that organizational leaders who
+it can help teams be more successful             address these concerns in clear terms
+at implementing technical capabilities           can enable developers to focus
+associated with improved outcomes.2              on learning how to best use AI.
+
+
+
+
+                                            32                Helping developers adopt generative AI
+v. 2025.2
+                                                Allow ample time
+                                                for developers to
+                                                learn how to use AI
+Our findings indicate that organizations
+that take steps to alleviate developer
+anxieties are estimated to have 125%
+more team adoption of AI than those             Integrating AI into developer workflows
+who ignore those concerns.                      has a learning curve. Our data indicates
+                                                that individual reliance on AI peaks
+We recommend that organizations work            at around 15 to 20 months into using
+towards alleviating developer concerns          the tool, suggesting that learning how
+about job displacement by increasing            to use AI requires dedicated time
+transparency and communication on               for experimentation, practice, and
+how they plan to use AI. This approach          integration with existing workflows.
+can help organizations maintain and
+even enhance a culture of psychological         While providing resources including
+safety, where developers feel supported         training materials and documentation
+as they work to embrace new tools.              can be helpful, our findings suggest
+                                                that actively encouraging developers
+                                                to integrate AI into their workflows
+                                                leads to a 27% increase in AI adoption.
+                                                However, these findings also suggest
+                                                that simply giving developers dedicated
+                                                time during work hours to explore and
+                                                experiment with AI tools leads to a
+                                                131% increase in team AI adoption.
+
+                                                We envision this dedicated time to be
+                                                a combination of reducing productivity
+                                                expectations during the adoption
+                                                phase and giving developers ample
+                                                heads-down time to explore these
+                                                tools on their own — while also providing
+                                                them with opportunities to collaborate
+                                                and learn from others around them.
+                                                This may take the form of community-
+                                                led hack-a-thons, lunch-n-learns,
+                                                or communities of practice.3
+
+
+
+                                           33                Helping developers adopt generative AI
+v. 2025.2
+                                               Create policies that
+                                               govern the adoption
+                                               of AI
+Expecting developers to acquire these
+skills in their personal time can lead         Establishing clear organizational
+to frustration, burnout, and ultimately        policies around AI usage can provide
+hinder adoption. By providing dedicated        developers with a framework to
+time for AI learning and exploration           confidently, responsibly, and effectively
+during work hours, organizations               use these tools. Well-defined policies
+demonstrate a commitment to developer          outline appropriate use cases, ethical
+growth and create a supportive                 considerations, and potential risks,
+environment for successful AI adoption.        guiding developers in making informed
+                                               decisions about how to best use AI in
+Providing dedicated time for developers        their workflows.
+to learn and experiment with AI can
+create an environment that enables —           This clarity can reduce uncertainty,
+not forces — AI adoption. The goal is          encourage responsible experimentation,
+for organizations to foster a healthy          and promote a consistent approach to
+culture where developers feel supported        AI adoption across the organization.
+in the adoption of AI, without creating        Our survey suggests that organizations
+top-level mandates that force them into        that create AI acceptable-use policies4
+adopting this technology.                      show a 451% increase in AI adoption
+                                               as compared to companies that don’t.
+While our findings indicate that
+mandatory training does lead to                Further, DORA demonstrated that
+small increases in AI adoption, we do          there’s a strong association between
+not believe this to be a sustainable or        the quality of internal documentation
+fruitful strategy. Widespread adoption         and AI adoption.5 Perhaps high quality
+requires developers to embrace this            documentation helps provide the clarity
+technology, and to believe its adoption        necessary for people to confidently
+will lead to better outcomes for them          adopt AI.
+and their organizations.
+                                               Addressing security concerns through
+                                               specific policies and safeguards can help
+                                               build confidence and mitigate potential
+                                               risks associated with AI adoption.
+
+
+
+
+                                          34                Helping developers adopt generative AI
+v. 2025.2
+By understanding potential risks and             Google has shared guidance on how
+current practices for data security and          to craft an acceptable use policy for
+privacy, developers can better discern           gen AI,6 including recommendations
+appropriate use cases for AI, ensuring           for specifying scope, enforcement
+compliance with organizational policies.         responsibilities, and delegating
+This guidance can foster a sense of              accountability for data governance and
+responsibility and can help developers           information security. Google has also
+use AI in a manner that prioritizes              published the Secure AI Framework
+security and innovation.                         (SAIF),7 a conceptual framework to
+                                                 secure AI systems. Both of these may
+Implementing these guidelines may                help inform your own policies.
+lead to some near-term decreases
+in the adoption of generative AI.
+Our data suggests there is a lot of
+uncertainty about how guidelines on
+mitigating security and privacy risks,
+and guidelines that outline when and
+where to use AI will impact its adoption.
+This is likely because the impact of t
+hese strategies is in the details and
+depends on the context.
+
+This isn’t necessarily a bad thing!
+It might even be a sign that developers
+are exercising thoughtful discretion
+when deciding when to use and not
+use AI. Identifying use cases where
+developers are incorporating AI
+alongside use cases where developers
+are choosing to not adopt AI may help
+organizations identify a sustainable,
+long-term approach that uses ongoing
+feedback to iterate as necessary.
+
+
+
+
+                                            35                Helping developers adopt generative AI
+v. 2025.2
+What we’ve learned
+
+DORA's research found AI adoption
+success in organizations who effectively
+communicate their vision and provide
+clear guidelines for AI usage. Based on
+this insight, we propose four strategies
+for increasing AI adoption among
+developers.
+
+All of these strategies suggest that
+fostering widespread and effective
+AI adoption among developers requires
+a transparent, clear, and supportive
+approach. Organizations without a
+scaling strategy risk low adoption
+rates at best, and misuse of AI and AI
+tools at worst.
+
+The strategies we recommend will help
+ensure that AI is used strategically and
+responsibly to enhance productivity,
+foster innovation, and drive
+organizational success.
+
+
+
+
+                                           36   Helping developers adopt generative AI
+v. 2025.2
+                                     clear AI policies
+
+
+                                        time to learn
+
+
+                       alleviate displacement worries
+
+
+                          encourage AI in workflows
+
+
+                          transparent about AI plans
+
+
+                                mandatory trainings
+            Strategy
+
+
+
+
+                                  invest in employee
+                                       development
+
+
+                                   AI adoption goals
+
+
+                                        guidelines to
+                              mitigate privacy issues
+
+                                   policies on when
+                                 and where to use AI
+
+
+                               safeguard against sec
+                               and privacy breaches
+
+                          resources to learn about AI
+                                                         -100   -50                 0                   50            100
+
+
+                                                                      Impact on team AI incorporation
+     Figure 5: Impact of various strategies on AI incorporation
+
+
+
+
+Figure 5 displays Bayesian posterior distributions, which represent our updated
+understanding of a value after considering new evidence. The height of each curve
+over a value indicates the relative plausibility of that value. Taller, narrower curves
+mean we're more certain about our estimates, while shorter, broader curves
+reflect greater uncertainty.
+
+
+The value we're examining is how a specific strategy impacts a team's adoption
+of AI, measured by their response to the survey question: 'Over the last 3 months,
+approximately what percentage of your team’s work is supported by AI?' Each curve
+represents 4000 simulated scenarios, comparing teams that haven't adopted the
+strategy at all with those that have thoroughly integrated it.
+
+
+
+1. Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+2. Accelerate State of DevOps Report 2023 - https://dora.dev/dora-report-2023
+3. Build community structures to spread knowledge - https://dora.dev/guides/devops-culture-transform/#build-community-
+   structures-to-spread-knowledge
+4. How to craft an Acceptable Use Policy for gen AI (and look smart doing it) - https://cloud.google.com/transform/how-to-craft-an-
+   acceptable-use-policy-for-gen-ai-and-look-smart-doing-it
+5. Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+
+6. How to craft an Acceptable Use Policy for gen AI (and look smart doing it) - https://cloud.google.com/transform/how-to-craft-an-
+   acceptable-use-policy-for-gen-ai-and-look-smart-doing-it
+7. Google's Secure AI Framework (SAIF) - https://safety.google/cybersecurity-advancements/saif/
+
+
+
+
+                                                                        37                    Helping developers adopt generative AI
+v. 2025.2
+Measuring success:
+Key metrics and
+feedback loops
+
+
+
+
+Measurements help evaluate and guide               Our suggestions should be seen as a
+improvement efforts. They provide                  starting point, and you should reevaluate
+important insights and signals that can            which measures are useful for your team
+be used to support decision making and             and organization.
+prioritization. Measuring without acting
+on the signal is wasted effort. As your            Establishing some baseline
+team adopts generative AI, you will need           measurements before you start or
+to assess how you're doing, prioritize             continue adopting generative AI is
+improvements, and monitor progress.                critical. Organizations and teams are
+                                                   complex and have a lot of emergent
+Measurements should be taken at regular            behaviors. We rarely have the ability
+intervals and at different levels across an        to isolate change and fully quantify
+organization. In this chapter we will offer        the impact of that change.
+some suggestions for measuring at the
+team, service, and organizational levels.
+
+                                              38       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Capabilities and
+conditions for success
+DORA's research has focused on identifying the
+capabilities and conditions that influence software
+delivery, operational, and organizational performance.
+
+At a high-level, a climate for learning, fast flow, and fast
+feedback are the conditions that drive performance.
+
+                                                      Capabilities
+
+                                               Climate for learning
+
+                                                       Fast flow
+
+                                                   Fast feedback
+
+
+                                                        Predict
+
+                                                     Performance
+
+                                                Software delivery
+                                                    Four keys metrics
+
+
+
+                                                      Reliability
+                                            Service Level Objectives (SLOs)
+
+
+
+                                                        Predicts
+
+                                                       Outcomes
+
+                                        Organizational performance
+
+                                                     Well-being
+Table 2: Summary view of the DORA Core model v2.0.0 - https://dora.dev/research/?view=summary
+
+
+
+                                                            39       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Each of these categories can be expanded to
+include specific capabilities, conditions, and metrics.
+
+                                                         Capabilities
+
+   Climate for learning                        Fast flow                                      Fast flow
+   Code maintainability                        Continuous delivery                            Continuous integration
+   Empowering teams                           Deployment automation                          Resilience engineering
+   to choose tools                             Loosely coupled teams                          Test automation
+   Documentation quality                       Version control                                Monitoring and observability
+   Generative culture                          Database change management                     Pervasive security
+                                               Flexible infrastructure                        Test data management
+                                               Streamlining change approval
+                                               Working in small batches
+
+
+
+                                                        Performance
+
+   Software delivery                           Reliability
+   Measured by four key metrics:               Measured by Service Level Objectives (SLOs):
+
+   Change lead time                            Measurement coverage                       Target optimization
+   Deployment frequency                        Measurement focus                          Target compliance
+   Change fail percentage
+   Failed deployment recovery time
+
+
+                                                          Outcomes
+
+   Organizational performance Well-being
+
+   Commercial performance                      Job satisfaction                           Reduced burnout
+   Non-commercial                              Productivity                               Reduced rework
+   performance
+
+Table 3: Detail view of the DORA Core model v2.0.0 - https://dora.dev/research/?view=detail
+
+
+
+Generative AI may be used directly in                                 Similarly, some capabilities, such as
+the pursuit of building up some of these                              generative culture,4 may inform how
+capabilities, such as documentation                                   gen AI tools are used in an organization.
+quality1 and test automation.2 The use
+of gen AI may be a reflection of other                                We recommend using a mix of
+capabilities such as empowering teams                                 measurements to help guide your
+to choose tools.3                                                     own adoption and improvement efforts.
+
+                                                                 40       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Capabilities and
+conditions for success
+Metrics drive conversations, support             indications of how adoption and use
+decisions, and help teams prioritize             are progressing. Some measures that
+improvements. These measurements                 can be used include:
+can be gathered in many ways including
+through conversations, surveys, and              • Licenses allocated: what percentage
+telemetry from systems. All are valid and          of purchased licenses have been
+each has varying levels of precision.              allocated to individuals?
+
+Our overall goal is to create a high-            • Daily active users: how many users
+performing, sustainable technology-                are utilizing the gen AI tools on a daily
+driven organization. Making progress               basis?
+toward that end is more important
+than improving the precision of                  • Code suggestions: how many code
+measurements.                                      suggestions are being generated?
+
+The metrics presented here are meant             • Chat exposures: how many AI chat
+to assist you in understanding the impact          interactions are individuals having?
+of using generative AI throughout your
+software development and delivery                • Code suggestions accepted: how
+lifecycle. Select the ones that seem best          many code suggestions are being
+suited for where you are in your journey           accepted?
+and complement these with some of
+your own metrics.                                • Lines of code accepted: how many
+                                                   lines of code are being accepted?
+
+Code assistant                                   On their own, these metrics do not
+metrics                                          assess the impact of using coding
+                                                 assistants. Teams need a more
+                                                 comprehensive view of how the use
+Organizations leveraging AI coding               of these tools is impacting teams,
+assistants may want to measure the               services, and the organization.
+adoption using telemetry data directly
+from the tools. These can provide early
+
+
+
+
+                                            41       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Fast-feedback metrics Team-level metrics
+
+Fast, quality feedback loops help build           Teams can use these measures
+confidence and trust in new tools                 to identify patterns in their own
+and processes. Feedback also helps                work. Organizations can use these
+individuals, teams, and organizations             measures to identify and amplify
+change tactics when they see that                 successful patterns.
+things aren't working as expected.
+Some measures that might help assess              • AI task reliance: how much have
+the speed and quality of feedback loops             you relied on AI for various tasks?
+in your software delivery process include:
+                                                  • AI interactions: how frequently
+• Tests on commit: Do code commits                  have you interacted with AI?
+  result in a series of automated tests
+  being run?                                      • AI productivity: how has AI impacted
+                                                    your productivity at work?
+• Daily tests: Are automated tests
+  executed at least daily?                        • AI ability to write code: how has AI
+                                                    impacted your ability to write code?
+• Daily builds: Is the application built
+  automatically at least daily?                   • AI trust: how much did you trust
+                                                    the quality of the output from AI-
+• Test confidence: When the                         generated code as part of your
+  automated tests pass, how confident               development work?
+  is the team that the software is
+  releasable?                                     • Organizational trust: how much
+                                                    do you trust your organization to be
+• Failures prevent progress: Do                     transparent with how they plan on
+  automated test failures block a                   using AI?
+  commit's progress through the
+  pipeline?                                       • Flow: how often were you able to
+                                                    reach a high level of focus or achieve
+• Prioritize successful builds: How                 flow during development tasks?
+  long does it take between the build
+  breaking and having it fixed, either            • Job satisfaction: how do you feel
+  with a check-in that fixes the problem,           about your job as a whole?
+  or by reverting the breaking change?
+
+
+
+                                             42       Measuring success: Key metrics and feedback loops
+v. 2025.2
+• Productivity: how productive do                  • Code review time: how long
+  you feel at work?                                  does it take to complete the
+                                                     code review process?
+• Valuable work: how much of your
+  time at work was spent on work                   • Documentation quality: how is
+  that you consider valuable?                        documentation quality for
+                                                     the service?
+• Burnout: how is your well-being
+  at work?                                         • Technical debt: how much is
+                                                     technical debt hindering productivity?
+• Culture: what is the culture like in
+  your organization?                               • User centricity: how is the team
+                                                     focused on the needs of users?
+
+Service-level metrics                              • Product performance: how is the
+                                                     product performing?
+These metrics should be collected and
+evaluated at the level of an application or        • Software delivery performance:
+service. Cross-functional teams typically            what is the throughput and stability
+share responsibility for any single                  of software changes?
+application or service, it is important to
+get representative insight from across
+the cross-functional team for each                 Organizational metrics
+application or service being measured.
+                                                   These metrics are at the organizational
+• Code complexity: how much has                    or business-unit level. These metrics help
+  your team been hindered by code                  organizations understand the impact of the
+  complexity if at all?                            work of teams who are aligned to drive the
+                                                   mission of the organization.
+• Code quality: how satisfied is the
+  team with the quality of code?
+                                                   • Number of customers: how many
+                                                     customers does the organization serve?
+
+
+
+
+                                              43       Measuring success: Key metrics and feedback loops
+v. 2025.2
+                                                  Feedback loops
+
+• Market share: what is the market                After collecting data and metrics, and
+  share for the organization's                    analyzing them for insights, it’s time
+  primary products?                               to take action to implement the
+                                                  lessons learned.
+• Performance: how is the
+  organization’s overall performance?             Fast, quality feedback loops help build
+                                                  confidence and trust in new tools
+• Profitability: how is the organization’s        and processes. Feedback also helps
+  overall profitability?                          individuals, teams, and organizations
+                                                  change tactics when they see that
+• Mission: how well is the organization           things aren't working as expected.
+  achieving its goals?
+
+• Customer satisfaction: how satisfied            Developer feedback loops
+  are your customers with the products
+  and services your organization                  Learning how to use AI requires
+  provides?                                       dedicated time for experimentation,
+                                                  practice, and integration with existing
+• Operating efficiency: how efficiently           workflows. Feedback from these new
+  is the organization running?                    tools is an important way to develop
+                                                  an understanding of how the tools can
+• Quality: what is the quality of                 benefit existing practices, unlock new
+  products or services provided                   ways of working, and build trust in
+  by the organization?                            the tools.
+
+                                                  Feedback begins with initial interactions
+                                                  with AI and flows through to monitoring
+                                                  and observability of the systems running
+                                                  in production serving end users.
+
+                                                  Developers evaluate suggestions from
+                                                  coding assistants and decide whether to
+                                                  accept, refine, or reject the suggestion.
+
+
+
+
+                                             44       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Fast, accurate suggestions help build          The practice of continuous integration6
+confidence in the coding assistant             (CI) helps address these problems.
+which leads to additional usage.               By creating rapid feedback loops and
+                                               ensuring that developers work in small
+Automated tests5 help validate the code        batches,7 CI enables teams to produce
+generated by developers and their AI-          high quality software, to reduce the
+based coding assistants. These tests           cost of ongoing software development
+provide both feedback and guardrails           and maintenance, and to increase the
+as code is promoted through software           productivity of the teams.
+delivery pipelines.
+                                               These and other practices and
+Software systems are complex, and an           capabilities that enable fast feedback
+apparently simple, self-contained              are important as teams begin using AI
+change to a single file can have               for coding assistance. We believe they’ll
+unintended side effects on the                 become even more critical as teams
+overall system. When a large number            enter the world of agentic workflows,
+of developers work on related systems,         where AI agents may generate code
+coordinating code updates is a hard            at a pace that current systems might
+problem, and changes from different            not be equipped to handle. Continuous
+developers can be incompatible.                investment in faster feedback loops is
+                                               crucial for ongoing success.
+
+
+
+
+                                          45       Measuring success: Key metrics and feedback loops
+v. 2025.2
+Team and organizational                                           • Communities of practice:
+feedback loops                                                      Facilitate knowledge sharing and the
+                                                                    amplification of emerging practices
+Teams can improve by gathering                                      through communities of practice.8
+feedback from multiple sources that
+can help prioritize future actions.                               • Data analysis: Analyze the collected
+Here are four ways your team can                                    data to identify trends, correlations,
+capture feedback.                                                   and areas where interventions may
+                                                                    be needed.
+• Regular surveys: Use surveys
+  to collect both quantitative and                                Use the insights gained from
+  qualitative data on developer                                   feedback loops to refine the AI
+  experiences with AI. Validated survey                           adoption strategy, policies, training
+  questions that you can reuse are                                programs, and tool selection.
+  available at https://dora.dev/research/
+  ai/gen-ai-report-questions/
+
+• Retrospectives: Incorporate AI
+  adoption into team retrospectives.
+  Discuss successes, challenges, and
+  areas for improvement.
+
+
+
+
+1. Documentation quality - https://dora.dev/capabilities/documentation-quality/
+2. Test automation - https://dora.dev/capabilities/test-automation/
+3. Empowering teams to choose tools - https://dora.dev/capabilities/teams-empowered-to-choose-tools/
+
+4. Generative organizational culture - https://dora.dev/capabilities/generative-organizational-culture/
+
+5. Test automation - https://dora.dev/capabilities/test-automation/
+
+6. Continuous integration - https://dora.dev/capabilities/continuous-integration/
+
+7. Working in small batches - https://dora.dev/capabilities/working-in-small-batches/
+
+8. Build community structures to spread knowledge - https://dora.dev/guides/devops-culture-transform/#build-community-
+   structures-to-spread-knowledge
+
+
+
+                                                             46        Measuring success: Key metrics and feedback loops
+v. 2025.2
+A framework for
+gen AI adoption
+
+
+                 This chapter outlines a framework for
+                 successfully adopting generative AI
+                 within an organization, focusing on
+                 both strategic leadership and practical
+                 implementation. We present a set of
+                 guiding principles centered around
+                 user-centricity, continuous improvement,
+                 transparency, responsible use, and
+                 iterative measurement, providing a
+                 solid foundation for integrating gen
+                 AI into workflows.
+
+                 We provide actionable steps tailored for
+                 both organizational leaders and individual
+                 practitioners. The core concept being
+                 that all are responsible, at all levels,
+                 for the success of this adoption.
+
+
+
+
+            47                     ASoftware
+                                    frameworkdelivery
+                                               for genperformance
+                                                       AI adoption
+v. 2025.2
+Guiding principles:                             • Measurement and iteration: Track
+                                                  key metrics to assess the impact
+Successful AI adoption requires a shared          of AI on teams, services, and the
+understanding of core principles:                 organization. Use this data to guide
+                                                  adjustments to the AI strategy and
+• User-centeredness: AI should serve              ensure it's delivering the desired
+  the user’s needs. For developers,               results.
+  this means that AI should be used for
+  tools that enhance their workflow and         Actionable steps for leaders:
+  reduce toil. For end-users, it means
+  AI-powered features that improve              These seven steps can help leaders
+  the product experience.                       play a critical role in driving successful
+                                                AI adoption.
+• Continuous improvement:
+  AI adoption is not a one-time                 1. Create a vision and strategy: Define
+  event, but an ongoing process of                 a clear AI mission and adoption plan
+  experimentation, learning, and                   that aligns with overall organizational
+  refinement. Embrace feedback loops               goals. Communicate this vision
+  and iterate based on data.                       transparently to all employees,
+                                                   emphasizing the collaborative nature
+• Transparency and communication:                  of human-AI partnerships.
+  Openly communicate the
+  organization's AI strategy, goals,            2. Empower teams: Encourage
+  and policies. Address developer                  experimentation with AI tools.
+  anxieties about job displacement                 Provide dedicated time during work
+  directly. Foster a culture of                    hours for developers to learn, explore,
+  psychological safety where                       and integrate AI into their workflows.
+  developers feel comfortable                      This could take the form of
+  experimenting and sharing                        hackathons, lunch-and-learns, or even
+  their experiences.                               a temporary reduction in productivity
+                                                   expectations. Support the formation
+• Responsible use: Establish clear                 of communities of practice where
+  organizational policies around AI                developers can share knowledge
+  usage.1 Provide clarity regarding                and best practices.
+  ethical considerations, data privacy,
+  and security risks. This includes             3. Invest in training and resources:
+  guidelines on when, where, and how               Provide access to AI tools, training
+  to use AI, as well as mitigating and             materials, and high-quality
+  managing AI-related security risks.              documentation. Ensure that internal
+
+                                           48                      A framework for gen AI adoption
+v. 2025.2
+     documentation is well-maintained            Actionable steps for practitioners:
+     and easily searchable, as AI can use
+     this information to provide better          Practitioners are using AI daily, and
+     context and support.                        can improve how it benefits them
+                                                 by following these steps.
+4. Rethink performance metrics:
+   Reward outcomes and value                     1. Embrace experimentation: Explore
+   delivered, not just hours worked.                different AI tools and use cases
+   Acknowledge the labor involved                   within the established organizational
+   in effectively working with AI,                  guidelines. Focus on tasks where AI
+   including prompt engineering                     can provide immediate value, such
+   and refining AI-generated output.                as code generation, summarization,
+                                                    explaining unfamiliar code, code
+5. Foster a climate for learning:                   reviews, documentation, and
+   Encourage continuous learning                    writing tests.
+   and adaptation. Frame AI as an
+   opportunity for developers to                 2. Develop "AI fluency": Learn
+   acquire new skills and expand                    how to effectively interact with
+   their expertise.                                 AI tools. This includes mastering
+                                                    prompt engineering techniques,
+6. Manage expectations: Be realistic                understanding the limitations of
+   about the timeline and potential                 AI, and integrating AI into your
+   challenges of AI adoption. Emphasize             existing workflow.
+   that this is an iterative process, and
+   initial setbacks are to be expected.          3. Prioritize quality and verification:
+                                                    Treat AI-generated output as a
+7. Establish clear policies: Have clear             starting point, not a finished product.
+   guidelines about AI use, including               Always review, test, and refine AI-
+   when and where it should be used,                generated code and documentation.
+   and procedures for mitigating and                Maintain a critical eye and rely on
+   managing security risks.                         your expertise.
+
+
+
+
+                                            49                      A framework for gen AI adoption
+v. 2025.2
+4. Share knowledge and emerging                                        6. Advocate for responsible use:
+   practices: Participate in communities                                  Be mindful of ethical considerations,
+   of practice,2 share your learnings with                                data privacy, and security risks. Follow
+   colleagues, and contribute to the                                      organizational policies and guidelines,
+   organization's collective knowledge                                    and speak up if you have concerns.
+   about AI.
+
+5. Focus on user impact: Use AI to
+   improve the user experience, whether
+   that's through faster development
+   cycles, higher-quality code, or more
+   insightful analysis of user feedback.
+
+
+
+
+1.   How to craft an Acceptable Use Policy for gen AI (and look smart doing it) - https://cloud.google.com/transform/how-to-craft-an-
+     acceptable-use-policy-for-gen-ai-and-look-smart-doing-it
+2.   Build community structures to spread knowledge - https://dora.dev/guides/devops-culture-transform/#build-community-
+     structures-to-spread-knowledge
+
+
+
+                                                                  50                              A framework for gen AI adoption
+v. 2025.2
+Moving forward:
+Actionable
+takeaways and
+the future of AI
+in development
+                 Generative AI is not just a trend; it's
+                 a fundamental shift in how software
+                 is built, tested, and maintained.
+                 This report has highlighted both the
+                 immense opportunities and the real
+                 challenges that organizations and
+                 developers face. To successfully
+                 navigate this transformation,
+                 consider these key takeaways:
+
+
+
+
+            51                       Software delivery
+                                                    Moving
+                                                       performance
+                                                            forward
+v. 2025.2
+For leaders                                     For practitioners
+
+• Prioritize transparency: Clearly              • Embrace experimentation: Don't be
+  communicate your AI strategy,                   afraid to try new AI tools and explore
+  address job security concerns                   different use cases within established
+  directly, and establish clear policies          guidelines.
+  for responsible AI use.
+                                                • Become AI-fluent: Master prompt
+• Invest in people: Provide dedicated             engineering, understand AI limitations,
+  time, training, and resources for               and integrate AI into your workflow.
+  developers to learn and experiment
+  with AI. Foster a culture of learning         • Own the output: Always review, test,
+  and psychological safety.                       and refine AI-generated code and
+                                                  documentation. Your expertise
+• Measure and iterate: Track key                  remains critical.
+  metrics (code quality, developer
+  satisfaction, delivery performance)
+  and be prepared to adjust your
+  approach based on data.
+
+
+
+
+                                           52                                Moving forward
+v. 2025.2
+DORA's commitment                               Next steps
+
+The journey of AI adoption is ongoing.          Read the guide on "How to enable your
+The DORA team is committed to                   software delivery teams to innovate
+continuing our research and providing           with generative AI." https://dora.
+guidance to help organizations and              dev/guides/how-to-innovate-with-
+developers thrive in this new era.              generative-ai/
+We encourage you to:
+                                                Read more about how to transform
+• Explore the resources:                        your organization for perspective into
+  Dive deeper into the 2024 Accelerate          the importance of ensuring teams have
+  State of DevOps Report,1 our ongoing          the tools and resources to do their job,
+  research on enabling innovation with          and of making good use of their skills
+  AI,2 and other resources listed at the        and abilities. https://dora.dev/guides/
+  end of this report.                           devops-culture-transform/
+
+• Join the community:                           Explore the capabilities that enable
+  Connect with other professionals              a climate for learning, fast flow,
+  in the DORA Community3 to                     and fast feedback. https://dora.dev/
+  share experiences, practices,                 capabilities
+  and challenges.
+                                                Errata - Read and submit changes,
+• Assess your performance:                      corrections, and clarifications to this
+  Take the DORA Quick Check4 to                 report. https://dora.dev/publications/
+  benchmark your current software               errata
+  delivery capabilities.
+                                                Check if this is the latest version
+By embracing a data-driven, human-              of the Impact of generative AI in
+centered approach, we can collectively          software development: https://dora.dev/
+harness the power of AI to create a more        vc/genai/?v=2025.2
+productive, fulfilling, and innovative
+future for software development.
+
+
+
+
+                                           53                                  Moving forward
+v. 2025.2
+Authors
+
+Derek Debellis
+
+Kevin M. Storer
+
+Daniella Villalba
+
+Nathen Harvey
+
+Sarah D'Angelo
+
+Adam Brown
+
+This report was edited by Seth Rosenblatt
+
+
+
+
+1. Accelerate State of DevOps Report 2024 - https://dora.dev/dora-report-2024
+2. DORA Research: Artificial Intelligence - https://dora.dev/research/ai/
+3. DORA Community - https://dora.community
+
+4. DORA Quick Check - https://dora.dev/quickcheck/
+
+
+
+
+                                                              54                Moving forward
+v. 2025.2
+"DORA Report - Impact of generative AI
+in software development"
+by Google LLC is licensed under CC BY-
+NC-SA 4.0
+
+
+
+
+                                         55
+v. 2025.2
+
